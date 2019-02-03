@@ -1,4 +1,6 @@
 # Presidência
 
-A cabeça da empresa, o líder. Ele é quem fará a empresa a mediação para direcionar a empresa para o crescimento.
+A cabeça da empresa, o líder. Ele é quem fará a empresa a mediação para direcionar a empresa ao crescimento.
+
+## 
 
