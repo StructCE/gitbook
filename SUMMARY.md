@@ -19,5 +19,4 @@
 * [Técnicas de Programação Ágil](execucao/tecnicas-de-programacao-agil/README.md)
   * [Scrum](execucao/tecnicas-de-programacao-agil/scrum.md)
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)
-  * [Test Driven Design](execucao/tecnicas-de-programacao-agil/test-driven-design.md)
-
+  * [Test-Driven Development](execucao/tecnicas-de-programacao-agil/test-driven-development.md)
