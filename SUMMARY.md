@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Sejam Bem Vindos à Wiki da {struct}](README.md)
+* [Bem-Vindo à Wiki da {struct}](README.md)
 
 ## Gestão
 

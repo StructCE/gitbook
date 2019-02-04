@@ -1,4 +1,4 @@
-# Sejam Bem Vindos à Wiki da {struct}
+# Bem-Vindo à Wiki da {struct}
 
 Este é um space no gitbook com o objetivo de concentrar todo o conhecimento possível da struct em um só lugar.
 
