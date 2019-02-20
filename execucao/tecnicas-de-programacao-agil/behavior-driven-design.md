@@ -36,6 +36,12 @@ Os recursos oferecidos pelo behavior-driven design estão detalhados abaixo.
 * Requer comunicação constante com o cliente do projeto.
 * Estruturado especificamente para desenvolvedores full-stack.
 
+## BDD em Ruby on Rails
+
+O behavior-driven design em Ruby on Rails é feito por meio das gems _cucumber-rails_ e _capybara_. A gem _cucumber-rails_ permite que as histórias de usuário de um projeto sejam armazenadas e descritas em arquivos com a extensão _feature_. A gem _capybara_ permite que a descrição das histórias de usuário seja transformada em testes de aceitação e de integração para o projeto por meio de arquivos ruby para a definição dos passos de uma história de usuário.
+
+Opcionalmente, a gem _gemaina_ pode ser utilizada para gerar arquivos .feature e seus respectivos arquivos de definição de passos a partir de um comando do rails. Estes arquivos podem ser gerados tanto em inglês como em português brasileiro.
+
 ## Disciplinas do curso que abordam esse conteúdo
 * Métodos de programação (3º Semestre)
 * Engenharia de software (6º Semestre)
