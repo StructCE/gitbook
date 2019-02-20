@@ -37,7 +37,7 @@ Procure sempre criar testes automatizados que possuam as seguintes qualidades:
 
 ## TDD em Ruby on Rails
 
-O Test-driven development em Ruby on Rails é feito por meio da gem _RSpec_, permitindo a criação de testes de unidade e de módulo para models, controllers, views e helper modules.
+O Test-driven development em Ruby on Rails é feito por meio da gem _rspec-rails_, permitindo a criação de testes de unidade e de módulo para models, controllers, views e helper modules.
 
 ## Disciplinas do curso que abordam esse conteúdo
 * Métodos de programação (3º Semestre)
