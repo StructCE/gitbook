@@ -24,7 +24,7 @@ Os recursos oferecidos pelo behavior-driven design estão detalhados abaixo.
 
   Esboços Lo-Fi são uma forma de apresentar ao cliente a ideia por trás de uma view do website sem a utilizado de código (o qual consome recursos e tempo para ser escrito). Assim, ao invés de se preparar vislumbrantes previews com recursos HTML e CSS, os desenvolvedores do projeto apresentam esboços simples e rápidos das views de uma feature, feitos ou à mão ou com algum programa de computador, ao cliente. Por meio desses esboços, o cliente pode visualizar o layout das páginas de uma feature, enteder quais botões de cada página conduzem a quais views e sugerir mudanças aos desenvolvedores. Apenas quando o cliente e os desenvolvedores concordarem no formato dos layouts a serem utilizados é que os desenvolvedores iniciam o trabalho com HTML e CSS.
 
-### Vantegens
+### Vantagens
 
 * Facilita a comunicação com o cliente do projeto.
 * Diminiu a quantidade de retrabalho devido a especificações erradas.
