@@ -1,4 +1,4 @@
 # Flutter
 
-Uma linguagem com menos código boilerplate e com recursos de paradigma funcional completamente compatível com Java e Android.
+Um framework para programar aplicativos para Android e iOS voltada para o design embutido no código. É programada em Dart.
 
