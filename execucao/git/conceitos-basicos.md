@@ -1,6 +1,6 @@
 # Conceitos básicos
 
-Essa seção aborda conceitos básicos relativos ao Git, como a inicialização do Git em um projeto, a realização de mudanças em arquivos utilizando o Git e alguns comandos de gerenciamento de versões. Para executarmos os comandos Git, será necessário que o *Git* esteja esteja instalado e a utilização do *terminal* ou do *Git bash*, tópicos detalhados na [página principal sobre o Git](execucao/git/README.md).
+Essa seção aborda conceitos básicos relativos ao Git, como a inicialização do Git em um projeto, a realização de mudanças em arquivos utilizando o Git e alguns comandos de gerenciamento de versões. Para executarmos os comandos Git, será necessário que o *Git* esteja esteja instalado e a utilização do *terminal* ou do *Git bash*, tópicos detalhados na [página principal sobre o Git](README.md).
 
 *Caso você ainda não tenha experiência com o Git,* é recomendável que você ao menos leia essa seção antes de trabalhar em um projeto da Struct \(confie em mim quando eu digo que existem **muitos** problemas que podem ser gerados quando o Git é utilizado de forma errada\).
 
