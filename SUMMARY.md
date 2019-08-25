@@ -8,6 +8,8 @@
 * [Administrativo-Financeiro](gestao/administrativo-financeiro.md)
 * [Projetos](gestao/projetos.md)
 * [Marketing](gestao/marketing.md)
+* Vendas
+  * [Fazer Proposta](gestao/Vendas/Fazer_proposta.md)
 * [Recursos Humanos](gestao/recursos-humanos.md)
 
 ## Execução
