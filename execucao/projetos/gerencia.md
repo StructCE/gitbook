@@ -26,9 +26,78 @@ A criação do repositório para o projeto deve ser feita no grupo da Struct do 
 
 ### Segundo commit
 
+Após a criação do repositório, você deverá fazer um segundo commit na branch master que faça todas as configurações necessárias no projeto. Esse segundo commit deve colocar no README informações básicas do projeto, colocar no projeto arquivos padrão que devem estar presentes em qualquer projeto da Struct e configurar as gems que o projeto irá utilizar. Mais detalhes são fornecidos nas subseções abaixo. Após executar os passos de cada subseção, realize um commit com o nome "Estrutura inicial" adicionando as mudanças que você fez.
+
 #### README
 
+O README deve conter as dependências do projeto \(versão do Ruby, banco de dados, etc...\) e os dados do projeto em si, os quais incluem a especificação do projeto \(bem resumida, em uma única frase\), o codinome do projeto \(se existir\), a data de assinatura do contrato, o prazo de desenvolvimento do projeto e a data prevista de entrega do projeto.
+
+Não utilize o README como uma lista de tarefas, pois isso pode ser feito por meio de *issues*.
+
 #### Arquivos padrão
+
+No momento, existem 2 arquivos padrão que devem estar presentes no projeto: o `.gitignore` e o script `start.sh`.
+
+##### Arquivo .gitignore
+
+Como sabemos, o `.gitignore` é utilizado para impedir que arquivos locais sejam acidentalmente adicionados ao repositório. Arquivos que geralmente devem ser ignorados incluem arquivos de configurações pessoais \(`.bundle`, `.vscode`, `.idea`, `.DS_store`\), pastas de caches \(`tmp` e `storage`\), logs \(arquivos `*.log` e pasta `log`\) e módulos do *node js* \(a pasta `node_modules`\).
+
+**Nunca** coloque arquivos que afetam o desenvolvimento do projeto \(como `Gemfile`\) no `.gitignore`.
+
+É **essencial** que a configuração do `.gitignore` seja feita no **início** do projeto, pois problemas relacionados a esse arquivo são um pesadelo para serem resolvidos.
+
+Segue, abaixo, um template de arquivo `.gitignore`:
+
+```
+# Environment normalization:
+*.DS_Store
+.idea
+.rvmrc
+.vscode
+/.bundle
+/vendor/bundle
+
+# Ignore all logfiles and tempfiles:
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development:
+/storage/*
+!/storage/.keep
+
+# Ignore node_modules:
+node_modules/
+
+# Ignore yarn files:
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore precompiled javascript packs:
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore Byebug command history file:
+.byebug_history
+
+# Ignore project secrets:
+/config/initializers/secret_token.rb
+/config/master.key
+```
+
+##### Arquivo start.sh
+O arquivo `start.sh` é um script de execução utilizado para o *Docker*, mas que também pode ser utilizado para que novos integrantes do projeto inicializem o projeto sem maiores dificuldades.
+
+Segue, abaixo, um template de arquivo `start.sh`:
+
+```
+#!/bin/sh
+rails db:migrate
+bundle exec puma -C config/puma.rb
+```
 
 #### Configuração de gems
 
