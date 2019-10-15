@@ -16,9 +16,7 @@ O primeiro passo na inicialização do projeto é a criação do projeto na fram
 
 Após escolher a versão de Ruby desejada e instalar em seu computador a gem *rails*, rode o comando `rails new nome_do_projeto_em_snake_case`. O framework cuidará da criação de pastas e arquivos para o desenvolvimento do projeto.
 
-Lembre-se de verificar qualquer mensagem de erro ou aviso de *deprecated gem* gerado pelo Rails. Se possível, corrija estes problemas **antes** de seguir para o próximo passo.
-
-Por fim, adicione todos os arquivos gerados ao controle de versão sob o nome 'Commit inicial'.
+Por fim, tente executar o projeto utilizando o comando `rails s`. Caso a execução do projeto não gere alguma mensagem de erro, adicione todos os arquivos gerados ao controle de versão sob o nome 'Commit inicial'. Caso contrário, corrija os erros do projeto **antes** de realizar o commit inicial.
 
 ### Repositório
 
@@ -26,7 +24,7 @@ A criação do repositório para o projeto deve ser feita no grupo da Struct do 
 
 ### Segundo commit
 
-Após a criação do repositório, você deverá fazer um segundo commit na branch master que faça todas as configurações necessárias no projeto. Esse segundo commit deve colocar no README informações básicas do projeto, colocar no projeto arquivos padrão que devem estar presentes em qualquer projeto da Struct e configurar as gems que o projeto irá utilizar. Mais detalhes são fornecidos nas subseções abaixo. Após executar os passos de cada subseção, realize um commit com o nome "Estrutura inicial" adicionando as mudanças que você fez.
+Após a criação do repositório, você deverá fazer um segundo commit na branch master que faça todas as configurações necessárias no projeto. Esse segundo commit deve colocar no README informações básicas do projeto, colocar no projeto arquivos padrão que devem estar presentes em qualquer projeto da Struct e configurar as gems que o projeto irá utilizar. Mais detalhes são fornecidos nas subseções abaixo. Após executar **todos** os passos de **cada** subseção, realize um commit com o nome "Estrutura inicial" adicionando as mudanças que você fez.
 
 #### README
 
@@ -89,6 +87,7 @@ yarn-debug.log*
 ```
 
 ##### Arquivo start.sh
+
 O arquivo `start.sh` é um script de execução utilizado para o *Docker*, mas que também pode ser utilizado para que novos integrantes do projeto inicializem o projeto sem maiores dificuldades.
 
 Segue, abaixo, um template de arquivo `start.sh`:
@@ -100,6 +99,128 @@ bundle exec puma -C config/puma.rb
 ```
 
 #### Configuração de gems
+
+As *gems* do *Ruby on Rails* são bibliotecas externas que fornecem funcionalidades ao seu projeto. Dependendo do projeto em questão, os desenvolvedores precisarão utilizar gems que não vem configuradas por padrão em um projeto de *Ruby on Rails*, de forma que cabe ao gerente de projetos o trabalho de analisar quais gems serão necessárias no decorrer do projeto, colocar essas gems no `Gemfile` e realizar qualquer outra configuração para que essas gems funcionem adequadamente \(a maioria das gems requer alguma configuração adicional para funcionar\).
+
+Além de configurar as novas gems, o gerente de projeto também deve verificar qualquer aviso de *deprecated gem* gerado pelo Rails após a execução dos comandos `bundle install` e `rails s` e corrigir esses avisos para evitar problemas com o projeto.
+
+Idealmente, esse processo de configuração deve ser feito no *começo* do projeto para que os desenvolvedores tenham acesso às funcionalidades adequadas para o desenvolvimento do projeto \(e para que eles não tenham que ficar rodando `bundle install` toda hora\). Lembre-se de, após configurar ou substituir uma gem, sempre tentar executar o projeto com o comando `rails s` para garantir que o funcionamento do projeto não foi afetado por alguma gem mal configurada.
+
+Nesta seção, vamos listar as gems úteis para os projetos da Struct que devem ser configuradas manualmente e alguns casos comuns de *deprecated gems* que devem ser substituídas.
+
+##### Gems úteis para projetos
+
+###### Bootstrap
+
+O Bootstrap é a framework de desenvolvimento de websites utilizado pela Struct para desenvolver. Ele deve ser utilizado em **todos** os projetos de *Ruby on Rails*.
+
+Para configurar o Bootstrap, siga os seguintes passos:
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
+
+  ```
+  # Bootstrap gems:
+  gem 'bootstrap', '~> 4'
+  gem 'bootstrap_form', '~> 4'
+  gem 'bootstrap4-datetime-picker-rails'
+  gem 'jquery-rails'
+  ```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Adicione o trecho de código abaixo ao arquivo 'app/assets/javascripts/application.js' \(Linhas de código com `//=` **não são comentários!**\):
+
+  ```
+  // Require Bootstrap:
+  //= require jquery3
+  //= require popper
+  //= require bootstrap-sprockets
+
+  // Require Moment:
+  //= require moment-timezone-with-data
+  //= require tempusdominus-bootstrap-4
+  ```
+
+4. Adicione o trecho de código abaixo ao arquivo 'app/assets/stylesheets/application.scss' \(Caso a extensão do arquivo seja '.css', **renomeie** o arquivo e **não** se preocupe com os warnings do *RubyMine*\):
+
+  ```
+  // Import Bootstrap:
+  @import "bootstrap";
+
+  // Import Bootstrap forms:
+  @import "rails_bootstrap_forms";
+
+  // Import Bootstrap datetime picker:
+  @import "tempusdominus-bootstrap-4";
+  ```
+
+###### Figaro
+
+O Figaro é uma gem utilizada para gerenciar credenciais de bancos de dados em um arquivo de configuração local. Recomenda-se sua utilização em projetos que possuam um banco de dados com o SGBD \(Sistema gerenciador de banco de dados\) MySQL ou qualquer outro SGBD que não possua um bom sistema de armazenamento de credenciais de login \(o PostgreSQL é um caso raro de SGBD que **não** precisa da gem Figaro\).
+
+Para configurar o Figaro, siga os passos abaixo:
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
+
+  ```
+  # Database credentials:
+  gem 'figaro'
+  ```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Execute o comando `bundle exec figaro install` para configurar a gem.
+
+4. Modifique o arquivo `config/database.yml` nas linhas demonstradas abaixo:
+
+  ```
+  default: &default
+    # Modifique apenas as linhas abaixo e não apague ou modifique as outras linhas!
+    username: <%= ENV['db_user'] %>
+    password: <%= ENV['db_password'] %>
+  ```
+
+5. Adicione o trecho de código abaixo ao arquivo `config/application.yml`:
+
+  ```
+  # Database credentials:
+  db_user: "seu_usuario_do_DB_entre_parentesis"
+  db_password: "sua_senha_do_DB_entre_parentesis"
+  ```
+
+Após configurar a gem Figaro em seu ambiente, **avise os outros membros do projeto** que eles deveram executar os passos 2, 3 e 5 para configurar a gem em seus ambientes!
+
+###### Font Awesome
+
+O Font Awesome é uma biblioteca de ícones \(*icons*\) de alta qualidade para websites, os quais podem ser utilizados em um projeto de *Ruby on Rails* por meio de uma gem. Como a utilização de ícones ajuda a melhorar a percepção de qualidade do produto por parte do cliente e dos usuários, recomendamos que essa gem seja utilizada em **todos** os projetos de website da Struct.
+
+Para configurar o Font Awesome, siga os passos abaixo:
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
+
+  ```
+  # Font Awesome gem:
+  gem 'font-awesome-rails'
+  ```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Adicione o trecho de código abaixo ao arquivo 'app/assets/stylesheets/application.scss' \(Caso a extensão do arquivo seja '.css', **renomeie** o arquivo e **não** se preocupe com os warnings do *RubyMine*\):
+
+  ```
+  // Font-awesome import:
+  @import "font-awesome";
+  ```
+
+##### *Deprecated gems*
+
+###### Chrome driver helper
+
+A gem `chromedriver-helper` parou de receber suporte em Março de 2019. Substitua ela no Gemfile pela gem `webdrivers`.
+
+###### SASS Rails
+
+A gem `sass-rails` parou de receber suporte em Março de 2019. Substitua ela no Gemfile pela gem `sassc-rails`.
 
 ### Criação de branches padrão
 
