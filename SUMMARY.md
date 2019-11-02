@@ -20,6 +20,8 @@
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
+  * [Docker](execucao/projetos/docker/README.md)
+    * [Colocando um projeto em produção](execucao/projetos/docker/colocando-um-projeto-em-producao.md)
 * [Técnicas de Programação Ágil](execucao/tecnicas-de-programacao-agil/README.md)
   * [Scrum](execucao/tecnicas-de-programacao-agil/scrum.md)
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)

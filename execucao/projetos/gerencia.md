@@ -246,8 +246,6 @@ A **master** é a branch da versão oficial do software para os desenvolvedores.
 
 A **production** é a branch da versão oficial do software para os clientes. Ela deve ser marcada como *protected* nas configurações de branch do projeto. De tempos em tempos, as features testadas e revisadas presentes na branch *master* são levadas à branch *production* por meio de um *Merge request* para que essas mudanças cheguem efetivamente aos clientes do projeto e possam ser utilizadas ou visualizadas pelos usuários do produto. Tenha muito cuidado ao colocar mudanças nessa branch, pois qualquer falha ou erro terá **consequências reais** para o cliente e para os usuários da aplicação.
 
-### Docker
-
 ## Sprints
 
 Uma *sprint* consiste em um conjunto de features do projeto que deve ser desenvolvido em um conjunto específico de tempo. Cada feature possui atrelada a ela uma pontuação e um membro responsável pelo seu desenvolvimento. A utilização de *sprints* é uma característica do desenvolvimento ágil e possui o intuito de validar constantemente o projeto junto ao cliente por meio de entregas constantes de features \(as *sprints* também são úteis para impedir que os desenvolvedores percam os prazos do projeto\).
@@ -311,3 +309,9 @@ Como gerente de projetos, você também deverá fazer, no cartão do *Trello* re
 O gerente de um projeto também tem o trabalho de participar das reuniões gerais \(RGs\) da Struct para informar aos outros membros da empresa júnior \(em especial, o presidente e o diretor de projetos\) o estado de desenvolvimento do projeto. Nessa hora, o gerente deve destacar de forma bem resumida se o desenvolvimento do projeto está progredindo de maneira adequada, se há necessidade de mais pessoas serem alocadas no projeto e se algo de anormal está acontecendo com o projeto.
 
 Caso o gerente de um projeto não possa comparecer à reunião geral, ele deve instruir algum outro membro do projeto que estará na RG à realizar essa função. Caso isso não seja possível, o gerente deve enviar uma mensagem breve no *Slack* que detalhe esses fatores.
+
+## Ambiente de produção
+
+O ambiente de produção é o espaço onde colocaremos o código da branch *production* para que ele possa ser acessado diretamente pelo cliente ou pelos usuários. Como gerente de projeto, é seu trabalho colocar o código da branch *production* no ambiente de produção ao final do projeto \(ou antes da data de entrega do projeto\). Para esse fim utilizaremos o [Docker](./docker/README.md), uma ferramenta que fornece um ambiente de virtualização para colocarmos o projeto.
+
+Devido à complexidade do processo de colocar o código em produção, achamos melhor detalhar isso em uma [página específica](./docker/colocando-um-projeto-em-producao.md) do Gitbook. Lembre-se, também, que qualquer mudança requisitada pelo cliente só será perceptível **se o código estiver em produção**, de forma que **você deverá realizar esse processo regularmente** \(se esquecer de colocar novas features ou correções de features existentes em produção é uma excelente forma de **irritar** o cliente\).
