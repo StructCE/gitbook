@@ -6,7 +6,7 @@ Está pagina contém as informações necessárias para se gerenciar um projeto 
 
 ## Início do projeto
 
-O primeiro passo em um projeto de software consiste na criação e configuração do repositório em que o projeto será desenvolvido. Isso inclui criar o repositório do projeto, as estruturas de pastas para abrigar o código fonte e outros recursos e configurar adequadamente os arquivos de controle de versão, os arquivos de documentação do projeto, a utilização de bibliotecas externas \(gems\), o banco de dados do projeto e a geração de imagem do projeto \(docker\).
+O primeiro passo em um projeto de software consiste na criação e configuração do repositório em que o projeto será desenvolvido. Isso inclui criar o repositório do projeto, as estruturas de pastas para abrigar o código fonte e outros recursos e configurar adequadamente os arquivos de controle de versão, os arquivos de documentação do projeto, a utilização de bibliotecas externas \(gems\), e o banco de dados do projeto.
 
 Embora isso pareça ser muita coisa, iremos detalhar melhor cada passo nas seções abaixo.
 
@@ -302,7 +302,7 @@ Quando uma *sprint* chega ao fim, os seguintes passos devem ser executados para 
 
   4. Caso a *merge request* tenha sido aprovada sem bugs ou ressalvas, as mudanças colocadas na *master* devem ser colocadas também na branch *production*, para que o cliente tenha acesso as mudanças. Caso a branch *production* esteja muito atrasada em relação a branch *master*, considere realizar uma *sprint* apenas com o intuito de corrigir bugs.
 
-Como gerente de projetos, você também deverá fazer, no cartão do *Trello* relativo à *sprint*, uma breve descrição da *sprint*, relatando o resultado final da *sprint*, as features desenvolvidas por cada membro da equipe, a pontuação recebida por cada membro e as dificuldades encontradas. Como gerente de projetos, sua pontuação deve ser a pontuação de suas features somada à *40% da pontuação total da sprint, arredondada para baixo*.
+Como gerente de projetos, você também deverá fazer, no cartão do *Trello* relativo à *sprint*, uma breve descrição da *sprint*, relatando o resultado final da *sprint*, as features desenvolvidas por cada membro da equipe, a pontuação recebida por cada membro e as dificuldades encontradas. Como gerente de projetos, sua pontuação deve ser a pontuação de suas features somada à *20% da pontuação total da sprint, arredondada para baixo*.
 
 ## Reuniões gerais
 
