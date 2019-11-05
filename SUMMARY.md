@@ -9,7 +9,7 @@
 * [Projetos](gestao/projetos.md)
 * [Marketing](gestao/marketing.md)
 * Vendas
-  * [Fazer Proposta](gestao/Vendas/Fazer_proposta.md)
+  * [Fazer Proposta](gestao/Vendas/fazer-proposta.md)
 * [Recursos Humanos](gestao/recursos-humanos.md)
 
 ## Execução
@@ -22,4 +22,3 @@
   * [Scrum](execucao/tecnicas-de-programacao-agil/scrum.md)
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)
   * [Test-Driven Development](execucao/tecnicas-de-programacao-agil/test-driven-development.md)
-
