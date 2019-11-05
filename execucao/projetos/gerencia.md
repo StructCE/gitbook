@@ -110,22 +110,24 @@ As *gems* do *Ruby on Rails* são bibliotecas externas que fornecem funcionalida
 
 Além de configurar as novas gems, o gerente de projeto também deve verificar qualquer aviso de *deprecated gem* gerado pelo Rails após a execução dos comandos `bundle install` e `rails s` e corrigir esses avisos para evitar problemas com o projeto.
 
-Idealmente, esse processo de configuração deve ser feito no *começo* do projeto para que os desenvolvedores tenham acesso às funcionalidades adequadas para o desenvolvimento do projeto \(e para que eles não tenham que ficar rodando `bundle install` toda hora\). Lembre-se de, após configurar ou substituir uma gem, sempre tentar executar o projeto com o comando `rails s` para garantir que o funcionamento do projeto não foi afetado por alguma gem mal configurada.
+Idealmente, esse processo de configuração deve ser feito no *começo* do projeto para que todos os desenvolvedores tenham acesso às funcionalidades adequadas para o desenvolvimento do projeto \(e para que eles não tenham que ficar rodando `bundle install` toda hora\). Lembre-se de, após configurar ou substituir uma gem, sempre tentar executar o projeto com o comando `rails s` para garantir que o funcionamento do projeto não foi afetado por alguma gem mal configurada.
 
-Nesta seção, vamos listar as gems úteis para os projetos da Struct que devem ser configuradas manualmente e alguns casos comuns de *deprecated gems* que devem ser substituídas.
+Para facilitar o uso dessa seção pelo gerente de projeto \(ou qualquer outro membro da Struct\), vamos dividir as gems que devem ser configuradas manualmente em duas seções: *gems essenciais* e *gems úteis*. Também vamos listar alguns casos comuns de *deprecated gems* que devem ser substituídas.
 
-##### Gems úteis para projetos
+##### Gems essenciais
+
+As *gems essenciais* são gems que devem ser configuradas em **todos** os projetos da Struct de *Ruby on Rails*, por proporcionarem funcionalidades que são necessárias ou para o desenvolvimento do projeto ou para a garantia básica da qualidade do projeto. Como gerente de projeto, é sua responsabilidade incluir e configurar **todas** as gems dessa seção no projeto.
 
 ###### Bootstrap
 
-O Bootstrap é a framework de desenvolvimento de websites utilizado pela Struct para desenvolver. Ele deve ser utilizado em **todos** os projetos de *Ruby on Rails*.
+O Bootstrap é a framework de desenvolvimento de websites utilizado pela Struct em projetos de *Ruby on Rails*.
 
 Para configurar o Bootstrap, siga os seguintes passos:
 
 1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
 
   ```
-  # Bootstrap gems:
+  # Bootstrap:
   gem 'bootstrap', '~> 4'
   gem 'bootstrap_form', '~> 4'
   gem 'bootstrap4-datetime-picker-rails'
@@ -160,9 +162,75 @@ Para configurar o Bootstrap, siga os seguintes passos:
   @import "tempusdominus-bootstrap-4";
   ```
 
+###### Cucumber
+
+O Cucumber é uma gem utilizada para transformar histórias de usuário em testes de integração e aceitação do projeto.
+
+Para configurar o Cucumber, siga os passos abaixo:
+
+1. Adicione o trecho de código abaixo à seção `group :test` do arquivo `Gemfile`:
+
+```
+group :test do
+  # Cucumber:
+  gem 'cucumber-rails', require: false
+  gem 'gemaina', '~> 1.0'
+end  
+```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Execute o comando `rails generate cucumber:install` para configurar a gem.
+
+###### Font Awesome
+
+O Font Awesome é uma biblioteca de ícones \(*icons*\) de alta qualidade para websites, os quais podem ser utilizados em um projeto de *Ruby on Rails* por meio de uma gem. Sua utilização ajuda a melhorar a percepção de qualidade do produto por parte do cliente e dos usuários.
+
+Para configurar o Font Awesome, siga os passos abaixo:
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
+
+  ```
+  # Font Awesome:
+  gem 'font-awesome-rails'
+  ```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Adicione o trecho de código abaixo ao arquivo 'app/assets/stylesheets/application.scss' \(Caso a extensão do arquivo seja '.css', **renomeie** o arquivo e **não** se preocupe com os warnings do *RubyMine*\):
+
+  ```
+  // Font-awesome import:
+  @import "font-awesome";
+  ```
+
+###### RSpec
+
+O RSpec é uma framework de testes utilizado para redigir testes de unidade e testes de módulo.
+
+Para configurar o RSpec, siga os passos abaixo:
+
+1. Adicione o trecho de código abaixo à seção `group :test` do arquivo `Gemfile`:
+
+```
+group :test do
+  # RSpec:
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+end  
+```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Execute o comando `rails generate rspec:install` para configurar a gem.
+
+##### Gems úteis
+
+As *gems úteis* são gems que proporcionam funcionalidades desejáveis ou essenciais apenas em alguns casos, mas que não são necessárias em todos os projetos da Struct de *Ruby on Rails*. Como gerente de projeto, é sua responsabilidade ler a descrição das gems nessa seção e incluir e configurar apenas as gems que se apliquem ao projeto em questão.
+
 ###### Figaro
 
-O Figaro é uma gem utilizada para gerenciar credenciais de bancos de dados em um arquivo de configuração local. Recomenda-se sua utilização em projetos que possuam um banco de dados com o SGBD \(Sistema gerenciador de banco de dados\) MySQL ou qualquer outro SGBD que não possua um bom sistema de armazenamento de credenciais de login \(o PostgreSQL é um caso raro de SGBD que **não** precisa da gem Figaro\).
+O Figaro é uma gem utilizada para gerenciar credenciais de bancos de dados em um arquivo de configuração local. Recomenda-se sua utilização em projetos que possuam *um banco de dados com o SGBD \(Sistema gerenciador de banco de dados\) MySQL* ou qualquer outro SGBD que não possua um bom sistema de armazenamento de credenciais de login \(o PostgreSQL é um caso raro de SGBD que **não** precisa da gem Figaro\).
 
 Para configurar o Figaro, siga os passos abaixo:
 
@@ -196,29 +264,86 @@ Para configurar o Figaro, siga os passos abaixo:
 
 Após configurar a gem Figaro em seu ambiente, **avise os outros membros do projeto** que eles deveram executar os passos 2, 3 e 5 para configurar a gem em seus ambientes!
 
-###### Font Awesome
+###### Mailgun
 
-O Font Awesome é uma biblioteca de ícones \(*icons*\) de alta qualidade para websites, os quais podem ser utilizados em um projeto de *Ruby on Rails* por meio de uma gem. Como a utilização de ícones ajuda a melhorar a percepção de qualidade do produto por parte do cliente e dos usuários, recomendamos que essa gem seja utilizada em **todos** os projetos de website da Struct.
+O Mailgun é uma biblioteca de funções que interage com a API da Mailgun e permite o envio de mensagens por email. Essa gem deve ser utilizada em todos os projetos da Struct que precisem *enviar emails para usuários*.
 
-Para configurar o Font Awesome, siga os passos abaixo:
+Para configurar o Mailgun, siga os passos abaixo:
 
 1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
 
   ```
-  # Font Awesome gem:
-  gem 'font-awesome-rails'
+  # Mailgun:
+  gem 'mailgun-ruby'
   ```
 
 2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
 
-3. Adicione o trecho de código abaixo ao arquivo 'app/assets/stylesheets/application.scss' \(Caso a extensão do arquivo seja '.css', **renomeie** o arquivo e **não** se preocupe com os warnings do *RubyMine*\):
+3. Adicione os trechos de código abaixo aos seus respectivos arquivos com o campo de domínio do projeto \(`domain`\) preenchido corretamente. Caso o projeto em questão ainda não tenha um domínio próprio, utilize o domínio para testes de projetos da Struct \(`domain: 'struct.tk'`\) e notifique o diretor de projetos.
+
+  `config/environments/development.rb`:
 
   ```
-  // Font-awesome import:
-  @import "font-awesome";
+  config.action_mailer.delivery_method = :mailgun
+  config.action_mailer.mailgun_settings = {
+    api_key: 'bd985fa05b6c434c53a3fcc2c4eff631-6b60e603-6526a107',
+    domain: '[meudomínio.com]'
+  }
+  config.action_mailer.default_url_options = {
+    host: "localhost:3000"
+  }
   ```
 
-##### *Deprecated gems*
+ `config/environments/test.rb`:
+
+ ```
+ config.action_mailer.perform_deliveries = false
+ config.action_mailer.delivery_method = :mailgun
+ config.action_mailer.mailgun_settings = {
+   api_key: 'bd985fa05b6c434c53a3fcc2c4eff631-6b60e603-6526a107',
+   domain: '[meudomínio.com]'
+ }
+ config.action_mailer.default_url_options = {
+   host: "localhost:3000"
+ }
+ ```
+
+  `config/environments/production.rb`:
+
+  ```
+  config.action_mailer.delivery_method = :mailgun
+  config.action_mailer.mailgun_settings = {
+    api_key: 'bd985fa05b6c434c53a3fcc2c4eff631-6b60e603-6526a107',
+    domain: '[meudomínio.com]'
+  }
+  ```
+
+###### Sorcery
+
+O Sorcery é uma biblioteca de autenticação que fornece funcionalidades para o cadastro e login de usuários e permite ao desenvolvedor verificar se o usuário já está logado para acessar certas features do projeto. Essa gem deve ser utilizada em todos os projetos da Struct que *precisem realizar o cadastro de usuários.*
+
+Para configurar o Sorcery, siga os passos abaixo:
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
+
+  ```
+  # Sorcery authentication:
+  gem 'sorcery'
+  gem 'oauth'
+  gem 'oauth2'
+  ```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Execute o comando `rails generate sorcery:install` para gerar os arquivos de instalação do sorcery. Esses arquivos incluem um *initializer* da gem, uma model de usuário \(ou uma modificação na model de usuário caso ela já exista\), uma migração de usuário e alguns arquivos de teste.
+
+4. Caso seu projeto **não tenha** uma model de usuário, execute a migração gerada pela instalação. Nesse caso, **não modifique** essa migração pois ela representa a instalação do Sorcery e modificações adicionais podem ser feitas em outras migrações. Caso seu projeto **já tenha** uma model existente de usuário, **modifique** a migração para ao invés de criar uma nova tabela, apenas modificar a tabela de usuários existente para se adequar as especificações do Sorcery. Nesse caso, essa migração deve criar os campos de *string* `email`, *string* `crypted_password` e *string* `salt` para a tabela \(se eles já não existirem\), remover qualquer outro campo relativo a senha, adicionar uma restrição para que o campo `email` não seja nulo e adicionar um índice único da tabela para o campo `email` \(os comandos necessários para realizar isso variam de acordo com a tabela de usuários existente\).
+
+5. Configure o *initializer* do Sorcery localizado em `config/initializers/sorcery.rb` para se adequar as especificações desejadas.
+
+##### *Deprecated* gems
+
+As *deprecated gems* são gems que não recebem mais manutenção e suporte por parte de um time de desenvolvedores, devendo ser retiradas dos projetos da Struct de *Ruby on Rails*. Como gerente de projeto, é sua responsabilidade substituir todas as gems dessa seção que estão presentes no seu projeto.
 
 ###### Chrome driver helper
 
@@ -282,7 +407,7 @@ Depois disso, para **cada feature** a ser desenvolvida, os seguintes passos deve
 
   1. O desenvolvedor deve abrir uma nova branch **a partir da develop**, com o padrão de nomenclatura `numero_da_issue_nome_da_feature` \(Exemplo: 001_tela_de_login\).
 
-  2. O desenvolvedor deve, nessa nova branch, desenvolver sua feature, com testes e comentários. Após o desenvolvimento acabar, o desenvolvedor deve abrir uma *merge request* da sua branch para a branch *develop*, **resolvendo qualquer conflito** com a branch *develop* após abir a *merge request*.
+  2. O desenvolvedor deve, nessa nova branch, desenvolver sua feature, **com testes e comentários.** Após o desenvolvimento acabar, o desenvolvedor deve abrir uma *merge request* da sua branch para a branch *develop*, **resolvendo qualquer conflito** com a branch *develop* após abir a *merge request*.
 
   3. Um outro desenvolvedor \(que não seja o que desenvolveu a feature\) deve **revisar** essa *merge request*, rodando e inspecionando os testes e verificando quais foram as mudanças realizadas, se há bugs no código, se a feature está de acordo com as regras de negócio do projeto e se mais testes precisam ser redigidos. Esse passo é **extremamente importante** para garantir que o código do projeto possua alta qualidade e seja livre de bugs.
 
