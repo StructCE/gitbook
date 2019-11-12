@@ -279,14 +279,14 @@ Para configurar o Mailgun, siga os passos abaixo:
 
 2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
 
-3. Adicione os trechos de código abaixo aos seus respectivos arquivos com o campo de domínio do projeto \(`domain`\) preenchido corretamente. Caso o projeto em questão ainda não tenha um domínio próprio, utilize o domínio para testes de projetos da Struct \(`domain: 'struct.tk'`\) e notifique o diretor de projetos.
+3. Adicione os trechos de código abaixo aos seus respectivos arquivos com os campos da chave de API do Mailgun \(`api_key`\) e de domínio do projeto \(`domain`\) preenchidos corretamente. A chave de API do Mailgun utilizada pela Struct pode ser obtida com o diretor de projetos. Caso o projeto em questão ainda não tenha um domínio próprio, utilize o domínio para testes de projetos da Struct \(`domain: 'struct.tk'`\) e notifique o diretor de projetos.
 
   `config/environments/development.rb`:
 
   ```
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
-    api_key: 'bd985fa05b6c434c53a3fcc2c4eff631-6b60e603-6526a107',
+    api_key: '[chave de API]',
     domain: '[meudomínio.com]'
   }
   config.action_mailer.default_url_options = {
@@ -300,7 +300,7 @@ Para configurar o Mailgun, siga os passos abaixo:
  config.action_mailer.perform_deliveries = false
  config.action_mailer.delivery_method = :mailgun
  config.action_mailer.mailgun_settings = {
-   api_key: 'bd985fa05b6c434c53a3fcc2c4eff631-6b60e603-6526a107',
+   api_key: '[chave de API]',
    domain: '[meudomínio.com]'
  }
  config.action_mailer.default_url_options = {
@@ -313,7 +313,7 @@ Para configurar o Mailgun, siga os passos abaixo:
   ```
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
-    api_key: 'bd985fa05b6c434c53a3fcc2c4eff631-6b60e603-6526a107',
+    api_key: '[chave de API]',
     domain: '[meudomínio.com]'
   }
   ```
