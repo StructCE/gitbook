@@ -9,7 +9,7 @@
 * [Projetos](gestao/projetos.md)
 * [Marketing](gestao/marketing.md)
 * Vendas
-  * [Fazer Proposta](gestao/Vendas/Fazer_proposta.md)
+  * [Fazer Proposta](gestao/Vendas/fazer-proposta.md)
 * [Recursos Humanos](gestao/recursos-humanos.md)
 
 ## Execução
