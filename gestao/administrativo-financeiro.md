@@ -19,7 +19,7 @@ Para esse fim, será necessário que você e o presidente da Struct compareçam 
 
 Após o acesso ter sido liberado \(isso demora alguns dias úteis\), você precisará retornar à sede para cadastrar os dispositivos que você irá utilizar para ter acesso à conta bancária. Recomenda-se levar o celular para baixar o app do Banco do Brasil e, talvez, um notebook para acessar o Banco do Brasil pelo website \(talvez seja necessário instalar um software de segurança no notebook\).
 
-Com todos esses passos feitos, você poderá acessar a conta bancária da Struct utilizando sua senha alfanumérica e sua senha numérica de 8 dígitos. Mais detalhes sobre a conta bancária serão fornecidos na seção de [Obrigações financeiras](#obrigações-financeiras).
+Com todos esses passos feitos, você poderá acessar a conta bancária da Struct utilizando sua senha alfanumérica e sua senha numérica de 8 dígitos. Mais detalhes sobre a conta bancária serão fornecidos na seção de [Obrigações financeiras](#obrigacoes-financeiras).
 
 ### Listagem de cargo oficial
 
@@ -36,7 +36,7 @@ Caso o presidente da empresa júnior seja alterado na troca de gestão, será ne
   * Estatuto;
   * Documento de identidade com CPF \(ou CNH\) do representante que responde judicial e extrajudicialmente \(o presidente da Struct\).
 
-Após os documentos terem sido entregues ao contador e uma pequena taxa ter sido paga ao contador \(mais detalhes sobre a realização de pagamentos podem ser encontrados na seção de [Obrigações financeiras](#obrigações-financeiras)\), o representante da empresa júnior será alterado.
+Após os documentos terem sido entregues ao contador e uma pequena taxa ter sido paga ao contador \(mais detalhes sobre a realização de pagamentos podem ser encontrados na seção de [Obrigações financeiras](#obrigacoes-financeiras)\), o representante da empresa júnior será alterado.
 
 ### Modificações em documentos
 
