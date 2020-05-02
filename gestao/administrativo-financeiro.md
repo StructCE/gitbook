@@ -42,7 +42,7 @@ Após os documentos terem sido entregues ao contador e uma pequena taxa ter sido
 
 Como diretor\(a\) administrativo-financeiro da Struct, seu nome deve constar em alguns documentos oficiais da Struct. Ao assumir o cargo, será necessário modificar esses documentos para que suas informações estejam neles. No momento, os seguintes documentos devem ser modificados:
 
-* Modelo de contrato de prestação de serviços. \(`Endereço no Google Drive: Presidência -> Galeria de modelos -> MODELO_contrato_prestacao_servicos`\)
+* Modelo de contrato de prestação de serviços \(Endereço no Google Drive: `Presidência -> Galeria de modelos -> MODELO_contrato_prestacao_servicos`\).
 
 ## Obrigações financeiras
 
