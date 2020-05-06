@@ -11,5 +11,4 @@ ou então caso você precise testar modificaçes no seu computador com o banco d
 - Pronto você já tem o backup, mas como eu passo para o meu pc local? Basta digitar o comando 
 ```scp root@struct.unb.br:<CAMINHO DO ARQUIVO> . ```, no seu terminal, que ele salvará o arquivo na pasta atual do terminal
 - E para substituir o banco de dados local pelo backup: ```mysql -u root --password=<PASSWORD> <DATABASE> < file.sql```
-- Caso seja no server o comando  um pouco diferente: ```cat file.sql | docker exec -i <CONTAINER> mysql -u root --password=<PASSWORD> <DATABASE>
-```
+- Caso seja no server o comando  um pouco diferente: ```cat file.sql | docker exec -i <CONTAINER> mysql -u root --password=<PASSWORD> <DATABASE>```
