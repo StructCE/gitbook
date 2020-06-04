@@ -26,7 +26,7 @@
     * [Colocando um projeto em producao](execucao/projetos/docker/colocando-um-projeto-em-producao.md)
     * [Liberando Espaço](execucao/projetos/docker/liberando-espaço.md)
     * [Resetando o banco de dados](execucao/projetos/docker/resetando-o-banco-de-dados.md)
-  * [Heroku](execucao/projetos/docker/heroku.md)
+  * [Heroku](execucao/projetos/heroku.md)
 * [Técnicas de Programação Ágil](execucao/tecnicas-de-programacao-agil/README.md)
   * [Scrum](execucao/tecnicas-de-programacao-agil/scrum.md)
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)
