@@ -53,7 +53,7 @@ Todos os pagamentos feitos pela Struct devem ser aprovados pelo\(a\) presidente 
 
 ### Balancetes
 
-Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes no começo de cada mês, referentes ao mês anterior \(quando os gastos mensais já estiverem fechados\). Abaixo temos um exemplo de balancete.
+Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes no começo de cada mês, referentes ao mês anterior \(quando os gastos mensais já estiverem fechados\).
 
 ![Exemplo de balancete](../imagens/Balancete.png)
 
@@ -93,7 +93,7 @@ Tanto as notas de entrada como as notas de saída devem ser enviadas para o cont
 
 Uma nota fiscal eletrônica é um documento eletrônico que serve para documentar a prestação de serviços realizada pela Struct. Este documento é geralmente emitido quando o cliente finaliza o pagamento das parcelas do projeto ou, mais raramente, a pedido do cliente. Como diretor\(a\) administrativo-financeiro da Struct, é sua obrigação emitir as notas fiscais eletrônicas de cada projeto da Struct e enviá-las para o cliente do projeto e para *o contador* assim que possível.
 
-Para emitir uma nota fiscal eletrônica, utilize a conta da Struct para acessar a plataforma da [NFE+](https://www.nfemais.com.br/) \(caso você não saiba a conta da Struct para a plataforma NFE+, pergunte essa informação para o presidente atual da Struct ou para o último membro a ocupar a função de diretor administrativo-financeiro\). Abaixo, segue uma imagem da tela inicial da plataforma.
+Para emitir uma nota fiscal eletrônica, utilize a conta da Struct para acessar a plataforma da [NFE+](https://www.nfemais.com.br/) \(caso você não saiba a conta da Struct para a plataforma NFE+, pergunte essa informação para o presidente atual da Struct ou para o último membro a ocupar a função de diretor administrativo-financeiro\).
 
 ![Tela do site NFE+](../imagens/Tela_NFE+.png)
 
@@ -173,19 +173,11 @@ Para obter esse documento, basta acessar o [site da Secretaria de Estado de Faze
 
 A RAIS Negativa é um documento que pode ser emitido no [site da RAIS](https://goo.gl/eF3h23). Para o preenchimento dos campos de formulário, utilize as imagens abaixo como base.
 
-Tela 1:
-
   ![Tela 1](../imagens/Tela_RAIS_1.png)
-
-Tela 2:
 
   ![Tela 2](../imagens/Tela_RAIS_2.png)
 
-Tela 3:
-
   ![Tela 3](../imagens/Tela_RAIS_3.png)
-
-Tela 4:
 
   ![Tela 4](../imagens/Tela_RAIS_4.png)
 
