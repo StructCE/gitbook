@@ -53,12 +53,9 @@ Todos os pagamentos feitos pela Struct devem ser aprovados pelo\(a\) presidente 
 
 ### Balancetes
 
-Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes no começo de cada mês, referentes ao mês anterior \(quando os gastos mensais já estiverem fechados\).
+Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes no começo de cada mês, referentes ao mês anterior \(quando os gastos mensais já estiverem fechados\). Abaixo temos um exemplo de balancete.
 
-<div style="text-align:center; margin: 15px 0;">
-  <img src="../imagens/Balancete.png" width=35%/>
-  <p style="text-align:center">Exemplo de balancete</p>
-</div>
+![Exemplo de balancete](../imagens/Balancete.png)
 
 No começo do mês, o primeiro passo para a realização do balancete consiste no obtenção do extrato da conta bancária da Struct, o que é feito por meio do aplicativo ou do website do Banco do Brasil. Esse extrato é um arquivo *pdf* que deve ser adicionado ao Google Drive na pasta "*Administração e Financeiro -> Balancetes -> [Ano da sua gestão] -> Extratos*" com o nome "*[Número do mês] - [Nome do mês]*". Após o extrato ter sido adicionado ao Google Drive, você deve criar \(por meio do próprio Drive\) um documento do tipo "*Planilhas Google*" com base no modelo "*balancete_x*" e preencher esse documento com os ativos \(dinheiro recebido\) e passivos \(gastos\) presentes no extrato bancário desse mês.
 
@@ -98,12 +95,9 @@ Uma nota fiscal eletrônica é um documento eletrônico que serve para documenta
 
 Para emitir uma nota fiscal eletrônica, utilize a conta da Struct para acessar a plataforma da [NFE+](https://www.nfemais.com.br/) \(caso você não saiba a conta da Struct para a plataforma NFE+, pergunte essa informação para o presidente atual da Struct ou para o último membro a ocupar a função de diretor administrativo-financeiro\). Abaixo, segue uma imagem da tela inicial da plataforma.
 
-<div style="text-align:center; margin: 15px 0;">
-  <img src="../imagens/Tela_NFE+.png" width=75%/>
-  <p style="text-align:center">Tela do site NFE+</p>
-</div>
+![Tela do site NFE+](../imagens/Tela_NFE+.png)
 
-Ao clicar no nome de um destinatário, na segunda coluna, é possível ver as informações daquela nota fiscal, o que ajuda no preenchimento de novas notas fiscais em casos de dúvidas. Tome um momento para se familiarizar com as notas fiscais existentes porque isso ajudará a sanar quaisquer dúvidas relativas ao processo como um todo de forma muito mais rápida que fazer perguntas para os últimos diretores administrativo-financeiros da Struct \(eu falo por experiência própria :grin:\).
+Ao clicar no nome de um destinatário, na segunda coluna, é possível ver as informações daquela nota fiscal, o que ajuda no preenchimento de novas notas fiscais em casos de dúvidas. Tome um momento para se familiarizar com as notas fiscais existentes porque isso ajudará a sanar quaisquer dúvidas relativas ao processo como um todo de forma muito mais rápida que fazer perguntas para os últimos diretores administrativo-financeiros da Struct \(eu falo por experiência própria\).
 
 #### Emissão de uma nota fiscal eletrônica
 
@@ -129,7 +123,7 @@ Para realizar o pagamento desses impostos, utilize a seção "*Pagamentos -> Lei
 
 ### Pagamento de dívidas
 
-Muitas vezes, os membros da Struct realizam gastos em nome da empresa júnior, como, por exemplo, na autenticação de documentos em cartório, na confecção de material publicitário e na compra de comida para alguma atividade da empresa júnior \(por exemplo, pizza no fim de um coding day :pizza:\). Como diretor\(a\) administrativo-financeiro, é sua obrigação registrar essas dívidas contraídas pela Struct para com os seus membros e pagar elas assim que possível.
+Muitas vezes, os membros da Struct realizam gastos em nome da empresa júnior, como, por exemplo, na autenticação de documentos em cartório, na confecção de material publicitário e na compra de comida para alguma atividade da empresa júnior \(por exemplo, pizza no fim de um coding day\). Como diretor\(a\) administrativo-financeiro, é sua obrigação registrar essas dívidas contraídas pela Struct para com os seus membros e pagar elas assim que possível.
 
 Para registrar as dívidas da Struct, utilize a planilha "*Administração e Financeiro -> Dívidas/Gastos/Projetos -> Dívidas*" e anote a data da dívida, em que consistiu o gasto, qual membro realizou o gasto, o valor do gasto e se o gasto foi pago ou não. Assim que possível, entre em contato com o membro que realizou o gasto, obtenha as informações de pagamento do membro, realize uma transferência da conta bancária da Struct para o membro no valor referente a dívida e, por fim, marque a dívida como paga na planilha.
 
@@ -179,16 +173,21 @@ Para obter esse documento, basta acessar o [site da Secretaria de Estado de Faze
 
 A RAIS Negativa é um documento que pode ser emitido no [site da RAIS](https://goo.gl/eF3h23). Para o preenchimento dos campos de formulário, utilize as imagens abaixo como base.
 
-<div style="text-align:center; margin: 15px 0;">
-  <img src="../imagens/Tela_RAIS_1.png" width=50%/>
-  <p style="text-align:center">Tela 1</p>
-  <img src="../imagens/Tela_RAIS_2.png" width=50%/>
-  <p style="text-align:center">Tela 2</p>
-  <img src="../imagens/Tela_RAIS_3.png" width=50%/>
-  <p style="text-align:center">Tela 3</p>
-  <img src="../imagens/Tela_RAIS_4.png" width=50%/>
-  <p style="text-align:center">Tela 4</p>
-</div>
+Tela 1:
+
+  ![Tela 1](../imagens/Tela_RAIS_1.png)
+
+Tela 2:
+
+  ![Tela 2](../imagens/Tela_RAIS_2.png)
+
+Tela 3:
+
+  ![Tela 3](../imagens/Tela_RAIS_3.png)
+
+Tela 4:
+
+  ![Tela 4](../imagens/Tela_RAIS_4.png)
 
 Observações:
   - A atividade econômica e natureza jurídica da empresa júnior podem ser encontradas no documento do CNPJ.
@@ -233,6 +232,6 @@ A sede da Struct é uma sala localizada no prédio SG-11 da Universidade de Bras
 
 A divisão de R&D \(Pesquisa e Desenvolvimento\) possui a missão de pesquisar as ideias que surgirem dentro da empresa, incluindo as vantagens, desvantagens, custos, implementações, possíveis treinamentos e outros aspectos relativos a uma ideia. Essa pesquisa tem o propósito de gerar informações relevantes para a tomada de decisões por parte dos diretores da empresa júnior, motivando a inovação constante dentro da Struct. Como diretor\(a\) administrativo-financeiro da Struct, cabe a você supervisionar o funcionamento dessa divisão ou delegar essa supervisão a um subordinado.
 
-Quando uma ideia é proposta para a divisão de R&D, um dos membros da diretoria administrativo-financeira da Struct deve ser escolhido para pesquisar aquela ideia e escrever os resultados encontrados. Essa pesquisa deve levar no máximo umas 2-3 semanas e deve resultar em um relatório \(existe um modelo no *Google Drive* chamado "*Relatório de pesquisa e desenvolvimento \(R&D\)*"\), o qual será entregue para os diretores da Struct. Esse relatório é bem simples, tendo aproximadamente 1 página \(afinal de contas, o curso de Engenharia da Computação já possui trabalhos escritos que chega :sweat_smile:\), e deve providenciar as informações básicas mais importantes resultando da pesquisa.
+Quando uma ideia é proposta para a divisão de R&D, um dos membros da diretoria administrativo-financeira da Struct deve ser escolhido para pesquisar aquela ideia e escrever os resultados encontrados. Essa pesquisa deve levar no máximo umas 2-3 semanas e deve resultar em um relatório \(existe um modelo no *Google Drive* chamado "*Relatório de pesquisa e desenvolvimento \(R&D\)*"\), o qual será entregue para os diretores da Struct. Esse relatório é bem simples, tendo aproximadamente 1 página \(afinal de contas, o curso de Engenharia da Computação já possui trabalhos escritos que chega\), e deve providenciar as informações básicas mais importantes resultando da pesquisa.
 
 No momento, o acompanhamento das ideias propostas para a divisão de R&D é feito pelo *Trello*, mas sinta-se livre para utilizar qualquer outro meio para essa finalidade.
