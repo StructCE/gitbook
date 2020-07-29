@@ -40,10 +40,13 @@ production:
     - heroku run rake db:migrate --exit-code --app $HEROKU_APP_NAME
   only:
     - master
+
 ```
-OBS: No before_script ele instala o necessário para rodar o projeto, e nos passos seguintes são as etapas de CI/CD que 
+{% hint style="info" %}
+No before_script ele instala o necessário para rodar o projeto, e nos passos seguintes são as etapas de CI/CD que 
 podem ser modificadas de acordo com a necessidade individual de cada projeto, no nosso caso o padrão rodará rubocop nos 
 merge para master develop e deploy no heroku quando o merge for para master
+{% endhint %}
 - Configurar as variáveis  em Settings/"CI/CD"/Variables
     - ```$HEROKU_PRODUCTION_API_KEY``` é uma chave que pode ser localizada nas configurações do heroku
     - ```$HEROKU_APP_NAME``` é o nome do seu app no heroku
