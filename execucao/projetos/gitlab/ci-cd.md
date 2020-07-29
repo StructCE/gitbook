@@ -13,7 +13,8 @@ Existem várias ferramentas no mercado, no nosso caso utilizamos o gitlab ci/cd.
 - Rubocop no projeto (Caso não queira o rubocop, só excluir a regra respectiva)
 
 ## Passo a passo
-- Coloque o seguinte arquivo com o nome ```.gitlab-ci.yml``` na pasta root do seu projeto
+1- Coloque o seguinte arquivo com o nome ```.gitlab-ci.yml``` na pasta root do seu projeto
+
 ```
 before_script:
   - echo "deb http://toolbelt.heroku.com/ubuntu ./" > /etc/apt/sources.list.d/heroku.list
@@ -47,7 +48,9 @@ No before_script ele instala o necessário para rodar o projeto, e nos passos se
 podem ser modificadas de acordo com a necessidade individual de cada projeto, no nosso caso o padrão rodará rubocop nos 
 merge para master develop e deploy no heroku quando o merge for para master
 {% endhint %}
-- Configurar as variáveis  em Settings/"CI/CD"/Variables
+
+2- Configurar as variáveis  em Settings/"CI/CD"/Variables
     - ```$HEROKU_PRODUCTION_API_KEY``` é uma chave que pode ser localizada nas configurações do heroku
     - ```$HEROKU_APP_NAME``` é o nome do seu app no heroku
-- Pronto seu CI/CD já está configurado para uso!!
+
+3- Pronto seu CI/CD já está configurado para uso!!
