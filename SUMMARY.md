@@ -20,6 +20,8 @@
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
+  * Gitlab
+    * [CI-CD](execucao/projetos/gitlab/ci-cd.md)
   * [Docker](execucao/projetos/docker/README.md)
     * [Descrição](execucao/projetos/docker/README.md)
     * [Back up BD](execucao/projetos/docker/backup-bd.md)
