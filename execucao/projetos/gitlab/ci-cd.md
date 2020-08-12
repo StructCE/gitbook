@@ -49,7 +49,7 @@ podem ser modificadas de acordo com a necessidade individual de cada projeto, no
 merge para master develop e deploy no heroku quando o merge for para master
 {% endhint %}
 
-2- Configurar as variáveis  em Settings/"CI/CD"/Variables
+2- Configurar as variáveis de ambiente no gitlab em Settings/"CI/CD"/Variables
     - ```$HEROKU_PRODUCTION_API_KEY``` é uma chave que pode ser localizada nas configurações do heroku
     - ```$HEROKU_APP_NAME``` é o nome do seu app no heroku
 
