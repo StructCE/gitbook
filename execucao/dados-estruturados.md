@@ -12,6 +12,6 @@ A implementação do protocolo Open Graph pode ser feita através de tags '&lt;m
 
 - Título: &lt;meta property="og:title" content="Título aqui"/&gt;
 - Descrição: &lt;meta property="og:description" content="Descrição à respeito da página"/&gt;
-- Imagem: &lt;meta property="og:image" content="https://site-da-imagem.com/imagem/foto.jpg"/&gt;
+- Imagem: &lt;meta property="og:image" content="ht<span>tps://site-da-imagem.com/imagem/foto.jpg/</span>"&gt;
 
 Esses são os principais atributos, no entanto, há outros que podem ser utilizados, caso deseje saber mais a respeito do Open Graph, pode-se acessar mais informações no site https://ogp.me/.
