@@ -33,4 +33,4 @@
   * [Scrum](execucao/tecnicas-de-programacao-agil/scrum.md)
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)
   * [Test-Driven Development](execucao/tecnicas-de-programacao-agil/test-driven-development.md)
-  * [Dados Estruturados](execucao/dados-estruturados.md)
+* [Dados Estruturados](execucao/dados-estruturados.md)
