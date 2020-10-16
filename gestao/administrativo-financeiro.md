@@ -53,7 +53,7 @@ Todos os pagamentos feitos pela Struct devem ser aprovados pelo\(a\) presidente 
 
 ### Balancetes
 
-Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes no começo de cada mês, referentes ao mês anterior \(quando os gastos mensais já estiverem fechados\).
+Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes referentes ao mês anterior no começo de cada mês \(quando os gastos mensais já estiverem fechados\).
 
 ![Exemplo de balancete](../imagens/Balancete.png)
 
@@ -61,13 +61,22 @@ No começo do mês, o primeiro passo para a realização do balancete consiste n
 
 O valor dos ativos sempre será colocado na coluna "*Devedor*" e o valor dos passivos, na coluna "*Credor*". Procure sempre descrever o ativo/passivo de forma clara e não ambígua, indicando se ele constitui uma parcela de projeto ou pagamento específico. Além disso, lembre-se de preencher o campo "*Total*" da coluna "*Saldo anterior*" com o saldo inicial do mês. Se tudo tiver sido preenchido corretamente, o campo "*Total*" da coluna "*Saldo final*" deve conter o saldo final do mês conforme indicado no extrato \(se isso não ocorrer, verifique se todos os ativos e passivos foram adicionados corretamente\). Salve o balancete gerado na pasta "*Administração e Financeiro -> Balancetes -> [Ano da sua gestão] -> Planilhas*" com o nome "*[Número do mês] - [Nome do mês]*". Em caso de dúvidas, consulte os balancetes dos meses anteriores.
 
-Após gerar o extrato e preencher o balancete de um mês, envie uma cópia de ambos os documentos para o contador da empresa.
+Após gerar o extrato e preencher o balancete de um mês, uma cópia de ambos os documentos deve ser enviada para o contador da empresa no [*email de atualização mensal*](#email-de-atualizacao-mensal).
 
 ### Contador
 
 A Struct paga uma empresa de contabilidade para a realização de serviços necessários ao funcionamento da Struct. Esses serviços incluem a emissão de documentos necessários para regularizar a situação fiscal da empresa júnior, a alteração do representante legal da Struct e a realização de serviços adicionais.
 
 Como diretor\(a\) administrativo-financeiro da Struct, cabe a você realizar os pagamentos à empresa de contabilidade \(os quais devem ser aprovados pelo\(a\) presidente da Struct\), enviar qualquer documento pedido pela empresa de contabilidade para a realização de seus serviços e requisitar serviços e documentos necessários à Struct \(como a emissão de documentos relativos ao selo EJ\). Lembre-se que essa comunicação geralmente é feita pelo email corporativo da empresa.
+
+#### Email de atualização mensal
+
+Alguns documentos deverão ser regularmente enviados ao contador. Para facilitar o trabalho do contador de localizar e gerenciar esses documentos, o envio eletrônico desses documentos deve ser feito por meio de **um único email enviado mensalmente**, o qual deve ser enviado **entre o 1º dia do mês e o 5º dia útil do mês**. Esse email de atualização mensal deve conter os seguintes documentos:
+
+* Balancete do mês anterior;
+* Extrato bancário do mês anterior;
+* Notas de entrada e saída emitidas no mês anterior;
+* Notas fiscais eletrônicas emitidas no mês anterior;
 
 ### Fiscalização de parcelas
 
@@ -87,11 +96,11 @@ As notas de entrada e saída são notas fiscais emitidas com o CNPJ \(Cadastro N
 
 As notas de entrada representam ativos para a empresa júnior e geralmente são notas fiscais eletrônicas emitidas quando um projeto termina de ser pago pelo cliente \(veja [essa seção](#notas-fiscais-eletronicas) para mais detalhes\). Enquanto isso, as notas de saída representam passivos \(gastos\) para a Struct e geralmente são notas fiscais fornecidas pelas empresas contratadas pela Struct quando a última parcela do contrato é paga \(caso isso não ocorra, entre em contato com a empresa contratada para requisitar a emissão da nota fiscal\).
 
-Tanto as notas de entrada como as notas de saída devem ser enviadas para o contador da empresa assim que possível, tarefa que cabe a você, diretor\(a\) administrativo-financeiro da Struct.
+Tanto as notas de entrada como as notas de saída devem ser enviadas para o contador da empresa no [*email de atualização mensal*](#email-de-atualizacao-mensal), tarefa que cabe a você, diretor\(a\) administrativo-financeiro da Struct.
 
 ### Notas fiscais eletrônicas
 
-Uma nota fiscal eletrônica é um documento eletrônico que serve para documentar a prestação de serviços realizada pela Struct. Este documento é geralmente emitido quando o cliente finaliza o pagamento das parcelas do projeto ou, mais raramente, a pedido do cliente. Como diretor\(a\) administrativo-financeiro da Struct, é sua obrigação emitir as notas fiscais eletrônicas de cada projeto da Struct e enviá-las para o cliente do projeto e para *o contador* assim que possível.
+Uma nota fiscal eletrônica é um documento eletrônico que serve para documentar a prestação de serviços realizada pela Struct. Este documento é geralmente emitido quando o cliente finaliza o pagamento das parcelas do projeto ou, mais raramente, a pedido do cliente. Como diretor\(a\) administrativo-financeiro da Struct, é sua obrigação emitir as notas fiscais eletrônicas de cada projeto da Struct e enviá-las para o cliente do projeto assim que possível e para *o contador* no [*email de atualização mensal*](#email-de-atualizacao-mensal).
 
 Para emitir uma nota fiscal eletrônica, utilize a conta da Struct para acessar a plataforma da [NFE+](https://www.nfemais.com.br/) \(caso você não saiba a conta da Struct para a plataforma NFE+, pergunte essa informação para o presidente atual da Struct ou para o último membro a ocupar a função de diretor administrativo-financeiro\).
 
@@ -113,7 +122,7 @@ Para emitir uma nota fiscal eletrônica, basta clicar em “Criar nova nota” e
 
 5. Na região "Dados do transporte", altere o campo "Modalidade de frete" para "9 – Sem Ocorrência de Transporte".
 
-6. Por fim, basta salvar e enviar a nota fiscal e esperar o status de “Autorizada” na coluna de "Situação" da mesma. Quando isso ocorrer, clique no minúsculo ícone de impressora ao lado do texto "Autorizada" para baixar a nota fiscal eletrônica. Salve o documento baixado no *Google Drive* na pasta "*Administração e Financeiro -> Nota Fiscal Eletrônica -> [Ano da sua gestão] -> [Número do mês] - [Nome do mês]*" com o nome "*NFE[Número da nota fiscal] - [Nome do cliente]*". Após salvar o documento, envie ele para o contador da empresa e para o cliente do projeto assim que possível.
+6. Por fim, basta salvar e enviar a nota fiscal e esperar o status de “Autorizada” na coluna de "Situação" da mesma. Quando isso ocorrer, clique no minúsculo ícone de impressora ao lado do texto "Autorizada" para baixar a nota fiscal eletrônica. Salve o documento baixado no *Google Drive* na pasta "*Administração e Financeiro -> Nota Fiscal Eletrônica -> [Ano da sua gestão] -> [Número do mês] - [Nome do mês]*" com o nome "*NFE[Número da nota fiscal] - [Nome do cliente]*". Após salvar o documento, envie ele para o cliente do projeto assim que possível e para o contador no [*email de atualização mensal*](#email-de-atualizacao-mensal).
 
 #### Pagamento de COFINS e ISS
 
