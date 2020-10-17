@@ -5,7 +5,8 @@
 ## Gestão
 
 * [Presidência](gestao/presidencia.md)
-* [Administrativo-Financeiro](gestao/administrativo-financeiro.md)
+* [Administrativo-Financeiro](gestao/administrativo-financeiro/README.md)
+  * [Pesquisa e Desenvolvimento \(R&D\)](gestao/administrativo-financeiro/pesquisa-e-desenvolvimento.md)
 * [Projetos](gestao/projetos.md)
 * [Marketing](gestao/marketing.md)
 * Vendas

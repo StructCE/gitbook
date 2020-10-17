@@ -228,11 +228,3 @@ Este documento é redigido pela Struct e assinado tanto pelo\(a\) coordenador\(a
 ### Sede
 
 A sede da Struct é uma sala localizada no prédio SG-11 da Universidade de Brasília \(UnB\). Como diretor\(a\) administrativo-financeiro da Struct, é sua obrigação garantir que a sede esteja sempre limpa e bem organizada, de forma que todos os membros possuam usufruir desse espaço e que ele forneça uma boa impressão da empresa júnior para visitantes. A boa organização da sede deve permitir que qualquer documento ou item seja facilmente encontrado por algum dos membros da Struct. Por fim, o gerenciamento dos item que estejam em falta na sede \(marcadores, papel, inseticida, etc...\) também é uma função da diretoria administrativo-financeira.
-
-### Divisão de R&D
-
-A divisão de R&D \(Pesquisa e Desenvolvimento\) possui a missão de pesquisar as ideias que surgirem dentro da empresa, incluindo as vantagens, desvantagens, custos, implementações, possíveis treinamentos e outros aspectos relativos a uma ideia. Essa pesquisa tem o propósito de gerar informações relevantes para a tomada de decisões por parte dos diretores da empresa júnior, motivando a inovação constante dentro da Struct. Como diretor\(a\) administrativo-financeiro da Struct, cabe a você supervisionar o funcionamento dessa divisão ou delegar essa supervisão a um subordinado.
-
-Quando uma ideia é proposta para a divisão de R&D, um dos membros da diretoria administrativo-financeira da Struct deve ser escolhido para pesquisar aquela ideia e escrever os resultados encontrados. Essa pesquisa deve levar no máximo umas 2-3 semanas e deve resultar em um relatório \(existe um modelo no *Google Drive* chamado "*Relatório de pesquisa e desenvolvimento \(R&D\)*"\), o qual será entregue para os diretores da Struct. Esse relatório é bem simples, tendo aproximadamente 1 página \(afinal de contas, o curso de Engenharia da Computação já possui trabalhos escritos que chega\), e deve providenciar as informações básicas mais importantes resultando da pesquisa.
-
-No momento, o acompanhamento das ideias propostas para a divisão de R&D é feito pelo *Trello*, mas sinta-se livre para utilizar qualquer outro meio para essa finalidade.
