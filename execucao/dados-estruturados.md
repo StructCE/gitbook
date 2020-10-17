@@ -8,10 +8,10 @@ O Open Graph é um protocolo de código aberto que tem como intuito deixar os co
 
 ### Sintaxe
 
-A implementação do protocolo Open Graph pode ser feita através de tags '&lt;meta/&gt;' no head do arquivo html, a sintaxe segue o modelo:
+A implementação do protocolo Open Graph pode ser feita através de tags `<meta>` na seção `<head>` do arquivo html. A sintaxe segue o modelo:
 
-- Título: &lt;meta property="og:title" content="Título aqui"/&gt;
-- Descrição: &lt;meta property="og:description" content="Descrição à respeito da página"/&gt;
-- Imagem: &lt;meta property="og:image" content="ht<span>tps://site-da-imagem.com/imagem/foto.jpg"/</span>&gt;
+- Título: `<meta property="og:title" content="Título aqui" />`
+- Descrição: `<meta property="og:description" content="Descrição a respeito da página" />`
+- Imagem: `<meta property="og:image" content="https://site-da-imagem.com/imagem/foto.jpg" />`
 
-Esses são os principais atributos, no entanto, há outros que podem ser utilizados, caso deseje saber mais a respeito do Open Graph, é possível encontrar mais informações no site https://ogp.me/.
+Esses são os principais atributos, no entanto há outros que podem ser utilizados. Caso deseje saber mais a respeito do Open Graph, é possível encontrar mais informações no [site oficial do Open Graph](https://ogp.me/).
