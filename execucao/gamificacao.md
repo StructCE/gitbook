@@ -8,18 +8,18 @@ A gamificação é centrada em um sistema de pontos que são dados ou retirados 
 A pontuação final de um membro é calculada usando a seguinte fórmula:
 > pontuação final = horas do mês + pontos adicionais
 
-As **horas do mês** são a quantidade de horas trabalhadas pelo membro, dentre as 6 horas mínimas exigidas, com a relação *1 hora = 1 ponto*. Haverá também uma pontuação extra por horas traalhadas acima do mínimo semanal.
+As **horas do mês** são a quantidade de horas trabalhadas pelo membro, dentre as 6 horas mínimas exigidas, com a relação *1 hora = 1 ponto*. Haverá também uma pontuação extra por horas trabalhadas acima do mínimo semanal.
 Os **pontos adicionais** são a contabilização de todos os pontos ganhos ou perdidos de acordo com os critérios definidos na tabela abaixo:
 
 Pontuação | Descrição | Frequência
 ------------ | ------------- | -------------
-+3 pontos | Caso o membro for gerente de projeto | Mensal
-+3 pontos | Caso o membro for diretor | Mensal
-+3 pontos | Caso o membro for instrutor de trainee | Mensal
++3 pontos | Caso o membro seja gerente de projeto | Mensal
++3 pontos | Caso o membro seja diretor | Mensal
++3 pontos | Caso o membro seja instrutor de trainee | Mensal
 +3 pontos | Para membros de destaque indicados por um diretor ou gerente de projeto | Mensal
 +3 pontos | Participação em 1 projeto | Mensal
 +5 pontos | Participação em 2 projetos | Mensal
-+1 ponto | Para cada projeto adicional acima de 2 | Mensal
++1 ponto | Para cada participação adicional em projeto acima de 2 | Mensal
 -3 pontos | Faltas não justificadas em reuniões | Por falta
 -3 pontos | Mensagens origatórias não respondidas (ex: *daily*) | Por mensagem
 -3 pontos | Atrasos em projetos ou tarefas da diretoria | Por atraso
