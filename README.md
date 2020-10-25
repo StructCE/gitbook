@@ -58,16 +58,17 @@ Os headers devem ser organizados de forma decrescente e nunca deve-se pular nív
 - Link sem deixar a URL exposta: `[Título do Link](URL)`;
 - Imagem: `![Título](caminho-para/imagem.jpg)`;
 - Link para outro arquivo markdown: `[Título desejado](caminho-para/página.md)`;
-- Link para outros tópico do próprio markdown: `[Título a ser mostrado](#titulo-do-header)`, sendo o título do header em letras minúsculas, separação de palavras com hífen e sempre utilizar apenas um `#`, independente do tamanho do header;
-- Pequeno trecho de código: `\`<p>use a crase\<\p>\``;
+- Link para outros tópico do próprio markdown: `[Título a ser mostrado](#titulo-do-header)`, sendo o título do header em letras minúsculas, separação de palavras com hífen e sempre utilizar apenas um único `#`, independente do tamanho do header;
+- Pequeno trecho de código: `` `<p>use a crase<\p>` ``;
 - Trecho extenso de código:  
+````
 ```
-\`\`\`
-\<li> use \</li>  
-\<li> três \</li>  
-\<li> crases \</li>  
-\`\`\`
+<li> use </li
+<li> três </li>
+<li> crases </li>
 ```
+````
+
 - Tabelas: use pelo menos 3 hífens (-) para criar o título de cada coluna e use '|' para separar as colunas:
 
 ```
