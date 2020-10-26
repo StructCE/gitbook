@@ -38,7 +38,7 @@ O Gitbook exibe os arquivos markdown de um repositório do Github na forma de p�
 No arquivo *SUMMARY.md* é feita toda a organização das páginas do Gitbook da seguinte forma:  
 * Na primeira linha colocamos `# Table of contents` para indicar ao Gitbook que o arquivo se trata do menu lateral que será usado para organizar as páginas.  
 * No menu lateral, para criar novas seções sem uma página principal bastar colocar `* Nome da Seção`.
-* Para adicionar uma página ao Gitbook basta colocar `* [Título da página](caminho/arquivo.md)`.
+* Para adicionar uma página ao Gitbook basta colocar `* [Nome da página](caminho/arquivo.md)`.
 * Caso seja desejado a criação de subpáginas ou subseções, utiliza-se dessa mesma sintaxe, porém identada em relação a seção superior.
 
 ##### Estrutura de Pastas
