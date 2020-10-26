@@ -10,7 +10,7 @@ Neste _space_ deve-se concentrar todos os conhecimentos de gestão e execução 
 
 #### Git e GitHub
 
-Para realizar modificações nas páginas do gitbook, é necessário ter um conhecimento básico em alguns conceitos de git, como: add, commit, pull, clone, push e branch. Caso não possua domínio sobre esses conceitos ou deseje revisar algum, a struct possui um material apresentando uma explicação sucinta [dos principais comandos](https://drive.google.com/file/d/1tH0LaDnD14pHnqq4cymkAjvYX5wkVrCs/view?usp=sharing), caso queira obter informaçõe mais detalhadas, pode-se consultar o livro [Pro Git](https://git-scm.com/book/en/v2) gratuitamente.
+Para realizar modificações nas páginas do gitbook, é necessário ter um conhecimento básico em alguns conceitos de git, como: add, commit, pull, clone, push e branch. Caso não possua domínio sobre esses conceitos ou deseje revisar algum, a struct possui um material apresentando uma explicação sucinta [dos principais comandos](https://drive.google.com/file/d/1tH0LaDnD14pHnqq4cymkAjvYX5wkVrCs/view?usp=sharing), caso queira obter informações mais detalhadas, pode-se consultar o livro *[Pro Git](https://git-scm.com/book/en/v2)* gratuitamente.
 
 ##### Observações importantes:
 
@@ -21,7 +21,7 @@ Para realizar modificações nas páginas do gitbook, é necessário ter um conh
 
 #### Repositório do Gitbook
 
-Para começar a trabalhar no gitbook, clone o [Repositório do gitbook](https://github.com/StructEC/gitbook/), crie uma nova branch e começe a fazer as modificações nela.
+Para começar a trabalhar no gitbook, clone o [Repositório no GitHub](https://github.com/StructEC/gitbook/), crie uma nova branch e começe a fazer as modificações nela.
 
 #### Padrões Utilizados no Gitbook
 
@@ -35,11 +35,9 @@ O gitbook exibe os arquivos markdown de um repositório do github na forma de p�
 
 ###### Sumário
 
-No arquivo *SUMMARY.md* é feita toda a organização das páginas do gitbook da seguinte forma:
-
-Na primeira linha colocamos `# Table of contents` para indicar ao gitbook que o arquivo se trata do menu lateral que será usado para organizar as páginas. 
-
-No menu lateral, para criar novas seções sem uma página principal bastar colocar `* Nome do Seção`. Para adicionar uma página ao gitbook basta colocar `* [Título da página](caminho/para/arquivo.md)`. Caso seja desejado a criação de subpáginas ou subseções, utiliza-se dessa mesma sintaxe porém identada em relação a seção superior.
+No arquivo *SUMMARY.md* é feita toda a organização das páginas do gitbook da seguinte forma:  
+Na primeira linha colocamos `# Table of contents` para indicar ao gitbook que o arquivo se trata do menu lateral que será usado para organizar as páginas.  
+No menu lateral, para criar novas seções sem uma página principal bastar colocar `* Nome da Seção`. Para adicionar uma página ao gitbook basta colocar `* [Título da página](caminho/para/arquivo.md)`. Caso seja desejado a criação de subpáginas ou subseções, utiliza-se dessa mesma sintaxe, porém identada em relação a seção superior.
 
 ##### Estrutura de Pastas
 
@@ -47,7 +45,8 @@ Para agrupar páginas relacionadas a um determinado tópico, é criado uma nova 
 
 ##### Padrões de Nomenclatura
 
-O nome de cada arquivo e pasta se refere ao principal tópico abordado nele, sendo, para arquivos markdown e diretórios, escrito com letra minúscula e para separação de palavras utiliza-se "-" enquanto que para arquivos de imagem, geralmente é utilizado "_". Em cada diretório, o arquivo da página principal será denotado por "*README*".
+O nome de cada arquivo e pasta se refere ao principal tópico abordado nele, sendo, para arquivos markdown e diretórios, escrito com letra minúscula e para separação de palavras utiliza-se "-". Em cada diretório, o arquivo da página principal será denotado por "*README*".  
+Arquivos de imagem não possuem restrições quanto ao formato das letras e para separação de palavras geralmente é utilizado "_".
 
 ##### Headers
 
@@ -58,7 +57,7 @@ Os headers devem ser organizados de forma decrescente e nunca deve-se pular nív
 - Link sem deixar a URL exposta: `[Título do Link](URL)`;
 - Imagem: `![Título](caminho-para/imagem.jpg)`;
 - Link para outro arquivo markdown: `[Título desejado](caminho-para/página.md)`;
-- Link para outros tópico do próprio markdown: `[Título a ser mostrado](#titulo-do-header)`, sendo o título do header em letras minúsculas, separação de palavras com hífen e sempre utilizar apenas um único `#`, independente do tamanho do header;
+- Link para outro tópico do próprio markdown: `[Título a ser mostrado](#titulo-do-header)`, sendo o título do header em letras minúsculas, separação de palavras com hífen e sempre utilizar apenas um único `#`, independente do tamanho do header;
 - Pequeno trecho de código: `` `<p>use a crase<\p>` ``;
 - Trecho extenso de código:  
 ````
