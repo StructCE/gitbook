@@ -37,3 +37,4 @@
   * [Test-Driven Development](execucao/tecnicas-de-programacao-agil/test-driven-development.md)
 * [Dados Estruturados](execucao/dados-estruturados.md)
 * [Gamificação](execucao/gamificacao.md)
+* [Mailer](execucao/mailer)
