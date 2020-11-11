@@ -63,6 +63,30 @@ O valor dos ativos sempre será colocado na coluna "*Devedor*" e o valor dos pas
 
 Após gerar o extrato e preencher o balancete de um mês, uma cópia de ambos os documentos deve ser enviada para o contador da empresa no [*email de atualização mensal*](#email-de-atualizacao-mensal).
 
+### Certificado digital
+
+A Struct possui um *certificado digital NF-e modelo A1*, o qual é necessário para que a emissão de NFEs seja realizada pela plataforma [NFE+](https://www.nfemais.com.br/) e para que o contador da Struct desempenhe certas obrigações financeiras. O certificado em si é um arquivo de extensão `.pfx` que possui uma senha de acesso. Para que o certificado possa ser instalado, é necessário ter tanto o arquivo de extensão `.pfx` como a senha de acesso. Esse certificado possui validade de 1 ano, com o vencimento do certificado atual ocorrendo aproximadamente no fim de Outubro.
+
+Como diretor\(a\) administrativo-financeiro da Struct, cabe a você entrar em contato com o\(a\) presidente da Struct para que um novo certificado possa ser comprado quando o certificado atual expirar. A compra do certificado precisa contar apenas com a presença do\(a\) presidente da Struct como representante oficial da Struct e é feita por meio de um agendamento online de atendimento presencial \(o qual é necessário para conferência de alguns documentos de identificação\), então procure se organizar com antecedência. Existe a possibilidade da realização de um processo por videoconferência, mas, para isso, é necessário que o\(a\) presidente da Struct possua cadastro biométrico no Serasa, o que é pouco provável de ocorrer.
+
+#### Compra de um novo certificado
+
+Para comprar um novo *certificado digital*, basta acessar o site de [certificados digitais do serasa](https://serasa.certificadodigital.com.br/) e seguir os passos abaixo. **É preferível que os passos 1 a 4 desse processo sejam feitos pelo\(a\) presidente da Struct e que os demais passos sejam feitos pelo\(a\) diretor\(a\) administrativo-financeiro.**
+
+1. No menu de compra de certificado à direita da tela inicial, selecione as opções de "NF-e", "A1 - Arquivo" e "12 meses" para as os itens "Certificado", "Dispositivo" e "Validade", respectivamente, e clique em "Comprar certificado".
+
+2. Escolha a opção "Presencial", a não ser que o\(a\) presidente da Struct possua cadastro biométrico no Serasa.
+
+3. Preencha a tela com os seus dados e agende um horário de atendimento.
+
+4. Compareça ao atendimento presencial agendado, lembrando-se de levar consigo um documento oficial de identificação. Esteja atento a qualquer orientação adicional fornecida por email \(ou seja, isso é quase um ENEM, mas sem a necessidade de levar canetas esferográficas de tinta preta\). *Caso os passos anteriores não tenham sido feitos pelo\(a\) presidente da Struct*, lembre-se que **o\(a\) presidente da Struct precisará estar presente nesse atendimento.** Nesse atendimento, você irá criar uma senha. Essa senha **não é** a senha do certificado em si, mas sim a **senha de acesso ao protocolo do certificado**, necessária para a emissão online do certificado digital.
+
+5. Após o atendimento presencial, o endereço de email cadastrado no passo 3 deverá receber um email detalhando um passo a passo a ser seguido para a emissão online do certificado. Esse email também terá um número de protocolo, o qual será necessário, juntamente com a senha criada no atendimento presencial, para emitir o certificado online. Geralmente, faz-se necessário até 24 horas para que o email seja enviado e que o certificado possa ser emitido.
+
+6. Quando o email for recebido, siga as instruções do email para a emissão do certificado. O email provavelmente irá conter um link para o site de [instalação do certificado digital](https://serasa.certificadodigital.com.br/instalacaoa1/) e instruções adicionais sobre plugins e programas a serem instalados para que o certificado digital possa ser emitido. Nesse passo, a **senha do certificado será criada**. *Guarde bem essa senha*, pois você precisará dela depois.
+
+7. Após emitir o certificado com sucesso, você deverá ter feito o download de um arquivo `.pfx` e deverá ter criado a senha do certificado digital. Cadastre o novo certificado no site do [NFE+](https://www.nfemais.com.br/) se logando no website e seguindo o caminho: "*Aba de configurações -> Região de certificado digital A1 -> Enviar novo certificado*". Além disso, envie o arquivo `.pfx` e a senha do certificado digital ao contador da Struct. Não se esqueça de *pagar o valor do certificado digital*, do contrário ele poderá vencer antes que o esperado.
+
 ### Contador
 
 A Struct paga uma empresa de contabilidade para a realização de serviços necessários ao funcionamento da Struct. Esses serviços incluem a emissão de documentos necessários para regularizar a situação fiscal da empresa júnior, a alteração do representante legal da Struct e a realização de serviços adicionais.
