@@ -16,7 +16,7 @@
 ## Execução
 
 * [Ruby on Rails](execucao/ruby-on-rails/README.md)
-  * [Instalação Ruby on Rails](execucao/ruby-on-rails/instalacao-ruby-on-rails.md)
+  * [Instalação](execucao/ruby-on-rails/instalacao.md)
   * [Bash de Ubuntu no Windows](execucao/ruby-on-rails/bash-de-ubuntu-no-windows.md)
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
