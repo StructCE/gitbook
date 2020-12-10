@@ -1,6 +1,6 @@
 # Git
 
-O git é o software para controle de versão distribuído utilizado pela {struct} em nossos projetos. Se usado de forma correta, essa poderosa ferramenta permite que mais de uma pessoa trabalhe no mesmo projeto de software simultaneamente, que as mudanças feitas no projeto sejam revisadas antes de ser aprovadas, e que o programador possua cópias locais do código para experimentar mudanças sem prejudicar o código do projeto. Entretanto, a grande quantidade de recursos oferecida pelo git pode facilmente conduzir a complicações e problemas, motivo pelo qual é essencial que sua utilização seja sempre feita de forma bem informada e norteada por boas práticas de projeto. Mais informações sobre o git podem ser encontradas no [site oficial do git](https://git-scm.com/).
+O git é o software para controle de versão distribuído utilizado pela Struct em nossos projetos. Se usado de forma correta, essa poderosa ferramenta permite que mais de uma pessoa trabalhe no mesmo projeto de software simultaneamente, que as mudanças feitas no projeto sejam revisadas antes de ser aprovadas, e que o programador possua cópias locais do código para experimentar mudanças sem prejudicar o código do projeto. Entretanto, a grande quantidade de recursos oferecida pelo git pode facilmente conduzir a complicações e problemas, motivo pelo qual é essencial que sua utilização seja sempre feita de forma bem informada e norteada por boas práticas de projeto. Mais informações sobre o git podem ser encontradas no [site oficial do git](https://git-scm.com/).
 
 ## Instalação
 

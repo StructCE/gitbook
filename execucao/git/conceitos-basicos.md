@@ -48,6 +48,8 @@ Além das informações relativas à alteração de arquivos, o comando `git sta
 
 ### Desfazendo mudanças
 
+### Ignorando mudanças
+
 ## Commits
 
 ### Realizando um commit
