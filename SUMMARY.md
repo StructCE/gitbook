@@ -15,6 +15,10 @@
 
 ## Execução
 
+* [Git](execucao/git/README.md)
+  * [Conceitos básicos](execucao/git/conceitos-basicos.md)
+  * [Utilização em projetos](execucao/git/utilizacao-em-projetos.md)
+  * [Soluções para problemas comuns](execucao/git/problemas-comuns.md)
 * [Ruby on Rails](execucao/ruby-on-rails/README.md)
   * [Instalação](execucao/ruby-on-rails/instalacao.md)
   * [Bash de Ubuntu no Windows](execucao/ruby-on-rails/bash-de-ubuntu-no-windows.md)
