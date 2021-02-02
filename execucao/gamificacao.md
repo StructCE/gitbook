@@ -5,10 +5,8 @@ O sistema de gamificação da Struct é um sistema com base em pontos com objeti
 A temporada da gamificação, incialmente, é definida como 6 meses. A gamificação, porém, pode ser alterada para tri ou quadrimensal em futuras edições.
 {% endhint %}
 
-Como o sistema ainda se encontra nas fases iniciais de implementação, as informações vistas abaixo não devem ser vistas como definitivas, com modificações podendo ser realizadas com o amadurecimento do sistema.
-
 ## Sistema de pontos
-A gamificação é centrada em um sistema de pontos que são dados ou retirados aos membros com base nas tarefas realizadas por cada um. Esses pontos são contabilizados mensalmente, com uma média mensal dos 6 meses sendo realizada no fim da temporada.
+A gamificação é centrada em um sistema de pontos que são dados ou retirados aos membros com base nas tarefas realizadas por cada um. Esses pontos são contabilizados mensalmente, com uma média mensal do período sendo realizada no fim da temporada.
 A pontuação final de um membro é calculada usando a seguinte fórmula:
 > pontuação final = horas do mês + pontos adicionais
 
@@ -74,8 +72,8 @@ Ranking | Patente | Pontuação Mensal
 As primeiras três patentes só podem ser ocupadas por um membro cada e tem como condição de entrada a obtenção de **no mínimo 45 pontos**. Caso apenas um membro consiga atingir a pontuação mínima do top 3, ele ocupará automaticamente a primeira posição.
 
 ## Premiação
-A cada 6 meses ocorrerá a finaliazação da temporada de pontos, sendo criada uma média mensal dos pontos obtidos pelos membros e posicinando-os na escala final de patentes.
-Os membros que se posicionarem no top 3 obterão os melhores prêmios da temporada enquanto os que estiverem entre as posições 4 e 6 do ranking terão prêmios mais simples.
+Na finaliazação da temporada de pontos, será criada uma média mensal dos pontos obtidos pelos membros, posicinando-os na escala final de patentes.
+Os membros que se posicionarem no top 3 obterão os melhores prêmios da temporada enquanto os que estiverem entre as posições 4 e 6 do ranking receberão prêmios mais simples.
 
 ## Aplicativo
 Está em desenvolvimento interno na Struct um aplicativo para acompanhamento do sistema pelos membros da empresa, com visualização de sua posição no ranking de patentes e projeção de qual será sua próxima patente de acordo com o seu desempenho atual. O objetivo é que o aplicativo também permita a contabilização automática das horas do clockify e contabilização de pontos para os diretores e gerentes de projeto, inclusive com a seleção dos membros de destaques por estes, para contabilização dos pontos extras.
