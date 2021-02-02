@@ -2,7 +2,7 @@
 Dentro da Struct nós utilizamos o *Clockify* para contabilização das horas trabalhadas pelos membros. O acesso ao clockify da empresa é dado ao membro a partir de sua efetivação, após a disponibilização do e-mail empresarial.
 
 ## Como funciona
-Assim que você entra no site, você irá de encontro com uma barra para inicialização do cronômetro. Nela, é possível adicionar uma descrição da tarefa realizada e selecionar a o projeto a qual a tarefa pertence, além do botão do início do cronômetro. A funcionalide de *tag* não é necessária dentro da Struct e a *billing* não é usada no momento.
+Assim que você entra no site, você irá de encontro com uma barra para inicialização do cronômetro. Nela, é possível adicionar uma descrição da tarefa realizada e selecionar o projeto a qual a tarefa pertence, além do botão do início do cronômetro. A funcionalidade de *tag* não é necessária dentro da Struct e a *billing* não é usada no momento.
 
 ![Cronômetro do Clockify](https://i.imgur.com/NsDB7Xi.png)
  
@@ -41,7 +41,7 @@ Toda diretoria da Struct está presente na aba de seleção de projeto dentro do
 * Pesquisas internas da diretoria
 
 #### Trainee
-Membro pertencentes ao time de realização e confecção do processo de trainee da Struct podem e devem adicionar suas tarefas realizadas dentro do *Clockify*, incluindo:
+Membros pertencentes ao time de realização e confecção do processo de trainee da Struct podem e devem adicionar suas tarefas realizadas dentro do *Clockify*, incluindo:
 * Tempo de aula ministradas
 * Preparação de materiais
 * Correção de listas
@@ -50,7 +50,7 @@ Membro pertencentes ao time de realização e confecção do processo de trainee
 #### Capacitação
 * Estudos de matérias e materiais relevantes para Struct (ex: React e cursos comprados pela Struct para os membros)
 * Presença em palestras divulgadas em canais oficiais da Struct
-* Presença em eventos oficiais (e: Concentra)
+* Presença em eventos oficiais (ex: Concentra)
 
 #### Presidência
 * Reuniões gerais

@@ -10,7 +10,7 @@ A gamificação é centrada em um sistema de pontos que são dados ou retirados 
 A pontuação final de um membro é calculada usando a seguinte fórmula:
 > pontuação final = horas do mês + pontos adicionais
 
-As **horas do mês** são a quantidade de horas trabalhadas pelo membro, dentre as 6 horas mínimas exigidas, com a relação *1 hora = 1 ponto*. Haverá também uma pontuação extra por horas trabalhadas acima do mínimo semanal. As horas trabalhadas são contabilizadas utilizando a ferramenta *[Clockify]*(clockify.md).
+As **horas do mês** são a quantidade de horas trabalhadas pelo membro, dentre as 6 horas mínimas exigidas, com a relação *1 hora = 1 ponto*. Haverá também uma pontuação extra por horas trabalhadas acima do mínimo semanal. As horas trabalhadas são contabilizadas utilizando a ferramenta [Clockify](clockify.md).
 Os **pontos adicionais** são a contabilização de todos os pontos ganhos ou perdidos de acordo com os critérios definidos na tabela abaixo:
 
 Pontuação | Descrição | Frequência
