@@ -39,9 +39,6 @@ _Itálico_ | `_Underline_` | `*Asterisco*`
 	* É possível meslcar listas ordenadas com desordenadas
 
 
-2)  Alternativamente, você pode usar o número seguido de um parênteses `2)`
-
-
 - [ ] Para uma checklist use `- [ ]` para definir um item em aberto
 - [x] Para um item terminado, use `- [x]`
 
