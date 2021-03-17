@@ -27,7 +27,7 @@ Para começar a trabalhar no Gitbook, clone o [repositório no GitHub](https://g
 
 ##### Arquivos Markdown
 
-Markdown é uma ferramenta que converte texto para HTML, sendo possível marcar títulos, listas, tabelas, etc., de forma muito mais limpa e legível do que o HTML padrão. Caso deseje aprender como escrever em arquivos markdown, seria interessante dar uma olhada em sua [sintaxe básica](https://www.markdownguide.org/basic-syntax/).
+Markdown é uma ferramenta que converte texto para HTML, sendo possível marcar títulos, listas, tabelas, etc., de forma muito mais limpa e legível do que o HTML padrão. Caso deseje aprender como escrever em arquivos markdown, seria interessante dar uma olhada em sua [sintaxe básica](guia-markdown.md).
 
 ##### Funcionamento
 
@@ -50,32 +50,3 @@ Para agrupar páginas relacionadas a um determinado tópico, é criado uma nova 
 O nome de cada arquivo e pasta se refere ao principal tópico abordado nele, sendo, para arquivos markdown e diretórios, escrito com letra minúscula e para separação de palavras utiliza-se '-'. Em cada diretório, o arquivo da página principal será denotado por `README`.
 
 Arquivos de imagem não possuem restrições quanto ao formato das letras e para separação de palavras geralmente é utilizado '_'.
-
-##### Headers
-
-Os headers devem ser organizados de forma decrescente e nunca deve-se pular nível. Portanto o header H1 \(`#` Header\) deve ser reservado apenas para o título da página.
-
-#### Algumas Dicas Sobre Markdown
-
-- Link sem deixar a URL exposta: `[Título do Link](URL)`;
-- Imagem: `![Título](caminho-para/imagem.jpg)`;
-- Link para outro arquivo markdown: `[Título desejado](caminho-para/página.md)`;
-- Link para outro tópico do próprio markdown: `[Título a ser mostrado](#titulo-do-header)`, sendo que o título do header deve estar em letras minúsculas, com separação de palavras com hífen, com 'c' ao invés de 'ç', e com apenas um único `#`, independente do tamanho do header;
-- Pequeno trecho de código: `` `<p>use a crase<\p>` ``;
-- Trecho extenso de código:  
-````
-```
-<li> use </li
-<li> três </li>
-<li> crases </li>
-```
-````
-
-- Tabelas: use pelo menos 3 hífens (-) para criar o título de cada coluna e use '|' para separar as colunas:
-
-```
-Syntax      | Description
------------ | -----------
-Header      | Title       
-Paragraph   | Text     
-```
