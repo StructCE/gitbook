@@ -55,13 +55,37 @@ Todos os pagamentos feitos pela Struct devem ser aprovados pelo\(a\) presidente 
 
 Os balancetes são documentos mensais que consistem em uma planilha que contém toda e qualquer movimentação de dinheiro dentro da empresa. Como diretor\(a\) administrativo-financeiro, é sua obrigação fazer os balancetes referentes ao mês anterior no começo de cada mês \(quando os gastos mensais já estiverem fechados\).
 
-![Exemplo de balancete](../imagens/Balancete.png)
+![Exemplo de balancete](../../imagens/Balancete.png)
 
 No começo do mês, o primeiro passo para a realização do balancete consiste no obtenção do extrato da conta bancária da Struct, o que é feito por meio do aplicativo ou do website do Banco do Brasil. Esse extrato é um arquivo *pdf* que deve ser adicionado ao Google Drive na pasta "*Administração e Financeiro -> Balancetes -> [Ano da sua gestão] -> Extratos*" com o nome "*[Número do mês] - [Nome do mês]*". Após o extrato ter sido adicionado ao Google Drive, você deve criar \(por meio do próprio Drive\) um documento do tipo "*Planilhas Google*" com base no modelo "*balancete_x*" e preencher esse documento com os ativos \(dinheiro recebido\) e passivos \(gastos\) presentes no extrato bancário desse mês.
 
 O valor dos ativos sempre será colocado na coluna "*Devedor*" e o valor dos passivos, na coluna "*Credor*". Procure sempre descrever o ativo/passivo de forma clara e não ambígua, indicando se ele constitui uma parcela de projeto ou pagamento específico. Além disso, lembre-se de preencher o campo "*Total*" da coluna "*Saldo anterior*" com o saldo inicial do mês. Se tudo tiver sido preenchido corretamente, o campo "*Total*" da coluna "*Saldo final*" deve conter o saldo final do mês conforme indicado no extrato \(se isso não ocorrer, verifique se todos os ativos e passivos foram adicionados corretamente\). Salve o balancete gerado na pasta "*Administração e Financeiro -> Balancetes -> [Ano da sua gestão] -> Planilhas*" com o nome "*[Número do mês] - [Nome do mês]*". Em caso de dúvidas, consulte os balancetes dos meses anteriores.
 
 Após gerar o extrato e preencher o balancete de um mês, uma cópia de ambos os documentos deve ser enviada para o contador da empresa no [*email de atualização mensal*](#email-de-atualizacao-mensal).
+
+### Certificado digital
+
+A Struct possui um *certificado digital NF-e modelo A1*, o qual é necessário para que a emissão de NFEs seja realizada pela plataforma [NFE+](https://www.nfemais.com.br/) e para que o contador da Struct desempenhe certas obrigações financeiras. O certificado em si é um arquivo de extensão `.pfx` que possui uma senha de acesso. Para que o certificado possa ser instalado, é necessário ter tanto o arquivo de extensão `.pfx` como a senha de acesso. Esse certificado possui validade de 1 ano, com o vencimento do certificado atual ocorrendo aproximadamente no fim de Outubro.
+
+Como diretor\(a\) administrativo-financeiro da Struct, cabe a você entrar em contato com o\(a\) presidente da Struct para que um novo certificado possa ser comprado quando o certificado atual expirar. A compra do certificado precisa contar apenas com a presença do\(a\) presidente da Struct como representante oficial da Struct e é feita por meio de um agendamento online de atendimento presencial \(o qual é necessário para conferência de alguns documentos de identificação\), então procure se organizar com antecedência. Existe a possibilidade da realização de um processo por videoconferência, mas, para isso, é necessário que o\(a\) presidente da Struct possua cadastro biométrico no Serasa, o que é pouco provável de ocorrer.
+
+#### Compra de um novo certificado
+
+Para comprar um novo *certificado digital*, basta acessar o site de [certificados digitais do serasa](https://serasa.certificadodigital.com.br/) e seguir os passos abaixo. **É preferível que os passos 1 a 4 desse processo sejam feitos pelo\(a\) presidente da Struct e que os demais passos sejam feitos pelo\(a\) diretor\(a\) administrativo-financeiro.**
+
+1. No menu de compra de certificado à direita da tela inicial, selecione as opções de "NF-e", "A1 - Arquivo" e "12 meses" para as os itens "Certificado", "Dispositivo" e "Validade", respectivamente, e clique em "Comprar certificado".
+
+2. Escolha a opção "Presencial", a não ser que o\(a\) presidente da Struct possua cadastro biométrico no Serasa.
+
+3. Preencha a tela com os seus dados e agende um horário de atendimento.
+
+4. Compareça ao atendimento presencial agendado, lembrando-se de levar consigo um documento oficial de identificação e os **[demais documentos necessários especificados pelo Serasa](https://serasa.certificadodigital.com.br/documentos-necessarios)**. Esteja atento a qualquer orientação adicional fornecida por email \(ou seja, isso é quase um ENEM, mas sem a necessidade de levar canetas esferográficas de tinta preta\). *Caso os passos anteriores não tenham sido feitos pelo\(a\) presidente da Struct*, lembre-se que **o\(a\) presidente da Struct precisará estar presente nesse atendimento.** Nesse atendimento, você irá criar uma senha. Essa senha **não é** a senha do certificado em si, mas sim a **senha de acesso ao protocolo do certificado**, necessária para a emissão online do certificado digital.
+
+5. Após o atendimento presencial, o endereço de email cadastrado no passo 3 deverá receber um email detalhando um passo a passo a ser seguido para a emissão online do certificado. Esse email também terá um número de protocolo, o qual será necessário, juntamente com a senha criada no atendimento presencial, para emitir o certificado online. Geralmente, faz-se necessário até 24 horas para que o email seja enviado e que o certificado possa ser emitido.
+
+6. Quando o email for recebido, siga as instruções do email para a emissão do certificado. O email provavelmente irá conter um link para o site de [instalação do certificado digital](https://serasa.certificadodigital.com.br/instalacaoa1/) e instruções adicionais sobre plugins e programas a serem instalados para que o certificado digital possa ser emitido. Nesse passo, a **senha do certificado será criada**. *Guarde bem essa senha*, pois você precisará dela depois.
+
+7. Após emitir o certificado com sucesso, você deverá ter feito o download de um arquivo `.pfx` e deverá ter criado a senha do certificado digital. Cadastre o novo certificado no site do [NFE+](https://www.nfemais.com.br/) se logando no website e seguindo o caminho: "*Aba de configurações -> Região de certificado digital A1 -> Enviar novo certificado*". Além disso, envie o arquivo `.pfx` e a senha do certificado digital ao contador da Struct. Não se esqueça de *pagar o valor do certificado digital*, do contrário ele poderá vencer antes que o esperado.
 
 ### Contador
 
@@ -104,7 +128,7 @@ Uma nota fiscal eletrônica é um documento eletrônico que serve para documenta
 
 Para emitir uma nota fiscal eletrônica, utilize a conta da Struct para acessar a plataforma da [NFE+](https://www.nfemais.com.br/) \(caso você não saiba a conta da Struct para a plataforma NFE+, pergunte essa informação para o presidente atual da Struct ou para o último membro a ocupar a função de diretor administrativo-financeiro\).
 
-![Tela do site NFE+](../imagens/Tela_NFE+.png)
+![Tela do site NFE+](../../imagens/Tela_NFE+.png)
 
 Ao clicar no nome de um destinatário, na segunda coluna, é possível ver as informações daquela nota fiscal, o que ajuda no preenchimento de novas notas fiscais em casos de dúvidas. Tome um momento para se familiarizar com as notas fiscais existentes porque isso ajudará a sanar quaisquer dúvidas relativas ao processo como um todo de forma muito mais rápida que fazer perguntas para os últimos diretores administrativo-financeiros da Struct \(eu falo por experiência própria\).
 
@@ -182,13 +206,13 @@ Para obter esse documento, basta acessar o [site da Secretaria de Estado de Faze
 
 A RAIS Negativa é um documento que pode ser emitido no [site da RAIS](https://goo.gl/eF3h23). Para o preenchimento dos campos de formulário, utilize as imagens abaixo como base.
 
-  ![Tela 1](../imagens/Tela_RAIS_1.png)
+  ![Tela 1](../../imagens/Tela_RAIS_1.png)
 
-  ![Tela 2](../imagens/Tela_RAIS_2.png)
+  ![Tela 2](../../imagens/Tela_RAIS_2.png)
 
-  ![Tela 3](../imagens/Tela_RAIS_3.png)
+  ![Tela 3](../../imagens/Tela_RAIS_3.png)
 
-  ![Tela 4](../imagens/Tela_RAIS_4.png)
+  ![Tela 4](../../imagens/Tela_RAIS_4.png)
 
 Observações:
   - A atividade econômica e natureza jurídica da empresa júnior podem ser encontradas no documento do CNPJ.

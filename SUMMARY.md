@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Bem-Vindo à Wiki da {struct}](README.md)
+  * [Guia Markdown](guia-markdown.md)
 
 ## Gestão
 
@@ -15,8 +16,12 @@
 
 ## Execução
 
+* [Git](execucao/git/README.md)
+  * [Conceitos básicos](execucao/git/conceitos-basicos.md)
+  * [Utilização em projetos](execucao/git/utilizacao-em-projetos.md)
+  * [Soluções para problemas comuns](execucao/git/problemas-comuns.md)
 * [Ruby on Rails](execucao/ruby-on-rails/README.md)
-  * [Instalação Ruby on Rails](execucao/ruby-on-rails/instalacao-ruby-on-rails.md)
+  * [Instalação](execucao/ruby-on-rails/instalacao.md)
   * [Bash de Ubuntu no Windows](execucao/ruby-on-rails/bash-de-ubuntu-no-windows.md)
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
@@ -36,5 +41,6 @@
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)
   * [Test-Driven Development](execucao/tecnicas-de-programacao-agil/test-driven-development.md)
 * [Dados Estruturados](execucao/dados-estruturados.md)
-* [Gamificação](execucao/gamificacao.md)
+* [Gamificação](execucao/gamificacao/gamificacao.md)
+  * [Clockify](execucao/gamificacao/clockify.md)
 * [Mailer](execucao/mailer.md)
