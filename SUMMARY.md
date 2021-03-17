@@ -43,3 +43,4 @@
 * [Dados Estruturados](execucao/dados-estruturados.md)
 * [Gamificação](execucao/gamificacao/gamificacao.md)
   * [Clockify](execucao/gamificacao/clockify.md)
+* [Mailer](execucao/mailer.md)
