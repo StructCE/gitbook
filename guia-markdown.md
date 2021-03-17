@@ -25,7 +25,6 @@ Estilo | Comando | Alternativa
 ------- | ----------- | -------
 _Itálico_ | `_Underline_` | `*Asterisco*`
 **Negrito** | `__Underline duplo__` | `**Asterisco duplo**`
-~riscado~ | `~Til~`
 ***Itáilico e negrito*** | `***Asterisco triplo***` | `**_Asterisco e underline_**`
 
 ## Listas
@@ -34,9 +33,15 @@ _Itálico_ | `_Underline_` | `*Asterisco*`
 * Para listas desordenadas voce pode utilizar um asterisco simples `*` antes da linha
 	* Você também pode usar `tab` antes do asterisco para ir para um próximo nível da lista
 - Você também pode usar `-` no lugar do asterisco
+
+
 1. Para listas ordenadas use o número seguido de um ponto `1.`
 	* É possível meslcar listas ordenadas com desordenadas
+
+
 2)  Alternativamente, você pode usar o número seguido de um parênteses `2)`
+
+
 - [ ] Para uma checklist use `- [ ]` para definir um item em aberto
 - [x] Para um item terminado, use `- [x]`
 
@@ -72,9 +77,6 @@ Para link para outro [tópico](#titulos) do próprio Markdown use `[Título a se
 
 ## Imagens
 Inserir uma imagem é similar à inserção de links, usando a sintaxe `![Imagem](https://i.imgur.com/0Y6Qh0Z.png)`. Para imagens dentro do repositório do Gitbook, use o caminho para a imagem.
-
-## Emojis
-:heavy_check_mark: Para inserção de emojis em Markdows, pode ser seguido esse [guia](https://github.com/hnscdg/gitbook/issues/1) com os códigos de diversos emojis disponíveis.
 
 ## Dicas
 {% hint style="info" %} 
