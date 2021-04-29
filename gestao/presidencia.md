@@ -34,7 +34,22 @@ As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-de
 
 - **Cada pauta deve ter os responsáveis por conduzi-las**, para que haja uma maior organização na ordem e espaço de fala de cada membro. Geralmente são conduzidas pelos diretores responsáveis pela pauta, mas dependendo, o membro que a propôs pode conduzir também.
 
+- **Pedir para algum membro anotar a ata**, para documentar as pautas que foram abordadas durante a reunião
+
 - **Anunciar a RG com 5 dias de antecedência** quando possível, por meio de uma mensagem contendo:
     - Data, hora, local, e se for virtual, a plataforma (geralmente ocorre pelo discord);
     - Avisos gerais e pautas (também deixar aberto para outros membros sugerirem pautas);
     - Pedir para reagir ou responder quando a mensagem for lida.
+
+## Reuniões de Diretoria (Redirex)
+
+Os diretores são os líderes da EJ e logo, são os que mais sabem da realidade de suas respectivas diretorias, e tomarão as melhores decisões para elas.  
+Por isso, foi optado por conferir aos diretores maior liberdade para que o desempenho deles seja o maior possível. Porém, como obrigação do cargo de presidência, é essencial garantir que a diretoria como um todo siga em consonância e uniformidade, e transmitir isso para os membros, principalmente nas RGs.
+
+Para maior garantia disso e para situar melhor o presidente (e os outros diretores) em relação à EJ, foi proposto uma reunião de diretoria a cada semana, em um dia e horário fixo.
+  
+A ideia é ser uma reunião curta e direta para os diretores se reunirem e discutirem algumas pautas fixas:
+  - Atualização e diagnóstico das diretorias, isso é, quais projetos estão rolando, tretas internas e desempenho dos membros;
+  - Levantamento de problemas da diretoria, ou seja, o que está atrapalhando o desempenho da diretoria;
+  - Levantamento de soluções a esses problemas ou ideias da diretoria(pode ser uma proposta de um projeto interno);
+  - Conversar sobre tudo que está acontencendo em relação à Struct.
