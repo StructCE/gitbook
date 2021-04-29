@@ -53,3 +53,7 @@ A ideia é ser uma reunião curta e direta para os diretores se reunirem e discu
   - Levantamento de problemas da diretoria, ou seja, o que está atrapalhando o desempenho da diretoria;
   - Levantamento de soluções a esses problemas ou ideias da diretoria(pode ser uma proposta de um projeto interno);
   - Conversar sobre tudo que está acontencendo em relação à Struct.
+
+## Organinzar agenda da Struct
+
+Preencher a agenda compartilhada com a equipe com os eventos internos da EJ e eventos do MEJ(Sábado Júniorm Concentra, etc).
