@@ -25,7 +25,7 @@ No momento da troca de gestão, muitas coisas devem ser feitas para a próxima g
 
 As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Normalmente as RGs são bissemanais, algumas pautas comuns a serem tocadas:
 - Prestação de contas no início de cada mês.
-- Atualizações dos Rps(repasses) do conselho da Concentro.
+- Atualizações das Rps do conselho da Concentro.
 
 ### Premissas
 - **O presidente deve conduzir a reunião e seu ritmo**, mas sempre dando espaço para todos emitirem suas ideias e opiniões;
@@ -57,3 +57,26 @@ A ideia é ser uma reunião curta e direta para os diretores se reunirem e discu
 ## Organinzar agenda da Struct
 
 Preencher a agenda compartilhada com a equipe com os eventos internos da EJ e eventos do MEJ(Sábado Júniorm Concentra, etc).
+
+## Realizar reuniões com a nova diretoria eleita para cogestão
+
+Alinhar os seguintes tópicos com os novos diretores:
+- Funções da Concentro
+- Diretorias da Concentro e suas Funções
+- Conselho Administrativo
+- Presidência do Conselho e sua Função
+- Equipe Concentro
+- Guardiões
+- Metas da Brasil Júnior, significados e motivos para fazer
+- Eventos da Concentro e porque ir
+- EDL (Encontro de Líderes do MEJ)
+- ENEJ (Encontro Nacional de Empresas Juniores)
+- Concentra
+- Coleta de Metas: Como coletar
+- Selo EJ: o que prestar atenção
+- Selo EJ: motivo?
+- Portal Brasil Júnior e porque acompanhá-lo sempre
+- Pipefy: o que é e como aproveitar
+- Falhas desse ano e como consertar
+- Importância das RPs
+- Planejamento Estratégico: como fazer e por que
