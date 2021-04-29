@@ -30,7 +30,7 @@ As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-de
 ### Premissas
 - **O presidente deve conduzir a reunião e seu ritmo**, mas sempre dando espaço para todos emitirem suas ideias e opiniões;
 
-- **É recomendado que toda RG contenha uma apresentação de slide** para conduzi-la, tanto para ajudar a relembrar os principais pontos da pauta como prender a atenção dos membros
+- **É recomendado que toda RG contenha uma apresentação de slide** para conduzi-la, tanto para ajudar a relembrar os principais pontos da pauta, quanto para prender a atenção dos membros
 
 - **Cada pauta deve ter os responsáveis por conduzi-las**, para que haja uma maior organização na ordem e espaço de fala de cada membro. Geralmente são conduzidas pelos diretores responsáveis pela pauta, mas dependendo, o membro que a propôs pode conduzir também.
 
