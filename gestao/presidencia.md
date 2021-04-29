@@ -23,9 +23,9 @@ No momento da troca de gestão, muitas coisas devem ser feitas para a próxima g
 
 ## Reuniões Gerais
 
-As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Algumas pautas comuns a serem tocadas:
+As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Normalmente as RGs são bissemanais, algumas pautas comuns a serem tocadas:
 - Prestação de contas no início de cada mês.
-- Atualizações das Rps do conselho da Concentro.
+- Atualizações dos Rps(repasses) do conselho da Concentro.
 
 ### Premissas
 - **O presidente deve conduzir a reunião e seu ritmo**, mas sempre dando espaço para todos emitirem suas ideias e opiniões;
