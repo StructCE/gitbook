@@ -10,8 +10,9 @@
   * [Pesquisa e Desenvolvimento \(R&D\)](gestao/administrativo-financeiro/pesquisa-e-desenvolvimento.md)
 * [Projetos](gestao/projetos.md)
 * [Marketing](gestao/marketing.md)
-* Vendas
-  * [Fazer Proposta](gestao/Vendas/fazer-proposta.md)
+* [Comercial](gestao/comercial/README.md)
+  * [Funil de Vendas](gestao/comercial/funil-de-vendas.md)
+  * [Fazer Proposta](gestao/comercial/fazer-proposta.md)
 * [Recursos Humanos](gestao/recursos-humanos.md)
 
 ## Execução

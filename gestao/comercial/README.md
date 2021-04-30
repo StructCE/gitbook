@@ -1,0 +1,2 @@
+# Comercial
+A diretoria de comercial é a parte da empresa responsável pela comunicação com os clientes e possíveis clientes, proporcionando as reuniões de contato, elaboração de propostas e o fechamento de contratos, garantindo um bom fluxo de projetos para a empresa.
