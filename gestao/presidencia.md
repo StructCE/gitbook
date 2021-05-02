@@ -102,3 +102,7 @@ A adição dos membros nas plataformas é feito de forma **ordenada** na seguint
 4. Clockify
 5. Slack
 6. Portal da Brasil Júnior
+
+## Criação de cartão PayPal Pré-Pago
+
+**Semestralmente** é preciso renovar o cartão pré-pago da Paypal para realizar o pagamento do servidor da Digital Ocean.
