@@ -136,3 +136,28 @@ A ideia é cada diretoria tocar seu OKR para que cada uma encaminhe suas buscas 
 
 O draft é o processo de alocação dos membros em suas respectivas diretorias e migração entre as diretorias. Apesar de ser uma tarefa da diretoria de *Gestão de Pessoas*, é sempre bom o presidente alinhar isso no início de cada semestre, em que geralmente os novos membros estão sendo efetivados.
 
+## Processos de troca de Gestão
+### Walkthrough
+1. Convocar uma AGE (Assembléia Geral Extraordinária) de eleição com um edital
+2. Realize a eleição
+3. Eleja todos os diretores previstos no Estatuto
+4. Confeccionar ata de eleição e carta de convocação
+5. Confeccionar termo de posse(não precisa registrar no cartório)
+6. Solicitar requerimento de Registro de documentos ao antigo presidente
+7. Solicitar emissão da carta de renúncia coletiva de toda diretoria em exercício
+8. Recolher a assinatura de todos os diretores eleitos
+9. Comparecer ao cartório e pagar taxa
+10. Aproveitar e tirar cópia autenticada do documento do presidente que tomará posse, ata de eleição e estatuto social.
+11. Comparecer ao banco com o diretor de adm-fin e entregar tanto a ata de eleição quanto o termo de posse(**Dica: tenha em mente já uma senha alfanumérica de 8 caracteres e outra senha de 8 digitos numéricos**)
+12. Cadastre-se no BB code com a conta PJ do BB para maiores poderes de acesso e alteração na conta. Com ela, pode-se alterar o limite de transação, e outros procedimentos de forma menos burocrática e à distância.  
+
+#### Alterativa pandemia
+Se a RG for online, deve-se realizar os passos 4 e 5 e registrar os documentos nesse site: http://www.rtddf.com.br/web/principal?returnUrl=%2Fprincipal.
+
+### Troca de CNPJ
+
+- Solicitar serviço ao contador
+- Entregar pessoalmente cópias autenticadas da identidade do presidente, estatuto social e ata de eleição
+
+## Informações Secretárias
+- Uma vez realizada a troca de gestão efetivamente, no inicio do ano(março) é altamente recomendado mandar os documentos do declaraçao de voluntarios da EJ, Termo de posse da diretoria em posse e, se solicitarem, a planilha que contém as informações dos membros atuais da EJ(localizado no drive GP)  .
