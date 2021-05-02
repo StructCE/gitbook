@@ -88,3 +88,17 @@ Alinhar os seguintes tópicos com os novos diretores:
 - Falhas desse ano e como consertar
 - Importância das RPs
 - Planejamento Estratégico: como fazer e por que
+
+## Adição dos novos membros nas nossas plataformas
+
+Essa tarefa é realizada ao fim de cada semestre, logo depois da efetivação dos trainees. Como novos membros, eles devem ser logo integrados nas nossas plataformas para já estarem prontos para trabalharem na empresa!
+  
+Em 2021, foi passado um formulário chamado [Passaporte Struct!](https://docs.google.com/forms/d/1VVXhtbWqfgb7fu4YpHUJPd3RaVKPX4b28bVEBICuBI8/edit?usp=sharing), que foi utilizado como base para a integração dos membros nessas plataformas.
+  
+A adição dos membros nas plataformas é feito de forma **ordenada** na seguinte ordem:  
+1. Github
+2. Conta gmail institucional
+3. Trello
+4. Clockify
+5. Slack
+6. Portal da Brasil Júnior
