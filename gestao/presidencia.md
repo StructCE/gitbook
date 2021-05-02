@@ -98,7 +98,7 @@ Essa tarefa é realizada ao fim de cada semestre, logo depois da efetivação do
   
 Em 2021, foi passado um formulário chamado [Passaporte Struct!](https://docs.google.com/forms/d/1VVXhtbWqfgb7fu4YpHUJPd3RaVKPX4b28bVEBICuBI8/edit?usp=sharing), que foi utilizado como base para a integração dos membros nessas plataformas.
   
-A adição dos membros nas plataformas é feito de forma **ordenada** na seguinte ordem:  
+A adição dos membros nas plataformas é feito de forma **ordenada** na seguinte ordem:
 1. Github
 2. Conta gmail institucional
 3. Trello
