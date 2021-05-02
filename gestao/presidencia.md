@@ -28,6 +28,11 @@ No momento da troca de gestão, muitas coisas devem ser feitas para a próxima g
 16. **Linkedin:** [struct-ej](https://br.linkedin.com/company/struct-ej)
 
 
+## Verificação em 2 etapas
+
+Cada conta da Struct (como admin@struct.unb.br, contato@struct.unb.br, etc.) possuem sua verificação de 2 etapas. A cada gestão é necessário atualizar o número da verificação com o dos atuais diretores.
+
+
 ## Reuniões Gerais
 
 As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Normalmente as RGs são bissemanais, algumas pautas comuns a serem tocadas:
@@ -98,7 +103,8 @@ Essa tarefa é realizada ao fim de cada semestre, logo depois da efetivação do
   
 Em 2021, foi passado um formulário chamado [Passaporte Struct!](https://docs.google.com/forms/d/1VVXhtbWqfgb7fu4YpHUJPd3RaVKPX4b28bVEBICuBI8/edit?usp=sharing), que foi utilizado como base para a integração dos membros nessas plataformas.
   
-A adição dos membros nas plataformas é feito de forma **ordenada** na seguinte ordem:
+A adição dos membros nas plataformas é feito de forma **ordenada** na seguinte ordem:  
+
 1. Github
 2. Conta gmail institucional
 3. Trello
