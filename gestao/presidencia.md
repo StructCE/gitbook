@@ -132,3 +132,7 @@ OKR é uma sigla em inglês para Objectives and Key Results, ou seja, é uma met
 A ideia é cada diretoria tocar seu OKR para que cada uma encaminhe suas buscas e tarefas de forma a atingir os objetivos ao final do ano determinados no PE. Na realidade, o ideal é o OKR ser geral, de modo que o plano de ação seja destrinchado para cada diretoria. Mas caso seja incompatível, seguir na ideia do OKR em cada diretoria:  
 [OKR: o que é e como implementar a metodologia de objectives and key results](https://rockcontent.com/br/blog/okr/#:~:text=OKR%20%C3%A9%20uma%20metodologia%20de,a%20conquista%20dos%20n%C3%BAmeros%20ideais).
 
+## DRAFT
+
+O draft é o processo de alocação dos membros em suas respectivas diretorias e migração entre as diretorias. Apesar de ser uma tarefa da diretoria de *Gestão de Pessoas*, é sempre bom o presidente alinhar isso no início de cada semestre, em que geralmente os novos membros estão sendo efetivados.
+
