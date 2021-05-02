@@ -2,8 +2,6 @@
 
 A cabeça da empresa, o líder. Ele é quem fará a empresa a mediação para direcionar a empresa ao crescimento.
 
-## TODO: preencher isso com dados diretamente do estatuto para auxiliar o presidente em sua gestão
-
 ## Troca de Gestão
 
 No momento da troca de gestão, muitas coisas devem ser feitas para a próxima gestão poder trabalhar normalmente. Aqui na presidência iremos falar principalmente de passar adiante contas eletrônicas. Para a questão de documentação procure na seção de [Administrativo-Financeiro](administrativo-financeiro.md).
@@ -29,6 +27,7 @@ No momento da troca de gestão, muitas coisas devem ser feitas para a próxima g
 15. **BitBucket**
 16. **Linkedin:** [struct-ej](https://br.linkedin.com/company/struct-ej)
 
+
 ## Reuniões Gerais
 
 As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Normalmente as RGs são bissemanais, algumas pautas comuns a serem tocadas:
@@ -49,6 +48,7 @@ As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-de
     - Avisos gerais e pautas (também deixar aberto para outros membros sugerirem pautas);
     - Pedir para reagir ou responder quando a mensagem for lida.
 
+
 ## Reuniões de Diretoria (Redirex)
 
 Os diretores são os líderes da EJ e logo, são os que mais sabem da realidade de suas respectivas diretorias, e tomarão as melhores decisões para elas.  
@@ -62,9 +62,11 @@ A ideia é ser uma reunião curta e direta para os diretores se reunirem e discu
   - Levantamento de soluções a esses problemas ou ideias da diretoria(pode ser uma proposta de um projeto interno);
   - Conversar sobre tudo que está acontencendo em relação à Struct.
 
+
 ## Organinzar agenda da Struct
 
 Preencher a agenda compartilhada com a equipe com os eventos internos da EJ e eventos do MEJ(Sábado Júniorm Concentra, etc).
+
 
 ## Realizar reuniões com a nova diretoria eleita para cogestão
 
@@ -89,6 +91,7 @@ Alinhar os seguintes tópicos com os novos diretores:
 - Importância das RPs
 - Planejamento Estratégico: como fazer e por que
 
+
 ## Adição dos novos membros nas nossas plataformas
 
 Essa tarefa é realizada ao fim de cada semestre, logo depois da efetivação dos trainees. Como novos membros, eles devem ser logo integrados nas nossas plataformas para já estarem prontos para trabalharem na empresa!
@@ -103,9 +106,11 @@ A adição dos membros nas plataformas é feito de forma **ordenada** na seguint
 5. Slack
 6. Portal da Brasil Júnior
 
+
 ## Criação de cartão PayPal Pré-Pago
 
 **Semestralmente** é preciso renovar o cartão pré-pago da Paypal para realizar o pagamento do servidor da Digital Ocean.
+
 
 ## PE e OKR
 
@@ -131,6 +136,7 @@ O PE é um documento que deve ser elaborado anualmente para que a Struct tenha o
 OKR é uma sigla em inglês para Objectives and Key Results, ou seja, é uma metodologia de gestão que foca em rastrear objetivos e resultados-chave de uma empresa.  
 A ideia é cada diretoria tocar seu OKR para que cada uma encaminhe suas buscas e tarefas de forma a atingir os objetivos ao final do ano determinados no PE. Na realidade, o ideal é o OKR ser geral, de modo que o plano de ação seja destrinchado para cada diretoria. Mas caso seja incompatível, seguir na ideia do OKR em cada diretoria:  
 [OKR: o que é e como implementar a metodologia de objectives and key results](https://rockcontent.com/br/blog/okr/#:~:text=OKR%20%C3%A9%20uma%20metodologia%20de,a%20conquista%20dos%20n%C3%BAmeros%20ideais).
+
 
 ## DRAFT
 
@@ -159,5 +165,45 @@ Se a RG for online, deve-se realizar os passos 4 e 5 e registrar os documentos n
 - Solicitar serviço ao contador
 - Entregar pessoalmente cópias autenticadas da identidade do presidente, estatuto social e ata de eleição
 
-## Informações Secretárias
-- Uma vez realizada a troca de gestão efetivamente, no inicio do ano(março) é altamente recomendado mandar os documentos do declaraçao de voluntarios da EJ, Termo de posse da diretoria em posse e, se solicitarem, a planilha que contém as informações dos membros atuais da EJ(localizado no drive GP)  .
+### Informações Secretárias
+- Uma vez realizada a troca de gestão efetivamente, no inicio do ano(março) é altamente recomendado mandar os documentos do declaraçao de voluntarios da EJ, Termo de posse da diretoria em posse e, se solicitarem, a planilha que contém as informações dos membros atuais da EJ(localizado no drive GP).
+
+
+## Conselheiro Concentro
+
+A Concentro possui 3 principais entidades de governança: Diretoria executiva, conselho e conselho admnistrativo. Vamos nos ater ao conselho.
+
+O Conselho é formado por um representante de cada EJ que compõe a federação do DF, Concentro. O papel do conselheiro envolve representar a EJ nas deliberações do Conselho tanto para a jornada empreendedora para o ano, quanto para os eventos e produtos que vão compor a jornada. Além de representar a EJ na Federação, o conselheiro atua como também o representante da Federação para a EJ, no caso a Struct; de modo a repassar e alinhar a EJ com a PE da rede e os repasses dos produtos e eventos que a Concentro busca promover para as pontas da rede, no caso os membros da Struct.
+
+Em resumo, o conselheiro é a ponte de mão dupla entre Struct e a Concentro. Geralmente, os encontros do conselho são mensais, as RGs(reuniões gerais). Nelas ocorrem, votações e repasses de alinhamento da Federação para as EJs, além de proporcionar a jornada do conselheiro no conselho. Tendo isso em vista, as decisões e formas de traçar as análises criticas às situações e discussões postas nas reuniões gerais do conselho envolvem **lentes**, ou seja, perspectivas que nos permitem enxergar diferentes pontos de vistas que estão envolvidas na discussão. Ela é imprescindível para que as decisões possam ser tomadas de forma sábia e que contemplem a todos os atores e stakeholders da federação, assim como a Struct.
+
+Temos 3 lentes:
+
+- Articuladora: Como articulador da rede e do MEJ, e de tudo aquilo que é discutido como os valores do MEJ para as EJs do Brasil. Aqui você agirá como um representante direto do MEJ
+  - Compromisso com metas de desenvolvimento da rede
+  - Decisões de impacto holístico à rede
+  - Zelar pelo PE
+  - Como minha decisão impacta a Rede como um todo?
+  - Eu estou Participando ativamente dos programas da Concentro?
+  - Minha EJ está se engajando com as metas da Rede?
+  - Eu estou na minha rotina promovendo o MEJ?
+
+- Cliente: Como representante direto da EJ no conselho da Federação, buscando trazer as visões da EJ nas discussões do conselho e representando a voz da sua EJ nas decisões
+  - Promover feedbacks de suas EJs em relação às iniciativas da Concentro
+  - Perspectiva e a realidade da sua EJ
+  - Como tornar a Concentro mais eficiente?
+  - Qual impacto da minha decisão?
+  - Como Maximizar os resultados da Concentro?
+  - Minha ideia Zela pela eficiência e está alinhada com a estratégia?
+
+- Acionista: Como se fosse um investidor e parte integrante da organização da Concentro como federação, de modo a buscar ganhos para a Federação
+  - Avalia resultados estratégicos e toma decisões
+  - Usar dos documentos do CA para a tomada de decisão
+  - Maximizar resultados da federação
+  - Como tornar a Concentro mais eficiente?
+  - Qual impacto da minha decisão?
+  - Como Maximizar os resultados da Concentro?
+  - Minha ideia Zela pela eficiência e está alinhada com a estratégia?
+
+
+## TODO: preencher isso com dados diretamente do estatuto para auxiliar o presidente em sua gestão
