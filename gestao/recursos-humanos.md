@@ -15,7 +15,7 @@ Ironicamente, esse nome não surgiu magicamente, é uma sigla para Meaning (Sign
 
 O acompanhamento pessoal é uma conversa individual com cada membro da Struct em que são realizadas algumas perguntas (previamente definidas em conjunto pela GP) cujas respostas são registradas em um documento.
 
-Essa reunião, geralmente realizada pelo discord, tem o intuito de extrair a situação específica de cada membro, perguntando como ele está e o quê a empresa pode fazer para ajudá-lo, caso necessário (como por exemplo, oferecer um tempo de folga se o membro estiver muito desgastado e/ou sobrecarregado).
+Essa reunião tem o intuito de extrair a situação específica de cada membro, perguntando como ele está e o quê a empresa pode fazer para ajudá-lo, caso necessário (como por exemplo, oferecer um tempo de folga se o membro estiver muito desgastado e/ou sobrecarregado).
 
 De um mês para o outro, os membros do RH tentam revezar quem ficará responsável por cada acompanhamento, evitando, assim, que os membros sempre conversem com as mesmas pessoas.
 
