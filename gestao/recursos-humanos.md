@@ -18,3 +18,13 @@ O acompanhamento pessoal é uma conversa individual com cada membro da Struct em
 Essa reunião, geralmente realizada pelo discord, tem o intuito de extrair a situação específica de cada membro, perguntando como ele está e o quê a empresa pode fazer para ajudá-lo, caso necessário (como por exemplo, oferecer um tempo de folga se o membro estiver muito desgastado e/ou sobrecarregado).
 
 De um mês para o outro, os membros do RH tentam revezar quem ficará responsável por cada acompanhamento, evitando, assim, que os membros sempre conversem com as mesmas pessoas.
+
+
+
+## Organização do Processo Seletivo
+
+No começo de cada semestre letivo, é realizada pela diretoria de marketing a divulgação do nosso Processo Seletivo, a fim de recrutar novos membros para a Struct. Para organizar melhor esse processo, durante um período pré-determinado, é divulgado um formulário de inscrição para o processo, contendo algumas informações em relação à empresa e ao PS em si, solicitando alguns dados do candidato (como nome, idade, telefone e ingresso na UnB) e perguntando os dias e horários disponíveis para a realização da entrevista na próxima etapa do processo.
+
+### Entrevistas
+
+Após o término das inscrições, é realizada uma entrevista com cada candidato, perguntando sobre sua experiência, como ele agiria em determinadas situações, suas características e, com isso, fazer uma análise do perfil do candidato. Essas entrevistas geralmente são feitas seguindo um documento com todas as perguntas a serem realizadas e, após as entrevistas de todos os inscritos, os membros da GP se reúnem para analisar todas as respostas e filtrar os candidatos que poderão seguir no processo de capacitação dos novos membros (Processo Trainee).
