@@ -23,7 +23,8 @@ De um mês para o outro, os membros do RH tentam revezar quem ficará responsáv
 
 ## Organização do Processo Seletivo
 
-No começo de cada semestre letivo, é realizada pela diretoria de marketing a divulgação do nosso Processo Seletivo, a fim de recrutar novos membros para a Struct. Para organizar melhor esse processo, durante um período pré-determinado, é divulgado um formulário de inscrição para o processo, contendo algumas informações em relação à empresa e ao PS em si, solicitando alguns dados do candidato (como nome, idade, telefone e ingresso na UnB) e perguntando os dias e horários disponíveis para a realização da entrevista na próxima etapa do processo.
+No começo de cada semestre letivo, é realizada pela diretoria de marketing a divulgação do nosso Processo Seletivo, a fim de recrutar novos membros para a Struct. Para organizar melhor esse processo, durante um período pré-determinado, é divulgado um formulário de inscrição para o processo, contendo algumas informações em relação à empresa e ao PS em si, solicitando alguns dados do candidato (como nome, idade, telefone e ingresso na UnB) e perguntando os dias e horários disponíveis para a realização da entrevista na próxima etapa do processo.  
+Caso deseje consultar esses documentos, eles podem ser encontrados no [google drive](https://drive.google.com/drive/folders/1DejZ_MNlvmx_uiWTmovEyNIfA6DOITe7?usp=sharing)
 
 ### Entrevistas
 
