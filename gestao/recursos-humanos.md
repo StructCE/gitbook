@@ -46,6 +46,8 @@ Uma das responsabilidades da GP é manter o sistema de [Gamificação](../execuc
 
 Durante as reuniões regulares da diretoria, o andamento da gamificação é uma pauta frequetemente tocada sempre que alguém percebe algo no sistema que pode ser modificado e/ou tem alguma idéia para melhorá-lo.
 
+Alguns documentos sobre a gamificação podem ser encontrados no [drive da GP](https://drive.google.com/drive/folders/1jW4_ePOPYQWstM4d5R_CfK7_y03vjdvu?usp=sharing)
+
 ### Decisão dos prêmios
 
 Os prêmios da gamificicação tem o intuito de motivar e estimular os membros a trabalharem mais e, assim, tentarem alcançar patentes melhores no sistema.
