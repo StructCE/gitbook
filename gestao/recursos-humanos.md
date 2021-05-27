@@ -46,10 +46,30 @@ Uma das responsabilidades da GP é manter o sistema de [Gamificação](../execuc
 
 Durante as reuniões regulares da diretoria, o andamento da gamificação é uma pauta frequetemente tocada sempre que alguém percebe algo no sistema que pode ser modificado e/ou tem alguma idéia para melhorá-lo.
 
-Alguns documentos sobre a gamificação podem ser encontrados no [drive da GP](https://drive.google.com/drive/folders/1jW4_ePOPYQWstM4d5R_CfK7_y03vjdvu?usp=sharing)
+Alguns documentos sobre a gamificação podem ser encontrados no [drive da GP](https://drive.google.com/drive/folders/1jW4_ePOPYQWstM4d5R_CfK7_y03vjdvu?usp=sharing).
 
 ### Decisão dos prêmios
 
 Os prêmios da gamificicação tem o intuito de motivar e estimular os membros a trabalharem mais e, assim, tentarem alcançar patentes melhores no sistema.
 
-No começo de cada temporada da gamificação, os membros da GP realizam uma pesquisa sobre prêmios que seriam viáveis e pertinentes para e, em seguida, se reúnem para decidir quais serão os prêmios para cada uma das patentes. A ideia é que sejam decididos prêmios grandes (como RAM ou SSD) apenas para as 3 primeiras patentes (top 3 membros) e prêmios menores (como Gift Cards ou chaveiros) para as subsequentes, seguindo sempre a ideia de prêmios melhores quanto melhor for a patente.
+No começo de cada temporada da gamificação, os membros da GP realizam uma pesquisa sobre prêmios que seriam viáveis e pertinentes e, em seguida, se reúnem para decidir quais serão os prêmios para cada uma das patentes. A ideia é que sejam decididos prêmios grandes (como RAM ou SSD) apenas para as primeiras patentes (top 3 membros) e prêmios menores (como Gift Cards ou chaveiros) para as subsequentes, seguindo sempre a ideia de prêmios melhores quanto maior for a patente.
+
+
+
+## Organização de dinâmicas e eventos da empresa
+
+O RH também é responsável por organizar dinâmicas mensais dentro da empresa a fim de tentar melhorar a interação entre os membros e de descontrair um pouco da correria do dia a dia. Para isso, a diretoria debate sobre o que pode ser feito na dinâmica e escolhe um "gerente da dinâmica", que ficará responsável por guiá-la e marcá-la com o resto dos membros da empresa.
+
+Nessas dinâmicas, os membros votam para escolherem o que irão fazer (como jogar gartic phone ou among us) e a ideia é durarem cerca de 1 hora, mas pode ser mais a depender da disposição dos participantes.
+
+### Coding day
+
+É um dia em que vários membros da EJ se reúnem, por um longo período, no intuito de codificarem juntos o máximo possível de algum projeto em andamento, geralmente algum que esteja com o prazo de entrega apertado, unindo mais a tripulação e contribuindo para o aprendizado de todos através da constante troca de conhecimentos.
+
+#### Funcionamento
+Para o coding day, previamente é enviado um aviso de convocação pelo canal geral do slack, contendo um forms para manter um controle de todos os membros que pretendem participar. Antes de começar o evento, o gerente do projeto deve planejar bem as issues que serão distribuídas aos participantes, que por sua vez já devem ter o repositório instalado. 
+
+Durante o coding day, o organizador deve receber os membros e manter as pessoas focadas em codar durante o período de codar e reforçar a importância de **descansar nas pausas** (cerca de 10 minutos de descanso, geralmente realizadas a cada hora) para que ninguém fique muito desgastado ao longo do dia (o quê tambéma aumenta a produtividade).
+
+#### Encerramento
+Ao fim do coding day, o organizador agradece a presença de todos e pede um feedback do que cada um achou do evento. Em seguida, normalmente os membros pedem pizza :pizza: (paga pela Struct) para comerem juntos. No entanto, em tempos de pandemia, é oferecido um código de resgate de saldo na carteira do ifood para os participantes, para que cada um ainda possa comer seu lanche :fries: mais do que merecido!
