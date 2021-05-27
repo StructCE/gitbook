@@ -37,3 +37,17 @@ Após o término das inscrições, é realizada uma entrevista com cada candidat
 No dia 20 de cada mês, é enviado um documento para o Centro de apoio ao Desenvolvimento Tecnológico (ou CDT), que pertence ao Decanato de Extensão da UnB. Esse documento deve conter uma lista de frequência contabilizando o número de horas que cada membro da Struct trabalhou no período (dia 20 de um mês até dia 19 do seguinte). Tem como finalidade registrar oficialmente as horas trabalhadas dos membros da EJ como projeto de extensão dentro da universidade.
 
 Geralmente esse documento é enviado para o email **projr@cdt.unb.br** e, no drive, são salvos na pasta [Lista de Frequência CDT](https://drive.google.com/drive/folders/1SYpy81GGvm-5mG0okBlwDzBxCoQGW95l?usp=sharing).
+
+
+
+## Balanceamento e manutenção da Gamificação
+
+Uma das responsabilidades da GP é manter o sistema de [Gamificação](../execucao/gamificacao/gamificacao) organizado e realizar as manutenções necessárias no sistema de pontuação, para tornar o sistema cada vez mais balanceado. Tendo isso em mente, ao longo de cada mês são registrados os fatores que são contabilizados na gamificação (como dailys não respondidos ou faltas em reuniões) e, no fim do mês, é contabilizada a pontuação total de cada membro.
+
+Durante as reuniões regulares da diretoria, o andamento da gamificação é uma pauta frequetemente tocada sempre que alguém percebe algo no sistema que pode ser modificado e/ou tem alguma idéia para melhorá-lo.
+
+### Decisão dos prêmios
+
+Os prêmios da gamificicação tem o intuito de motivar e estimular os membros a trabalharem mais e, assim, tentarem alcançar patentes melhores no sistema.
+
+No começo de cada temporada da gamificação, os membros da GP realizam uma pesquisa sobre prêmios que seriam viáveis e pertinentes para e, em seguida, se reúnem para decidir quais serão os prêmios para cada uma das patentes. A ideia é que sejam decididos prêmios grandes (como RAM ou SSD) apenas para as 3 primeiras patentes (top 3 membros) e prêmios menores (como Gift Cards ou chaveiros) para as subsequentes, seguindo sempre a ideia de prêmios melhores quanto melhor for a patente.
