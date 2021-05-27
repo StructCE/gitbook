@@ -29,3 +29,11 @@ Caso deseje consultar esses documentos, eles podem ser encontrados no [google dr
 ### Entrevistas
 
 Após o término das inscrições, é realizada uma entrevista com cada candidato, perguntando sobre sua experiência, como ele agiria em determinadas situações, suas características e, com isso, fazer uma análise do perfil do candidato. Essas entrevistas geralmente são feitas seguindo um documento com todas as perguntas a serem realizadas e, após as entrevistas com os inscritos, os membros da GP se reúnem para analisar todas as respostas e filtrar os candidatos que poderão seguir no processo de capacitação dos novos membros (Processo Trainee).
+
+
+
+## Contabilização de horas mensais para o CDT
+
+No dia 20 de cada mês, é enviado um documento para o Centro de apoio ao Desenvolvimento Tecnológico (ou CDT), que pertence ao Decanato de Extensão da UnB. Esse documento deve conter uma lista de frequência contabilizando o número de horas que cada membro da Struct trabalhou no período (dia 20 de um mês até dia 19 do seguinte). Tem como finalidade registrar oficialmente as horas trabalhadas dos membros da EJ como projeto de extensão dentro da universidade.
+
+Geralmente esse documento é enviado para o email **projr@cdt.unb.br** e, no drive, são salvos na pasta [Lista de Frequência CDT](https://drive.google.com/drive/folders/1SYpy81GGvm-5mG0okBlwDzBxCoQGW95l?usp=sharing).
