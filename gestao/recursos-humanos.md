@@ -64,12 +64,12 @@ Nessas dinâmicas, os membros votam para escolherem o que irão fazer (como joga
 
 ### Coding day
 
-É um dia em que vários membros da EJ se reúnem, por um longo período, no intuito de codificarem juntos o máximo possível de algum projeto em andamento, geralmente algum que esteja com o prazo de entrega apertado, unindo mais a tripulação e contribuindo para o aprendizado de todos através da constante troca de conhecimentos.
+É um dia em que vários membros da EJ se reúnem, por um longo período, no intuito de codificarem juntos o máximo possível de algum projeto em andamento (geralmente algum que esteja com o prazo de entrega apertado), unindo mais a tripulação e contribuindo para o aprendizado de todos através da constante troca de conhecimentos.
 
 #### Funcionamento
 Para o coding day, previamente é enviado um aviso de convocação pelo canal geral do slack, contendo um forms para manter um controle de todos os membros que pretendem participar. Antes de começar o evento, o gerente do projeto deve planejar bem as issues que serão distribuídas aos participantes, que por sua vez já devem ter o repositório instalado. 
 
-Durante o coding day, o organizador deve receber os membros e manter as pessoas focadas em codar durante o período de codar e reforçar a importância de **descansar nas pausas** (cerca de 10 minutos de descanso, geralmente realizadas a cada hora) para que ninguém fique muito desgastado ao longo do dia (o quê tambéma aumenta a produtividade).
+Durante o coding day, o organizador deve receber os membros e manter as pessoas focadas em codar durante o período de codar e reforçar a importância de **descansar nas pausas** (cerca de 10 minutos de descanso, geralmente realizadas a cada hora) para que ninguém fique muito desgastado ao longo do dia (também aumentando a produtividade).
 
 #### Encerramento
-Ao fim do coding day, o organizador agradece a presença de todos e pede um feedback do que cada um achou do evento. Em seguida, normalmente os membros pedem pizza :pizza: (paga pela Struct) para comerem juntos. No entanto, em tempos de pandemia, é oferecido um código de resgate de saldo na carteira do ifood para os participantes, para que cada um ainda possa comer seu lanche :fries: mais do que merecido!
+Ao fim do coding day, o organizador agradece a presença de todos e solicita um feedback do que cada um achou do evento. Em seguida, normalmente os membros pedem pizza (relaxa que a Struct paga) para comerem juntos. No entanto, em tempos de pandemia, é oferecido um código de resgate de saldo na carteira do ifood para os participantes, para que cada um ainda possa comer seu lanche mais do que merecido!
