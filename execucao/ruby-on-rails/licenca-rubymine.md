@@ -12,4 +12,4 @@ Ao acessar o site da [Jetbrains](https://www.jetbrains.com/pt-br/), na aba **Par
 
 Após acessar a página de Licenças para estudantes e professores, um pouco mais abaixo na página, clicar no botão **Inscreva-se agora**
 
-![Passo 2](../../imagens/Passo_2_Licensa.png)
+![Passo 2](../../imagens/Passo_2_Licenca.png)
