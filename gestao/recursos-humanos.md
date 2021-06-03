@@ -42,7 +42,7 @@ Geralmente esse documento é enviado para o email **projr@cdt.unb.br** e, no dri
 
 ## Balanceamento e manutenção da Gamificação
 
-Uma das responsabilidades da GP é manter o sistema de [Gamificação](../execucao/gamificacao/gamificacao) organizado e realizar as manutenções necessárias no sistema de pontuação, para tornar o sistema cada vez mais balanceado. Tendo isso em mente, ao longo de cada mês são registrados os fatores que são contabilizados na gamificação (como dailys não respondidos ou faltas em reuniões) e, no fim do mês, é contabilizada a pontuação total de cada membro.
+Uma das responsabilidades da GP é manter o sistema de [Gamificação](../execucao/gamificacao/gamificacao.md) organizado e realizar as manutenções necessárias no sistema de pontuação, para tornar o sistema cada vez mais balanceado. Tendo isso em mente, ao longo de cada mês são registrados os fatores que são contabilizados na gamificação (como dailys não respondidos ou faltas em reuniões) e, no fim do mês, é contabilizada a pontuação total de cada membro.
 
 Durante as reuniões regulares da diretoria, o andamento da gamificação é uma pauta frequetemente tocada sempre que alguém percebe algo no sistema que pode ser modificado e/ou tem alguma idéia para melhorá-lo.
 
