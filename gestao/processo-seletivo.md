@@ -11,9 +11,8 @@ Para organizar melhor o Processo Seletivo, a diretoria de [Recursos Humanos](./r
 Após o término das inscrições, a diretoria de Gestão de Pessoas (RH) realiza uma entrevista com cada candidato, perguntando sobre sua experiência, como ele agiria em determinadas situações, suas características e, com isso, fazem uma análise do perfil do candidato. Essas entrevistas geralmente são feitas seguindo um documento com todas as perguntas a serem realizadas e, após as entrevistas com os inscritos, os membros da GP se reúnem para analisar todas as respostas e filtrar os candidatos que poderão seguir no processo de capacitação dos novos membros ([Processo Trainee](#processo-trainee)).
 
 
-
-
-
-
-
 # Processo Trainee
+
+É o processo de capacitação dos candidatos que forem aprovados no [processo seletivo](#processo-seletivo), tem como objetivo mostrar as ferramentas utilizadas dentro da Struct para os novos membros e ensiná-los o que for necessário, deixando-os preparados para começar a trabalhar na EJ.
+
+Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetivados os trainees que os instrutores julgarem que estão devidamente preparados para ingressarem na Struct.
