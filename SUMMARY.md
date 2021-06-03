@@ -14,6 +14,7 @@
   * [Funil de Vendas](gestao/comercial/funil-de-vendas.md)
   * [Fazer Proposta](gestao/comercial/fazer-proposta.md)
 * [Recursos Humanos](gestao/recursos-humanos.md)
+* [Processos Seletivo e Trainee](gestao/processo-seletivo.md)
 
 ## Execução
 
