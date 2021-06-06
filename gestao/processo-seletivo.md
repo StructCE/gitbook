@@ -1,10 +1,29 @@
 # Processo Seletivo
 
-Organizado no começo de cada semestre letivo, sendo a porta de entrada de novos membros para a Struct. Algumas versões dos documentos utilizados no processo podem ser encontradas no [drive da GP](https://drive.google.com/drive/folders/1DejZ_MNlvmx_uiWTmovEyNIfA6DOITe7?usp=sharing).
+Organizado no começo de cada semestre letivo, tem como objetivo selecionar e capacitar novos membros para a Struct, sendo a porta de entrada destes para a empresa. O processo seletivo tem essencialmente três etapas de acordo com o nosso estatuto:
+- Ser aprovado em processo seletivo;
+- Ser aprovado em [processo trainee](#processo-trainee) (se houver);
+- Ter a sua associação aprovada pela Diretoria Executiva.
+
+A primeira etapa geralmente é definida como uma [entrevista](#entrevistas), a segunda como um conjunto de aulas sendo o membro avaliado por meio de listas e projetos e a última se dá em uma reunião da diretoria executiva mas raramente é necessária.
+
+## Responsabilidades
+
+O processo seletivo é um trabalho em conjunto de todos os membros da empresa, visto que todos podem contribuir de alguma forma. Para organizar melhor, algumas diretorias têm um papel maior em certas etapas.
+
+Primeiramente, o processo de criação da arte e da divulgação do processo seletivo é responsabilidade da diretoria de [Marketing](./marketing.md) enquanto que a diretoria de [Gestão de Pessoas](./recursos-humanos.md) fica responsável por elaborar o [formulário de inscrição](#formulário-de-inscrição). A seguir, o processo da entrevista do PS é responsabilidade apenas da diretoria de Gestão de Pessoas. O processo de preparação do processo trainee, selecionando um time e um gerente de trainee, é de responsabilidade conjunta da Diretorias de Gestão de Pessoas e de [Projetos](./projetos.md).
+
+{% hint style="info" %}
+A decisão de todo o processo (como ementa, aulas, avaliações, etc.) é de responsabilidade do gerente de trainee e dos membros da sua equipe.
+{% endhint %}
+
+{% hint style="success" %}
+Lembrando que ser gerente do trainee e/ou ministrar aulas no processo contabiliza ponto extra no sistema de [gamificação](../execucao/gamificacao/gamificacao.md).
+{% endhint %}
 
 ## Formulário de inscrição
 
-Para organizar melhor o Processo Seletivo, a diretoria de [Recursos Humanos](./recursos-humanos.md) prepara um formulário de inscrição, contendo algumas informações em relação à empresa e ao PS em si, e solicitando alguns dados do cantidato (como nome, idade, telefone e ingresso na UnB) e perguntando os dias e horários disponíveis para a realização da [entrevista](#entrevistas) na próxima etapa do processo.
+Para organizar melhor o Processo Seletivo, é elaborado um formulário de inscrição, contendo algumas informações em relação à empresa e ao PS em si, solicitando alguns dados do cantidato (como nome, idade, telefone e ingresso na UnB) e perguntando os dias e horários disponíveis para a realização da entrevista, na próxima etapa do processo.
 
 ## Entrevistas
 
@@ -22,10 +41,6 @@ Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetiva
 Antes de dar início ao processo trainee, os membros da Struct que tiverem interesse em contribuir, se voluntariam para serem instrutores do processo.
 
 Após definidos os instrutores, estes se reúnem para elaborar a ementa, os critérios de avaliação, o calendário do processo e decidem quem irá ministrar cada aula. Nessa reunião, também é escolhido um **gerente do trainee**, que será o principal responsável pela comunicação com os candidatos e por acompanhar o processo como um todo, visando manter um bom progresso do mesmo.
-
-{% hint style="info" %}
-Lembrando que ser gerente do trainee e/ou ministrar aulas no processo contabiliza ponto extra no sistema de [gamificação](../execucao/gamificacao/gamificacao.md).
-{% endhint %}
 
 
 ## Aulas
