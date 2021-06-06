@@ -17,13 +17,26 @@ Após o término das inscrições, a diretoria de Gestão de Pessoas (RH) realiz
 
 Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetivados os trainees que forem aprovados.
 
+## Preparação
+
+Antes de dar início ao processo trainee, os membros da Struct que tiverem interesse em contribuir, se voluntariam para serem instrutores do processo.
+
+Após definidos os instrutores, estes se reúnem para elaborar a ementa, os critérios de avaliação, o calendário do processo e decidem quem irá ministrar cada aula. Nessa reunião, também é escolhido um **gerente do trainee**, que será o principal responsável pela comunicação com os candidatos e por acompanhar o processo como um todo, visando manter um bom progresso do mesmo.
+
+{% hint style="info" %}
+Lembrando que cada aula ministrada no processo e/ou ser gerente do trainee rende ponto extra no sistema de [gamificação](../execucao/gamificacao/gamificacao.md).
+{% endhint %}
+
+
 ## Aulas
 
 São curtas (aproximadamente 1 hora, a depender do conteúdo) e acontecem cerca de 2 ou 3 vezes por semana. Nelas são abordadas as tecnologias que a Struct utiliza em seus projetos, a ementa pode variar de um semestre para o outro, porém os seguintes conteúdos são frequentemente abordados:
 
 - Introdução à programação com a linguagem ruby;
+- GIT e GitHub;
 - Padrão Model-View-Controller (MVC);
 - Hypertext Transfer Protocol (HTTP);
+- Bancos de dados;
 - Rails:
     - Models;
     - Controllers;
@@ -32,6 +45,17 @@ São curtas (aproximadamente 1 hora, a depender do conteúdo) e acontecem cerca 
 - Hypertext Markup Language (HTML);
 - Cascading Style Sheets (CSS);
 - Introdução ao Javascript;
-- React JS.
+- React JS:
+    - Components;
+    - Hooks;
+    - Rotas.
 
-Quando não for possível realizar as aulas presencialmente, geralmente acontecem pelo discord, são gravadas e disponibilizadas para assistir posteriormente no [YouTube](https://www.youtube.com/channel/UCB-hKGoJ9FdtE0zyLwMomtw).
+Quando não for possível realizar as aulas presencialmente, elas acontecem por alguma plataforma como o discord, são gravadas e disponibilizadas para assistir posteriormente no [YouTube](https://www.youtube.com/channel/UCB-hKGoJ9FdtE0zyLwMomtw).
+
+## Avaliação
+
+Uma forma de garantir que os trainees estão absorvendo o conteúdo das aulas, composto por três principais critérios: Listas de exercícios, projeto final e frequência. 
+
+### Listas de exercícios
+
+Os tópicos que os instrutores julgarem adequados, terão uma lista de exercícios que abordam o conteúdo da semana em questão para que os trainees possam praticar e fixar o conteúdo visto em aula. É comum que cada instrutor fique responsável por elaborar e corrigir as listas relacionadas ao conteúdo que ministrou em aula.
