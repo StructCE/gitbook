@@ -13,6 +13,25 @@ Após o término das inscrições, a diretoria de Gestão de Pessoas (RH) realiz
 
 # Processo Trainee
 
-É o processo de capacitação dos candidatos que forem aprovados no [processo seletivo](#processo-seletivo), tem como objetivo mostrar as ferramentas utilizadas dentro da Struct para os novos membros e ensiná-los o que for necessário, deixando-os preparados para começar a trabalhar na EJ.
+É o processo de capacitação dos candidatos que forem aprovados no [processo seletivo](#processo-seletivo), tem como objetivo mostrar as ferramentas utilizadas dentro da Struct para os novos membros e ensiná-los o que for necessário, deixando-os preparados para iniciar seu trabalho dentro da EJ.
 
-Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetivados os trainees que os instrutores julgarem que estão devidamente preparados para ingressarem na Struct.
+Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetivados os trainees que forem aprovados.
+
+## Aulas
+
+São curtas (aproximadamente 1 hora, a depender do conteúdo) e acontecem cerca de 2 ou 3 vezes por semana. Nelas são abordadas as tecnologias que a Struct utiliza em seus projetos, a ementa pode variar de um semestre para o outro, porém os seguintes conteúdos são frequentemente abordados:
+
+- Introdução à programação com a linguagem ruby;
+- Padrão Model-View-Controller (MVC);
+- Hypertext Transfer Protocol (HTTP);
+- Rails:
+    - Models;
+    - Controllers;
+    - Rotas;
+    - Gems;
+- Hypertext Markup Language (HTML);
+- Cascading Style Sheets (CSS);
+- Introdução ao Javascript;
+- React JS.
+
+Quando não for possível realizar as aulas presencialmente, geralmente acontecem pelo discord, são gravadas e disponibilizadas para assistir posteriormente no [YouTube](https://www.youtube.com/channel/UCB-hKGoJ9FdtE0zyLwMomtw).
