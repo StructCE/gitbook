@@ -24,7 +24,7 @@ Antes de dar início ao processo trainee, os membros da Struct que tiverem inter
 Após definidos os instrutores, estes se reúnem para elaborar a ementa, os critérios de avaliação, o calendário do processo e decidem quem irá ministrar cada aula. Nessa reunião, também é escolhido um **gerente do trainee**, que será o principal responsável pela comunicação com os candidatos e por acompanhar o processo como um todo, visando manter um bom progresso do mesmo.
 
 {% hint style="info" %}
-Lembrando que cada aula ministrada no processo e/ou ser gerente do trainee rende ponto extra no sistema de [gamificação](../execucao/gamificacao/gamificacao.md).
+Lembrando que ser gerente do trainee e/ou ministrar aulas no processo contabiliza ponto extra no sistema de [gamificação](../execucao/gamificacao/gamificacao.md).
 {% endhint %}
 
 
@@ -54,7 +54,7 @@ Quando não for possível realizar as aulas presencialmente, elas acontecem por 
 
 ## Avaliação
 
-Uma forma de garantir que os trainees estão absorvendo o conteúdo das aulas, composto por três principais critérios: Listas de exercícios, projeto final e frequência. 
+Uma forma de garantir que os trainees estão absorvendo o conteúdo das aulas, é composta por três principais critérios: Listas de exercícios, projeto final e frequência. 
 
 ### Listas de exercícios
 
