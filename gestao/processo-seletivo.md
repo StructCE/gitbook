@@ -11,10 +11,10 @@ A primeira etapa geralmente é definida como uma [entrevista](#entrevistas), a s
 
 O processo seletivo é um trabalho em conjunto de todos os membros da empresa, visto que todos podem contribuir de alguma forma. Para organizar melhor, algumas diretorias têm um papel maior em certas etapas.
 
-Primeiramente, o processo de criação da arte e da divulgação do processo seletivo é responsabilidade da diretoria de [Marketing](./marketing.md) enquanto que a diretoria de [Gestão de Pessoas](./recursos-humanos.md) fica responsável por elaborar o [formulário de inscrição](#formulário-de-inscrição). A seguir, o processo da entrevista do PS é responsabilidade apenas da diretoria de Gestão de Pessoas. O processo de preparação do processo trainee, selecionando um time e um gerente de trainee, é de responsabilidade conjunta da Diretorias de Gestão de Pessoas e de [Projetos](./projetos.md).
+Primeiramente, o processo de criação da arte e da divulgação do processo seletivo é responsabilidade da diretoria de [Marketing](./marketing.md) enquanto que a diretoria de [Gestão de Pessoas](./recursos-humanos.md) fica responsável por elaborar o [formulário de inscrição](#formulario-de-inscricao). A seguir, o processo da entrevista do PS é responsabilidade apenas da diretoria de Gestão de Pessoas. O processo de preparação do processo trainee, selecionando um time e um gerente de trainee, é de responsabilidade conjunta da Diretorias de Gestão de Pessoas e de [Projetos](./projetos.md).
 
 {% hint style="info" %}
-A decisão de todo o processo (como ementa, aulas, avaliações, etc.) é de responsabilidade do gerente de trainee e dos membros da sua equipe.
+A decisão de todo o processo trainee (como ementa, aulas, avaliações, etc.) é de responsabilidade do gerente de trainee e dos membros da sua equipe.
 {% endhint %}
 
 {% hint style="success" %}
