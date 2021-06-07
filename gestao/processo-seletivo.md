@@ -63,10 +63,43 @@ Por fim, deve-se perguntar a todos os membros do time quem gostaria de se candid
 
 Após o Gerente do trainee ter sido escolhido, é responsabilidade do mesmo planejar como será o processo que irá gerenciar. Para começar, é bom marcar uma reunião com todos a equipe para definir um plano de ensino. Nesse plano, é ideal ter alguns elementos:
 
-1. Aulas e Instrutores  
-É interessante fazer uma lista de quais aulas serão ministradas e quando, sendo importante se atentar aos feriados nos dias de aula. Decididas as aulas, deixe que os instrutores escolham quais aulas eles têm preferência e evite que os instrutores peguem mais de 3 aulas seguidas para evitar o desgaste dos mesmos.  
-Adicione no plano de ensino, os contatos dos instrutores para que os trainees entrem em contato em caso de dúvidas.  
-Peça para que o time já comece a preparar suas aulas o quanto antes visto que muita gente deixa para última hora.
+#### 1. Aulas e Instrutores  
+
+É interessante fazer uma lista de quais aulas serão ministradas e quando, sendo importante se atentar aos feriados nos dias de aula. Decididas as aulas, deixe que os instrutores escolham quais aulas eles têm preferência e evite que os instrutores peguem mais de 3 aulas seguidas para evitar o desgaste dos mesmos.
+
+Adicione no plano de ensino, os contatos dos instrutores para que os trainees entrem em contato em caso de dúvidas.
+
+Recomenda-se que o time já comece a preparar suas aulas o quanto antes visto que muita gente deixa para última hora.
+
+#### 2. Critérios de Avaliação
+
+Uma forma de garantir que os trainees absorveram o conteúdo das aulas. O *gerente do trainee* é livre para organizar da forma que achar melhor, entretanto, é recomendado que os critérios tenham em sua composição [listas de exercícios](#listas-de-exercicios), um [projeto final](#projeto-final) e uma espécie de frequência, que pode ser por participação nas aulas, entrega de listas ou dailies respondidos.
+
+#### 3. Duração
+
+É importante evitar que o processo trainee tenha uma duração de mais de 4 meses, portando o ideal é planejar para concluí-lo em 3 meses e meio, ficando atento aos possíveis atrasos (acredite, eles irão ocorrer!).
+
+#### 4. Ferramentas
+
+É interessante definir quais ferramentas serão utilizadas para as aulas, para a comunicação e para o envio dos exercícios.
+
+Para as aulas, caso não possam ser realizadas presencialmente, é interessante utilizar o discord, visto que os membros já se familiarizam com o mesmo. 
+
+Para a comunicação, é imprescindível que utilizem o slack. Assim, os trainees já se acostumam a verificar o slack diariamente.
+
+Por fim, para o envio de exercícios e divulgação dos materiais, é recomendado o uso do Google Classroom.
+
+#### 5. Extras
+
+Alguns tópicos que também são muito importantes para o PT:
+
+- Aulas de dúvidas: mesmo que ninguém apareça, é bom dedicar esse tempo a eles.
+- Feedback: ocasionalmente, é importante coletar feedbacks do que os membros da equipe e os trainees estão achando do processo, sendo importante tentar ser flexível para adaptá-lo de acordo com os feedbacks, mas sem mudar completamente o planejamento original.
+- Gravação de aulas: caso a aula não seja presencial é interessante que os instrutores gravem o vídeo de sua aula antes da aula ao vivo. Assim, o instrutor treina antes da aula e teremos um vídeo mais bem feito (já que erros podem ser cortados ou regravados).
+- Listas ou trabalhos de recuperação: isso depende da sua bondade mas pense no caso dos alunos deixarem de fazer listas muito importantes (como a de controller ou a de básico de front) e mesmo assim continuarem no trainee.
+- Participação nas reuniões das diretorias: nas últimas 5 semanas, é interessante convidar todos os trainees a participarem das reuniões das diretorias para terem uma melhor ideia de qual diretoria gostariam de participar. Basta dividi-los em grupos e encaminhá-los à reunião de uma diretoria diferente a cada semana.
+
+
 
 
 ## Aulas
