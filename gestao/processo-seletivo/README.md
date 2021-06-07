@@ -77,7 +77,7 @@ Essas entrevistas são feitas seguindo um documento, cujo modelo pode ser encont
 4. É realizado alguns estudos de caso inserindo a pessoa em algumas situações hipotéticas e suas ações são avaliadas.
 5. Por fim, conclui-se a entrevista perguntando ao inscrito sobre suas metas para o futuro e sobre conquistas que teve ao longo de sua vida, no intuito de encerrar a entrevista em um tom mais casual.
 
-Concluída a entrevista, o entrevistador deve agradecer a presença do candidato, avisá-lo das próximas etapas do processo e pedi-lo para que fique atento ao resultado que deve ser divulgado por e-mail ou WhatsApp.
+Concluída a entrevista, o entrevistador deve agradecer a presença do candidato, avisá-lo das próximas etapas do processo e pedi-lo para que fique atento ao resultado, o qual deve ser divulgado por e-mail ou WhatsApp.
 
 ### Resultados
 
@@ -88,16 +88,17 @@ Geralmente, os candidatos que tendem a ser reprovados são aqueles que brincaram
 Por fim, a divulgação da próxima etapa deve ser realizada por e-mail e/ou WhatsApp e, caso o membro seja aprovado, enviamos uma mensagem de parabenização junto de um **formulário de aprovação no processo**, no qual serão colhidas algumas informações e será solicitado a criação de algumas contas. Portanto, esse formulário deve ter: 
 
 - Código da turma do Google Classroom;
+- Link do discord da Struct;
 - Alguma pergunta descontraída (opcional);
-- Link do discor da Struct;
 - Mensagem de agradecimento e boa sorte!
 
 E deve ser solicitado:
 
 - E-mail e nome;
-- Lista de horários disponíveis para que as aulas sejam realizadas, deixando bem claro que é para selecionarem **todos** os horários disponíveis e não apenas os que julgarem mais convenientes;
-- Conta do GitHub (solicitar criação caso não tenha).
+- Conta do GitHub (solicitar criação caso não tenha);
+- Lista de horários disponíveis para que a realização das aulas do Processo Trainee, deixando bem claro que é para selecionarem **todos** os horários disponíveis e não apenas os que julgarem mais convenientes.
 
-{% hint style="info" %}
+
+{% hint style="warning" %}
 Também é importante entrar em contato com aqueles que reprovaram também, avise-os que não cumpriram os pré-requisitos e que estão mais do que convidados a participar do próximo Processo Seletivo!
 {% endhint %}
