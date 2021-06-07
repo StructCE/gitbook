@@ -10,11 +10,19 @@ Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetiva
 
 A próxima etapa consiste em uma convocação geral dos membros da empresa para compor a equipe do processo trainee. Os membros são livres para participar ou negar, mas é importante reforçar os pontos positivos da sua participação (experiência, gamificação, contato com os novos membros, etc). O ideal é ter ao menos 5 membros participando do processo trainee para que não haja ninguém sobrecarregado.
 
+{% hint style="success" %}
+Lembrando que ser gerente do trainee e/ou ministrar aulas no processo contabiliza ponto extra no sistema de [gamificação](../../execucao/gamificacao/gamificacao.md).
+{% endhint %}
+
 ### Primeira reunião com o time
 
 Em seguida, é necessário marcar uma reunião com todos os membros que gostariam de participar do processo trainee. Nessa reunião, os diretores de *Gestão de Pessoas* e de *Projetos* devem apresentar ao time o básico que um PT deve ter (aulas, listas, projeto final, etc). É interessante convidar para essa reunião o gerente e instrutores do processo trainee anterior para que possam relatar o que deu certo e o que deu errado no seu PT.
 
 Por fim, deve-se perguntar a todos os membros do time quem gostaria de se candidatar a **gerente do trainee**, que será o principal responsável pela comunicação com os candidatos e por acompanhar o processo como um todo, visando manter um bom progresso do mesmo. Caso mais de um membro se candidate, realiza-se uma votação na própria reunião e aquele com mais votos vence. É interessante que esse gerente não seja um diretor pois estes já são ocupados demais para dar o devido foco ao trainee.
+
+{% hint style="info" %}
+A decisão de todo o processo trainee (como ementa, aulas, avaliações, etc.) é de responsabilidade do gerente de trainee e dos membros da sua equipe.
+{% endhint %}
 
 ### Planejamento do Processo Trainee
 
