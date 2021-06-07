@@ -67,4 +67,37 @@ Idealmente, a divulgação do processo seletivo deve iniciar com a abertura das 
 
 ## Entrevistas
 
-Após o término das inscrições, a diretoria de Gestão de Pessoas (RH) realiza uma entrevista com cada candidato, perguntando sobre sua experiência, como ele agiria em determinadas situações, suas características e, com isso, fazem uma análise do perfil do candidato. Essas entrevistas geralmente são feitas seguindo um documento com todas as perguntas a serem realizadas e, após as entrevistas com os inscritos, os membros da GP se reúnem para analisar todas as respostas e filtrar os candidatos que poderão seguir no processo de capacitação dos novos membros (Processo Trainee).
+Após o término das inscrições, a diretoria de Gestão de Pessoas (RH) realiza uma entrevista com cada candidato, cuja principal função é a de filtrar os inscritos que não têm a motivação necessária para fazer parte do nosso time. Para isso, é perguntado sobre a experiência do candidato, como ele agiria em determinadas situações, suas características e, com isso, fazem uma análise de seu perfil. 
+
+Essas entrevistas são feitas seguindo um documento, cujo modelo pode ser encontrado no [drive da GP](https://drive.google.com/drive/folders/1DejZ_MNlvmx_uiWTmovEyNIfA6DOITe7?usp=sharing) contendo todas as perguntas a serem realizadas. Cada entrevista é composta por algumas etapas:
+
+1. Confirmação com o inscrito se seus dados estão corretos.
+2. Coleta de informações acerca da experiência do candidato (empregos, estágios, experiência com gestão, área empresarial, etc).
+3. Perguntas relacionadas à respeito do conhecimento do membro acerca da empresa, da motivação de cada candidato e de sua personalidade.
+4. É realizado alguns estudos de caso inserindo a pessoa em algumas situações hipotéticas e suas ações são avaliadas.
+5. Por fim, conclui-se a entrevista perguntando ao inscrito sobre suas metas para o futuro e sobre conquistas que teve ao longo de sua vida, no intuito de encerrar a entrevista em um tom mais casual.
+
+Concluída a entrevista, o entrevistador deve agradecer a presença do candidato, avisá-lo das próximas etapas do processo e pedi-lo para que fique atento ao resultado que deve ser divulgado por e-mail ou WhatsApp.
+
+### Resultados
+
+Após as entrevistas com os inscritos, a última etapa do processo seletivo, que é de responsabilidade do diretor da GP e de sua equipe, consiste em analisar todas as respostas das entrevistas a fim de chegar a um consenso.
+
+Geralmente, os candidatos que tendem a ser reprovados são aqueles que brincaram demais durante a entrevista e não a levaram a sério ou aqueles que não faziam ideia do porquê estavam participando do PS, ou seja, não tem a motivação necessária para entrar na empresa. Esses membros provavelmente desistiriam no meio do Processo Trainee se não fossem reprovados agora.
+
+Por fim, a divulgação da próxima etapa deve ser realizada por e-mail e/ou WhatsApp e, caso o membro seja aprovado, enviamos uma mensagem de parabenização junto de um **formulário de aprovação no processo**, no qual serão colhidas algumas informações e será solicitado a criação de algumas contas. Portanto, esse formulário deve ter: 
+
+- Código da turma do Google Classroom;
+- Alguma pergunta descontraída (opcional);
+- Link do discor da Struct;
+- Mensagem de agradecimento e boa sorte!
+
+E deve ser solicitado:
+
+- E-mail e nome;
+- Lista de horários disponíveis para que as aulas sejam realizadas, deixando bem claro que é para selecionarem **todos** os horários disponíveis e não apenas os que julgarem mais convenientes;
+- Conta do GitHub (solicitar criação caso não tenha).
+
+{% hint style="info" %}
+Também é importante entrar em contato com aqueles que reprovaram também, avise-os que não cumpriram os pré-requisitos e que estão mais do que convidados a participar do próximo Processo Seletivo!
+{% endhint %}
