@@ -50,7 +50,20 @@ A criação da arte do processo seletivo e da divulgação do mesmo deve ser tod
 
 ## Divulgação
 
-A primeira etapa do processo seletivo inicia-se com a sua divulgação nas redes sociais e conclui-se com a publicação dos aprovados na entrevista.
+Esse tópico é um tanto quanto complicado de definir um responsável. Idealmente dever ser um trabalho conjunto dos diretores de *Gestão de Pessoas* e de *Marketing*, contudo é importante que toda a empresa ajuda na divulgação, seja compartilhando com amigos ou apenas marcando presença nas redes sociais.
+
+A divulgação em si geralmente consiste em divulgar a arte do PS em conjunto com um textinho e o link para o formulário de inscrição. A princípio, o PS deve ser divulgado em conjunto com um edital (de acordo com o estatudo), no entanto isso nunca foi colocado em prática. Alguns lugares interessantes de realizar a divulgação:
+
+- Postagens em nossas redes sociais (facebook e instagram);
+- Grupos de Whatsapp e telegram do curso;
+- Discord do curso;
+- Grupo deWhatsapp dos calouros do semestre em questão;
+- Apresentação na aula de IEC dos calouros (responsabilidade do [Presidente](../presidencia.md) entrar em contato com o professor ministrando a matéria naquele semestre);
+- Apresentação em algum evento do CIC;
+- Apresentação em outras aulas com alto número de alunos de nosso curso;
+- Envio de emails a todos os membros do curso via sigaa ou teams (responsabilidade do Presidente descobrir como fazer isso).
+
+Idealmente, a divulgação do processo seletivo deve iniciar com a abertura das inscrições, que por sua vez duram em torno de 2 semanas. O marketing é livre para fazer uma postagem em forma de teaser alguns dias antes (algo como um save the date).
 
 ## Entrevistas
 
