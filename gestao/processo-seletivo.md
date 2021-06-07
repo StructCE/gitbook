@@ -35,6 +35,7 @@ Para organizar melhor o Processo Seletivo, a diretoria de Recursos Humanos (GP) 
 ### Arte e divulgação
 A criação da arte do processo seletivo e da divulgação do mesmo deve ser toda feita pela diretoria de *Marketing*. Normalmente a arte do PS é uma mistura da Struct com alguma série, filme ou jogo que está popular no momento (por exemplo, em 2020 tivemos Among Us e The Umbrella Academy). Contudo, o diretor de Marketing é livre para escolher algo diferente, o que vale é a criatividade e o quanto vai chamar a atenção de novos membros. Idealmente, a arte do processo seletivo deve começar a ser preparada um mês antes do mesmo iniciar.
 
+
 ## Entrevistas
 
 Após o término das inscrições, a diretoria de Gestão de Pessoas (RH) realiza uma entrevista com cada candidato, perguntando sobre sua experiência, como ele agiria em determinadas situações, suas características e, com isso, fazem uma análise do perfil do candidato. Essas entrevistas geralmente são feitas seguindo um documento com todas as perguntas a serem realizadas e, após as entrevistas com os inscritos, os membros da GP se reúnem para analisar todas as respostas e filtrar os candidatos que poderão seguir no processo de capacitação dos novos membros (Processo Trainee).
@@ -48,9 +49,24 @@ Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetiva
 
 ## Preparação
 
-Antes de dar início ao processo trainee, os membros da Struct que tiverem interesse em contribuir, se voluntariam para serem instrutores do processo.
+### Convocação dos membros
 
-Após definidos os instrutores, estes se reúnem para elaborar a ementa, os critérios de avaliação, o calendário do processo e decidem quem irá ministrar cada aula. Nessa reunião, também é escolhido um **gerente do trainee**, que será o principal responsável pela comunicação com os candidatos e por acompanhar o processo como um todo, visando manter um bom progresso do mesmo.
+A próxima etapa consiste em uma convocação geral dos membros da empresa para compor a equipe do processo trainee. Os membros são livres para participar ou negar, mas é importante reforçar os pontos positivos da sua participação (experiência, gamificação, contato com os novos membros, etc). O ideal é ter ao menos 5 membros participando do processo trainee para que não haja ninguém sobrecarregado.
+
+### Primeira reunião com o time
+
+Em seguida, é necessário marcar uma reunião com todos os membros que gostariam de participar do processo trainee. Nessa reunião, os diretores de *Gestão de Pessoas* e de *Projetos* devem apresentar ao time o básico que um PT deve ter (aulas, listas, projeto final, etc). É interessante convidar para essa reunião o gerente e instrutores do processo trainee anterior para que possam relatar o que deu certo e o que deu errado no seu PT.
+
+Por fim, deve-se perguntar a todos os membros do time quem gostaria de se candidatar a **gerente do trainee**, que será o principal responsável pela comunicação com os candidatos e por acompanhar o processo como um todo, visando manter um bom progresso do mesmo. Caso mais de um membro se candidate, realiza-se uma votação na própria reunião e aquele com mais votos vence. É interessante que esse gerente não seja um diretor pois estes já são ocupados demais para dar o devido foco ao trainee.
+
+### Planejamento do Processo Trainee
+
+Após o Gerente do trainee ter sido escolhido, é responsabilidade do mesmo planejar como será o processo que irá gerenciar. Para começar, é bom marcar uma reunião com todos a equipe para definir um plano de ensino. Nesse plano, é ideal ter alguns elementos:
+
+1. Aulas e Instrutores  
+É interessante fazer uma lista de quais aulas serão ministradas e quando, sendo importante se atentar aos feriados nos dias de aula. Decididas as aulas, deixe que os instrutores escolham quais aulas eles têm preferência e evite que os instrutores peguem mais de 3 aulas seguidas para evitar o desgaste dos mesmos.  
+Adicione no plano de ensino, os contatos dos instrutores para que os trainees entrem em contato em caso de dúvidas.  
+Peça para que o time já comece a preparar suas aulas o quanto antes visto que muita gente deixa para última hora.
 
 
 ## Aulas
