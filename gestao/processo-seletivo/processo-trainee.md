@@ -24,7 +24,7 @@ Por fim, deve-se perguntar a todos os membros do time quem gostaria de se candid
 A decisão de todo o processo trainee (como ementa, aulas, avaliações, etc.) é de responsabilidade do gerente de trainee e dos membros da sua equipe.
 {% endhint %}
 
-### Planejamento do Processo Trainee
+### Planejamento
 
 Após o Gerente do trainee ter sido escolhido, é responsabilidade do mesmo planejar como será o processo que irá gerenciar. Para começar, é bom marcar uma reunião com todos a equipe para definir um plano de ensino. Nesse plano, é ideal ter alguns elementos:
 
@@ -63,16 +63,38 @@ Alguns tópicos que também são muito importantes para o PT:
 - **Participação nas reuniões das diretorias**: nas últimas 5 semanas, é interessante convidar todos os trainees a participarem das reuniões das diretorias para terem uma melhor ideia de qual diretoria gostariam de participar. Basta dividi-los em grupos e encaminhá-los à reunião de uma diretoria diferente a cada semana.
 - **Apadrinhamento**: Um sistema onde cada trainee tem um padrinho na equipe do trainee é bem interessante. O padrinho cuidaria daquele membro e tiraria suas dúvidas sempre que necessário. A ideia é que o trainee tenha uma pessoa com quem possa falar sobre qualquer coisa e assim se sinta mais a vontade.
 
-## Marcação dos dias e horários das aulas
+## Escolha dos dias e horários das aulas
 
-Com base nos horários coletados no [formulário](./README.md#formulario-de-inscricao) 
+Com base nos horários coletados no [formulário](./README.md#formulario-de-aprovacao) enviado ao fim das entrevistas, o *gerente do trainee* e seu time deve escolher os horários que o maior número de trainees (e instrutores) possam participar, sendo importante não realizar aulas em dias consecutivos para que os alunos tenham tempo suficiente para estudar a matéria aprendida e não sobrecarregar os instrutores. 
+
+## Dinâmica de integração
+
+É realizada pela GP antes do início das aulas, tem como objetivo quebrar o gelo entre os membros da equipe e os trainees. Essa dinâmica é o primeiro contato dos trainees com a empresa e é de extrema importância para que os alunos se sintam mais à vontade nas aulas.
+
+A dinâmica realizada deve permitir que os trainees se conheçam e conversem um pouco. Dinâmicas que promovem o trabalho em equipe e a cooperação também são muito interessantes, mas o principal aqui é descontrair e interagir!
+
+## Apresentação do Processo
+
+Esse evento é de responsabilidade do *Gerente do trainee* e deve ocorrer na mesma semana da dinâmica de integração mas não no mesmo dia. Neste dia, os trainees são introduzidos formalmemte aos seus instrutores e ao [plano de ensino](#planejamento). Nesta apresentação os instrutores tiram qualquer dúvida que os trainees possam ter e os dão alguns avisos gerais como cobrar que entrem no slack, discord ou classroom.
+
+## Apresentação das Diretorias
+
+Pode ser feita no mesmo dia da apresentação do PT e tem como objetivo introduzir com mais detalhes cada uma das diretorias da Struct. Com esse objetivo em mente, o *gerente do trainee* pode convidar cada um dos diretres para realizar uma breve apresentação para que os trainees tenham seu primeiro contato com a diretoria da Struct. Caso algum diretor não possa participar da reunião para apresentar sua diretoria, é interessante convidar algum de membro da mesma para realizar a apresentação em seu lugar.
+
+## Dinãmicas nas aulas
+
+São completamente opcionais, embora interessantíssimas para integrar os trainees, principalmente no EaD. A ideia é realizar uma pequena dinâmica com os trainees no começo de cada aula, não precisando ser algo muito elaborado. 
+
+De preferência, depois que todos os trainees estão reunidos e a aula está perto de começar, algum dos instrutores ou o próprio gerente do processo faz uma pergunta tranquila e pede para que cada um responda (incluindo os instrutores), como por exemplo "O que está fazendo antes de vir para a aula?", "O que fez de bom hoje?" ou "Como vai o semestre?". Essa quebrada de gelo que faz com que eles interajam já é muito boa para os deixar mais à vontade de fazer perguntas na aula.
+
+Caso seja optado por realizar perguntas diferentes, recomendamos dar uma olhada [nessa matéria](https://www.nytimes.com/2015/01/11/universal/es/teste-as-36-perguntas-que-levam-ao-amor.html) do New York Times que contém algumas perguntas que podem ser bem interessantes de serem feitas nas dinãmicas.
 
 ## Aulas
 
 São curtas (aproximadamente 1 hora, a depender do conteúdo) e acontecem cerca de 2 ou 3 vezes por semana. Nelas são abordadas as tecnologias que a Struct utiliza em seus projetos, a ementa pode variar de um semestre para o outro, porém os seguintes conteúdos são frequentemente abordados:
 
 - Introdução à programação com a linguagem ruby;
-- GIT e GitHub;
+- Git e GitHub;
 - Padrão Model-View-Controller (MVC);
 - Hypertext Transfer Protocol (HTTP);
 - Bancos de dados;
@@ -93,8 +115,12 @@ Quando não for possível realizar as aulas presencialmente, elas acontecem por 
 
 ## Avaliação
 
-Uma forma de garantir que os trainees estão absorvendo o conteúdo das aulas, é composta por três principais critérios: Listas de exercícios, projeto final e frequência. 
+Uma forma de garantir que os trainees estão absorvendo o conteúdo das aulas, é composta por três principais critérios: Listas de exercícios, projeto final e frequência.
 
 ### Listas de exercícios
 
-Os tópicos que os instrutores julgarem adequados, terão uma lista de exercícios que abordam o conteúdo da semana em questão para que os trainees possam praticar e fixar o conteúdo visto em aula. É comum que cada instrutor fique responsável por elaborar e corrigir as listas relacionadas ao conteúdo que ministrou em aula.
+Os tópicos que os instrutores julgarem adequados, terão uma lista de exercícios que abordam o conteúdo da semana em questão para que os trainees possam praticar e fixar o conteúdo visto em aula. 
+
+É importante que os instrutores fiquem atentos à correção dessas listas, visto que é algo que demanda um tempinho, contudo é bom ficarem espertos com isso pois se houver alguma lista muito difícil que muitos dos trainees não conseguiram fazer direito, uma correção atrasada pode passar a ilusão de que eles estão entendendo tudo e que o processo pode seguir adiante normalmente. Outro tópico importante de se atentar é com a os prazos de entrega, tomando sempre o devido cuidado para não acumular muitas listas com datas próximas e adicionando penalidades para atrasos de entrega.
+
+

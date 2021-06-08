@@ -85,7 +85,11 @@ Após as entrevistas com os inscritos, a última etapa do processo seletivo, que
 
 Geralmente, os candidatos que tendem a ser reprovados são aqueles que brincaram demais durante a entrevista e não a levaram a sério ou aqueles que não faziam ideia do porquê estavam participando do PS, ou seja, não tem a motivação necessária para entrar na empresa. Esses membros provavelmente desistiriam no meio do Processo Trainee se não fossem reprovados agora.
 
-Por fim, a divulgação da próxima etapa deve ser realizada por e-mail e/ou WhatsApp e, caso o membro seja aprovado, enviamos uma mensagem de parabenização junto de um **formulário de aprovação no processo**, no qual serão colhidas algumas informações e será solicitado a criação de algumas contas. Portanto, esse formulário deve ter: 
+Por fim, a divulgação da próxima etapa deve ser realizada por e-mail e/ou WhatsApp e, caso o membro seja aprovado, enviamos uma mensagem de parabenização junto de um formulário de aprovação no processo.
+
+#### Formulário de aprovação
+
+Nele serão colhidas algumas informações e será solicitado a criação de algumas contas. Portanto, esse formulário deve ter: 
 
 - Código da turma do Google Classroom;
 - Link do discord da Struct;
