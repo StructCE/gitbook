@@ -2,7 +2,7 @@
 
 É o processo de capacitação dos candidatos que forem aprovados no [processo seletivo](./README.md), tem como objetivo mostrar as ferramentas utilizadas dentro da Struct para os novos membros e ensiná-los o que for necessário, deixando-os preparados para iniciar seu trabalho dentro da EJ.
 
-Geralmente, dura cerca de um semestre letivo e, ao fim do processo, são efetivados os trainees que forem aprovados.
+O processo trainee começa no dia da divulgação dos resultados do PS e vai até a data da apresentação do projeto final, dura cerca de um semestre letivo e, ao fim do processo, são efetivados os trainees que forem aprovados. O principal responsável pelo processo é o *Gerente do trainee*, mas é importante estar sempre alinhado com os diretores de *Gestão de Pessoas* e de *Projetos* visto que eles podem colaborar quando necessário.
 
 ## Preparação
 
@@ -63,7 +63,9 @@ Alguns tópicos que também são muito importantes para o PT:
 - **Participação nas reuniões das diretorias**: nas últimas 5 semanas, é interessante convidar todos os trainees a participarem das reuniões das diretorias para terem uma melhor ideia de qual diretoria gostariam de participar. Basta dividi-los em grupos e encaminhá-los à reunião de uma diretoria diferente a cada semana.
 - **Apadrinhamento**: Um sistema onde cada trainee tem um padrinho na equipe do trainee é bem interessante. O padrinho cuidaria daquele membro e tiraria suas dúvidas sempre que necessário. A ideia é que o trainee tenha uma pessoa com quem possa falar sobre qualquer coisa e assim se sinta mais a vontade.
 
+## Marcação dos dias e horários das aulas
 
+Com base nos horários coletados no [formulário](./README.md#formulario-de-inscricao) 
 
 ## Aulas
 
