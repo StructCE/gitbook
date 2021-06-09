@@ -56,11 +56,11 @@ Uma forma de garantir que os trainees absorveram o conteúdo das aulas. O *geren
 
 Alguns tópicos que também são muito importantes para o PT:
 
+- **Participação nas reuniões das diretorias**: nas últimas 5 semanas, é interessante convidar todos os trainees a participarem das reuniões das diretorias para terem uma melhor ideia de qual diretoria gostariam de participar. Basta dividi-los em grupos e encaminhá-los à reunião de uma diretoria diferente a cada semana.
 - **Aulas de dúvidas**: mesmo que ninguém apareça, é bom dedicar esse tempo a eles.
 - **Feedback**: ocasionalmente, é importante coletar feedbacks do que os membros da equipe e os trainees estão achando do processo, sendo importante tentar ser flexível para adaptá-lo de acordo com os feedbacks, mas sem mudar completamente o planejamento original.
 - **Gravação de aulas**: caso a aula não seja presencial é interessante que os instrutores gravem o vídeo de sua aula antes da aula ao vivo. Assim, o instrutor treina antes da aula e teremos um vídeo mais bem feito (já que erros podem ser cortados ou regravados).
 - **Listas ou trabalhos de recuperação**: isso depende da sua bondade mas pense no caso dos alunos deixarem de fazer listas muito importantes (como a de controller ou a de básico de front) e mesmo assim continuarem no trainee.
-- **Participação nas reuniões das diretorias**: nas últimas 5 semanas, é interessante convidar todos os trainees a participarem das reuniões das diretorias para terem uma melhor ideia de qual diretoria gostariam de participar. Basta dividi-los em grupos e encaminhá-los à reunião de uma diretoria diferente a cada semana.
 - **Apadrinhamento**: Um sistema onde cada trainee tem um padrinho na equipe do trainee é bem interessante. O padrinho cuidaria daquele membro e tiraria suas dúvidas sempre que necessário. A ideia é que o trainee tenha uma pessoa com quem possa falar sobre qualquer coisa e assim se sinta mais a vontade.
 
 ## Escolha dos dias e horários das aulas
