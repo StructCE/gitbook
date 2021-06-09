@@ -16,6 +16,7 @@
 * [Recursos Humanos](gestao/recursos-humanos.md)
 * [Processo Seletivo](gestao/processo-seletivo/README.md)
   * [Processo Trainee](gestao/processo-seletivo/processo-trainee.md)
+    * [Guias Utilizados](gestao/processo-seletivo/guias-utilizados.md)
 
 ## Execução
 
