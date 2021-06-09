@@ -90,13 +90,13 @@ No rails, as bibliotecas (gems) eram gerenciadas pela gem + bundler, já no Java
 Para instalar o npm, basta instalarmos o NodeJS (um compilador para rodar JavaScript fora do browser), no ubuntu e sistemas baseados no Debian é bem simples, apenas entre no terminal e rode esses dois comandos:
 
 ```
-$ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 
-$ sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs
 ```
 
-Para conferir se deu tudo certo rode os comandos `$ node -v` e `$ npm -v` que devem retornar as versões instaladas do node e do npm, respectivamente. Caso seu sistema operacional seja diferente e os comandos acima não funcionem, no site do [nodejs.org](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) há a explicação para a instalação em diferentes tipos de distribuições e sistemas.
+Para conferir se deu tudo certo rode os comandos `node -v` e `npm -v` que devem retornar as versões instaladas do node e do npm, respectivamente. Caso seu sistema operacional seja diferente e os comandos acima não funcionem, no site do [nodejs.org](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) há a explicação para a instalação em diferentes tipos de distribuições e sistemas.
 
 ### Yarn
 
-A instalação do yarn pode ser feita de [diversas maneiras](https://classic.yarnpkg.com/en/docs/install#windows-stable), porém **não instale o yarn por snap**, uma vez que isso instala uma versão diferente (0.X.X+git) que não funciona. A forma mais fácil de instalá-lo é pelo próprio npm mesmo, apenas rode o comando `$ npm install --global yarn` e teste se deu certo com o `$ yarn -v`.
+A instalação do yarn pode ser feita de [diversas maneiras](https://classic.yarnpkg.com/en/docs/install#windows-stable), porém **não instale o yarn por snap**, uma vez que isso instala uma versão diferente (0.X.X+git) que não funciona. A forma mais fácil de instalá-lo é pelo próprio npm mesmo, apenas rode o comando `npm install --global yarn` e teste se deu certo com o `yarn -v`.
