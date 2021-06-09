@@ -1,11 +1,11 @@
 # Guias Geralmente Utilizados
 
-Nessa seção apresentaremos alguns tópicos e referências que são interessantes de serem passados aos trainees durante o PT.
+Nessa seção apresentaremos alguns tópicos ou referências que são interessantes de serem passados aos trainees durante o PT.
 
-- [Tutorial Git](../../execucao/git/README.md);
-- [Instalação Ruby e rails](../../execucao/ruby-on-rails/instalacao.md);
-- [Tutorial ruby, rubymine e vscode](https://youtu.be/LJ5GhhaGlog);
-- [Dual Boot](#dual-boot);
+- [Tutorial Git](../../execucao/git/README.md)
+- [Instalação Ruby e rails](../../execucao/ruby-on-rails/instalacao.md)
+- [Tutorial ruby, rubymine e vscode](https://youtu.be/LJ5GhhaGlog)
+- [Dual Boot](#dual-boot)
 
 ## Dual Boot
 
@@ -27,13 +27,13 @@ Não é obrigatório que os trainees utilizem o linux ou façam um dual boot em 
 
 Existem diversas distribuições do linux que os trainees podem optar por utilizar. Entre as mais famosas temos o Ubuntu, o Linux-Mint e o PopOS, sendo as 3 ótimas para ajudá-los nessa jornada, vai mais de gosto pessoal de cada um. Segue abaixo os links para download de cada uma dessas distros, no caso do linux mint, escolha alguma versão que tem a bandeira do Brasil. Já no caso do Ubuntu e do PopOs, é recomendado a instalação das versões LTS (Long Term Support) que são lançadas a cada 2 anos e têm cerca de 5 anos de suporte (como 20.04 LTS):
 
-- [Linux Mint](https://linuxmint.com/edition.php?id=284);
-- [Ubuntu](https://ubuntu.com/download/desktop);
-- [PopOs](https://pop.system76.com/).
+- [Linux Mint](https://linuxmint.com/edition.php?id=284)
+- [Ubuntu](https://ubuntu.com/download/desktop)
+- [PopOs](https://pop.system76.com/)
 
 Após o download da distro escolhida, vamos precisar de um pedrive para que sejmos capazes de iniciar e instalar o linux corretamente em seu computador. Existem diversas ferramentas para transformar nosso pendrive em um pendrive bootável, nesse [tutorial](https://youtu.be/bGrWprBkxvo) é utilizado o "Rufus". Depois de instalado, abra o programa, selecione a distro escolhida e o pendrive para continuar.
 
-{% hint style="error" %}
+{% hint style="danger" %}
 **Todos** os dados do do pendrive serão **apagados** nesse processo, por isso certifique-se de que não há nada de importante nele ou faça um backup antes de prosseguir. 
 {% endhint %}
 
@@ -72,6 +72,6 @@ Após clicar em instalação avançada, selecione a partição de memória não 
 
 Segue abaixo um tutorial dessa etapa em cada uma das distribuições do linux citadas anteriormente:
 
-- [Linux-mint](https://youtu.be/KV6KiveQTpI?t=504);
-- [Ubuntu](https://www.youtube.com/watch?v=45--PnNFATU);
-- [PopOs](https://youtu.be/EXZ7_DVxztQ?t=360).
+- [Linux-mint](https://youtu.be/KV6KiveQTpI?t=504)
+- [Ubuntu](https://www.youtube.com/watch?v=45--PnNFATU)
+- [PopOs](https://youtu.be/EXZ7_DVxztQ?t=360)
