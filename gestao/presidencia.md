@@ -15,15 +15,14 @@ No momento da troca de gestão, muitas coisas devem ser feitas para a próxima g
 5. **Trello Usuário:** [@structunb](https://trello.com/structunb)
 6. **Trello Time:** [Struct\(@structec\)](https://trello.com/structec)
 7. **Admin do G Suite:**
-    - Solicitar a configuração de verificação em 2 etapas para cada email da diretoria(admin@struct.unb.br, projetos@struct.unb.br).
+    - Solicitar a configuração de verificação em 2 etapas para cada email da diretoria (admin@struct.unb.br, contato@struct.unb.br, projetos@struct.unb.br).
     - Evita um problema de acesso em dispositivos desconhecidos
 8. **Facebook Página:** [StructUnb](https://www.facebook.com/StructUnB/)
 9. **Instagram Usuário:** [@structunb](https://www.instagram.com/structunb/)
-10. **Gitbook**
 11. **Pipefy**
-12. **Slack**
+12. **Slack:** Acesso pelo e-mail de admin
 13. **Gmail legado:** structunb@gmail.com
-14. **Digital Ocean**
+14. **Digital Ocean:** projetos@struct.unb.br
 15. **BitBucket**
 16. **Linkedin:** [struct-ej](https://br.linkedin.com/company/struct-ej)
 
@@ -35,7 +34,7 @@ Cada conta da Struct (como admin@struct.unb.br, contato@struct.unb.br, etc.) pos
 
 ## Reuniões Gerais
 
-As reuniões gerais(RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Normalmente as RGs são bissemanais, algumas pautas comuns a serem tocadas:
+As reuniões gerais (RGs), são reuniões de alinhamento geral com pautas pré-definidas e são geralmente iniciadas com dinâmicas entre os membros(para fortalecer a cultura, engajamento e entrosamento; além de ser um momento para descontrair antes do início das pautas). Normalmente as RGs são bissemanais, algumas pautas comuns a serem tocadas:
 - Prestação de contas no início de cada mês.
 - Atualizações das Rps do conselho da Concentro.
 
