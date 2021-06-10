@@ -3,16 +3,24 @@ A Struct tem a necessidade constante de assinar documentos, desde contratos com 
 ## Usando o Clicksign
 Primeiro tenha em mão o login e senha da Struct para acessar o portal da ferramenta, se você não tiver, entre em contato com seu diretor ou presidente para obtê-los.
 ### Inserindo um documento para a assinatura
+
 ![Tela do site Clicksign](../../imagens/clicksign-main.png)
+
 Após seu login, você verá a organização de pastas da ferramenta. Navegue até a pasta que corresponde ao tipo de documento que você vai adicionar (sinta-se livre para criar novas pastas para fins de organização). Na pasta desejada, clique no botão *Adicionar documento*, localizado na barra lateral esquerda, e selecione o documento PDF ou Word no seu computador que você deseja colocar para assinatura.
+
 ![Tela de signatários](../../imagens/clicksign-signatarios.png)
+
 Com o documento carregado, você irá para a página de selecionar os signatários, onde você terá duas escolhas:
 #### *Signatário novo*
+
 ![Tela de novo signatario](../../imagens/clicksign-novo-signatario.png)
+
 Aqui você terá que digitar o e-mail do signatário e no campo *Autenticação Obrigatória* selecionar *Enviar token por E-mail*. Não é necessário colocar nada no campo de *Autenticações adicionais*.
 Você tem a opção de preencher os campos de CPF, nome e data de nascimento também, mas não é obrigatório, visto que será perguntado ao signatário caso esteja em branco. Caso deseje, marque o checkbox para adicionar o contato na agenda.
 Avance e selecione na lista como o signatário deve assinar. Caso esteja em dúvida, deixe como *Assinar*.
+
 ![Tela de tipo de assinatura](../../imagens/clicksign-tipo-assinatura.png)
+
 #### *Signatário da agenda*
 Alguns contatos normalmente já se encontram salvos em nossa agenda do Clicksign, como os diretores e presidente. Se o contato desejado já estiver na lista, é só selecioná-lo e selecionar como ele deverá assinar. Novamente, caso esteja em dúvida, deixe como *Assinar*.
 
@@ -20,11 +28,15 @@ Alguns contatos normalmente já se encontram salvos em nossa agenda do Clicksign
 Evite deixar nossa agenda do Clicksign muito cheia e bagunçada. Insira como contato novo apenas pessoas recorrentes, como nossos membros.
 {% endhint %}
 #### Seleção de data limite
+
 ![Tela de data limite](../../imagens/clicksign-data.png)
+
 Após selecionar todos os signatários, você irá ver a página se seleção de data limite. As configurações padrões normalmente são as utilizadas pela empresa, mas sinta-se livre para estender ou diminuir a data limite, como achar necessário.
 Apenas na seção *Finalização do Documento* que faça questão de deixar para finalizar automaticamente após a última assinatura, por fins de praticidade. 
 #### Mensagem
+
 ![Tela de inserção de mensagem](../../imagens/clicksign-mensagem.png)
+
 Por fim, coloque a mensagem que será enviada por e-mail para a assinatura. Ao apertar botão logo abaixo da área da mensagem, você terá a opção de selecionar a mensagem padrão, a recomendada a ser utilizada pela empresa.
 Com isso, clique em *Enviar* e os e-mails para coleta das assinaturas serão enviados para os signatários.
 ### Como realizar a assinatura
@@ -51,5 +63,7 @@ No caso de superarmos nosso limite mensal, o pagamento deverá ser feito pelo di
 Note que, o não pagamento em dia das dívidas do Clicksign bloqueia nosso acesso ao site, até que seja pago, e gera uma pequena multa.
 ### Validade de documentos impressos do Clicksign
 Ás vezes, temos a necessidade de imprimir algum documento do Clicksign, para envio ao cartório, por exemplo. No entanto, por si só, o documento assinado digitalmente não tem validade se for impresso então para contornar isso, usamos o [validador do Clicksign](https://validador.clicksign.com/).
+
 ![Tela do validador](../../imagens/clicksign-validador.png)
+
 Nesse site, clique na opção de gerar senha a partir de um PDF e selecione o PDF do documento que você deseja imprimir.  Feito isso, você terá acesso a uma senha e QR Code de acesso para validação do documento. Imprima essa página junto do documento para que ele seja legalmente aceito de forma impressa.
