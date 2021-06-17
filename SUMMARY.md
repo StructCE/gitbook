@@ -13,6 +13,7 @@
 * [Comercial](gestao/comercial/README.md)
   * [Funil de Vendas](gestao/comercial/funil-de-vendas.md)
   * [Fazer Proposta](gestao/comercial/fazer-proposta.md)
+  * [Inserir Projetos no Portal BJ](gestao/comercial/insercao-portal-BJ.md)
 * [Recursos Humanos](gestao/recursos-humanos.md)
 * [Processo Seletivo](gestao/processo-seletivo/README.md)
   * [Processo Trainee](gestao/processo-seletivo/processo-trainee.md)
