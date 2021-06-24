@@ -1,6 +1,6 @@
 # Reembolso para membros
 Embora o ideal seja evitar essa situação, por vezes, alguma despesa da empresa acaba sendo paga diretamente por algum membro, que acaba precisando de um reembolso do valor investido.
-No entanto, pelo nosso caráter de Empresa Júnior, somos proibidos de pagar nossos membros, então todo o processo de reembolso deve ser feito de forma cuidadosa para evitar problemas futuros com a receita
+No entanto, pelo nosso caráter de Empresa Júnior, somos proibidos de pagar nossos membros, então todo o processo de reembolso deve ser feito de forma cuidadosa para evitar problemas futuros com a receita.
 
 ## Gastos passíveis de reembolso
 Todos os gastos devem ser avisados previamente ao Diretor Administrativo-Financeiro, para ser dado um aceite com antecedência. Alguns dos gastos passíveis de reembolso incluem:
