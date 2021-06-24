@@ -40,15 +40,15 @@ Apenas na seção *Finalização do Documento* que faça questão de deixar para
 Por fim, coloque a mensagem que será enviada por e-mail para a assinatura. Ao apertar botão logo abaixo da área da mensagem, você terá a opção de selecionar a mensagem padrão, a recomendada a ser utilizada pela empresa.
 Com isso, clique em *Enviar* e os e-mails para coleta das assinaturas serão enviados para os signatários.
 ### Como realizar a assinatura
-Para assinar um documento no Clicksign, verifique na caixa de entrada do e-mail cadastrado como pertencente ao signatário. No e-mail enviado pela ferramenta, terá um link para a assinatura do documento, em que será possível tanto verificar o documento quanto assiná-lo. Para assinar, um novo e-mail será enviado com um token de 6 caracteres para ser inserido. E fim, fácil e rápido para fazer uma assinatura.
+Para assinar um documento no Clicksign, verifique na caixa de entrada do e-mail cadastrado como pertencente ao signatário. No e-mail enviado pela ferramenta, terá um link para a assinatura do documento, em que será possível tanto verificar o documento quanto assiná-lo. Para assinar, um novo e-mail será enviado com um token de 6 caracteres para ser inserido e pronto, fácil e rápido para fazer uma assinatura.
 ### Acompanhando documentos em processo
 No link *Em Processo* na barra lateral do site é possível acompanhar todos os documentos ainda não finalizados. Ao selecionar um dos documentos, temos algumas opções interessantes:
 #### Adicionar novos signatários
-Na aba *Assinaturas* você pode adicionar signatários que faltaram durante a adição do documento, seguindo os mesmos passos de [antes](#signatario-novo)
+Na aba *Assinaturas* você pode adicionar signatários que faltaram durante a adição do documento, seguindo os mesmos passos de [antes](#signatario-novo).
 #### Cancelar documento
 Na mesma aba *Assinaturas* há o botão de *Cancelar*, se por algum motivo você deseja cancelar o documento em processo. Note que, se cancelado, todas as assinaturas obtidas serão anuladas.
 #### Mudar prazo de assinatura
-É comum clientes mais enrolados demorarem muito para assinar um documento, em especial termos de conclusão. Nessa situação pode ocorrer do documento está chegando em sua data limite com assinaturas ainda não coletadas.
+É comum clientes mais enrolados demorarem muito para assinar um documento, em especial termos de conclusão. Nessa situação pode ocorrer do documento estar chegando em sua data limite com assinaturas ainda não coletadas.
 Para contornar isso, na aba *Configurações* você pode modificar a data limite para permitir ao cliente um tempo maior de assinar, e impedindo que o documento seja finalizado com assinaturas faltando.
 ### Obtendo documentos finalizados
 Documentos finalizados são enviados para o e-mail de admin da Struct e para os e-mail de todos os signatários. Além disso, na barra lateral do site, é possível ir para a seção *Finalizados* e visualizar os últimos documentos finalizados. Lembrando que, a não ser que você tenha mudado as configurações padrões, os documentos serão automaticamente finalizados assim que a última assinatura for realizada. Por fim, selecione o documento desejado e faça um download de sua cópia assinada.
