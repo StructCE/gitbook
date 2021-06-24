@@ -54,4 +54,4 @@ Lembre-se que outra meta importante para a empresa é a avaliação NPS. Quando 
 
 ![Tela de NPS](../../imagens/PortalBJ/PortalBJ-NPS.png)
 
-Para adicionar a resposta de um NPS, vá a pagina *Meus Projetos* novamente, procure pelo projeto desejado e clicar no botão de NPS na parte direita da barra do projeto. Após isso, simplesmente preencha com os campos com as informações coletadas.
+Para adicionar a resposta de um NPS, vá a pagina *Meus Projetos* novamente, procure pelo projeto desejado e clique no botão de NPS na parte direita da barra do projeto. Após isso, simplesmente preencha com os campos com as informações coletadas.
