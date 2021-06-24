@@ -51,3 +51,4 @@
 * [Gamificação](execucao/gamificacao/gamificacao.md)
   * [Clockify](execucao/gamificacao/clockify.md)
 * [Mailer](execucao/mailer.md)
+* [Assinatura Digital de Documentos](execucao/assinatura-digital.md)
