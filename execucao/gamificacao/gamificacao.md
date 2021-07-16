@@ -21,7 +21,7 @@ Pontuação | Descrição | Frequência
 ------------ | ------------- | -------------
 +3 pontos | Caso o membro seja gerente de projeto | Mensal
 +3 pontos | Caso o membro seja diretor | Mensal
-Varíavel | Para membros de destaque indicados por um diretor | Mensal
+Varíavel | Para membros de destaque indicados por um diretor ou gerente | Mensal
 +2 pontos | Participação em 1 projeto | Mensal
 +4 pontos | Participação em 2 projetos | Mensal
 +1 ponto | Para cada participação adicional em projeto acima de 2 | Mensal
@@ -84,7 +84,7 @@ As primeiras três patentes só podem ser ocupadas por um membro cada e tem como
 Anualmente, ocorrem dois períodos de férias gerais na empresa, os quais todos os membros entram de férias concomitante. Essas férias normalmente ocorrem entre temporadas da gamificação, não afetando a obtenção de pontos dos membros.
 
 Além das feŕias gerais, os membros tem direito de requisitar um período de 7 dias de férias em cada semestre do ano. Nessas férias, os membros receberão 6 pontos na gamificação (correspondentes as 6 horas mínimas semanais) mesmo sem realizar nenhuma tarefa.
-Durante as férias do membro, a fim de evitar que as férias sejam utilizadas para aumento de pontuação na gamificaão, não serão contabilizados pontos por horas trabalhadas no Clockify. Não é obrigatório que o membro entre de férias no semestre.
+Durante as férias do membro, a fim de evitar que as férias sejam utilizadas para aumento de pontuação na gamificação, não serão contabilizados pontos por horas trabalhadas no Clockify. Não é obrigatório que o membro entre de férias no semestre.
 
 {% hint style="info" %}
 As férias podem ser solicitada para qualquer membro da diretoria de gestão de pessoas entre 15 e 30 dias antes de seu início. Sua aprovação pode depender da quantidade de pessoas em férias no momento e das demandas da empresa no período.
