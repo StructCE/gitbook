@@ -35,7 +35,7 @@ Gerentes de trainee são considerados gerentes de projeto.
 {% endhint %}
 
 {% hint style="info" %}
-O membro deverá fazer ao menos 3 horas no projeto no mês para ser considerado um membro do projeto e ganhar os pontos extras. A contabilização será feita usando o Clockify, apurando o uso com a tag do projeto.
+O membro deverá fazer ao menos 5 horas no projeto no mês para ser considerado um membro do projeto e ganhar os pontos extras. A contabilização será feita usando o Clockify, apurando o uso com a tag do projeto.
 {% endhint %}
 
 #### Membros destaques
@@ -75,8 +75,8 @@ Ranking | Patente | Pontuação Mensal
 6 | Especialista de colisões | 30
 7 | Técnico do motor de dobra | 24
 8 | Piloto Iniciante | 16
-9 | Aspirante a piloto | 8
-10 | Piloto Estagiário | 0
+9 | Estagiário da nave | 8
+10 | Faxineiro Espacial | 0
 
 As primeiras três patentes só podem ser ocupadas por um membro cada e tem como condição de entrada a obtenção de **no mínimo 50 pontos**. Caso apenas um membro consiga atingir a pontuação mínima do top 3, ele ocupará automaticamente a primeira posição.
 
