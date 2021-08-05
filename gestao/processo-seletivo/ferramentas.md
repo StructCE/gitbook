@@ -57,7 +57,7 @@ Nele, provavelmente você estará em 3 canais: o canal geral, em que é falado s
 
 ## Linux
 
-Linux é um sistema operacional (assim como o windows) de código aberto que é altamente recomendado para programar pois facilita bastante o desenvolvimento. Mas como fazer pra conseguir usar esse tal de linux? Vou ter que abrir mão do meu windows para conseguir usá-lo? Na verdade, existe uma técnica chamada "dual boot", que consiste em ter 2 sistemas operacionais diferentes no mesmo computador, em que você selecionar qual utilizar na hora de ligá-lo. Confira esse [tutorial](./guias-utilizados.md) para saber mais detalhes de como instalar o linux em seu computador.
+Linux é um sistema operacional (assim como o windows) de código aberto que é altamente recomendado para programar pois facilita bastante o desenvolvimento. Mas como fazer pra conseguir usar esse tal de linux? Vou ter que abrir mão do meu windows para conseguir usá-lo? Na verdade, existe uma técnica chamada "dual boot", que consiste em ter 2 sistemas operacionais diferentes no mesmo computador, em que você selecionar qual utilizar na hora de ligá-lo. Confira esse [tutorial](./guias-utilizados.md#dual-boot) para saber mais detalhes de como instalar o linux em seu computador.
 
 ## GitHub
 
