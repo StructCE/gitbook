@@ -19,6 +19,7 @@
 * [Processo Seletivo](gestao/processo-seletivo/README.md)
   * [Processo Trainee](gestao/processo-seletivo/processo-trainee.md)
     * [Guias Utilizados](gestao/processo-seletivo/guias-utilizados.md)
+    * [Ferramentas](gestao/processo-seletivo/ferramentas.md)
   * [Readmissão de Membros](gestao/processo-seletivo/readmissao-de-membros.md)
 
 ## Execução
