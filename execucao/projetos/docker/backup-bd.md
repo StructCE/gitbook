@@ -4,7 +4,7 @@ ou então caso você precise testar modificaçes no seu computador com o banco d
 
 ## Passo a passo
 - Primeiramente entre no servidor da Struct
-- Digite: ```docker exec <CONTAINER> /usr/bin/mysqldump -u root —password=<PASSWORD> <DATABASE> > nomedoarquivo.sql ```
+- Digite: ```docker exec <CONTAINER> /usr/bin/mysqldump -u root --password=<PASSWORD> <DATABASE> > nomedoarquivo.sql ```
 - Use ```docker ps```, para localizar seu container e olhe o docker-compose para localizar a senha e o nome do database
 - Com esse comando será criado um arquivo nomedoarquivo.sql na pasta atual que você rodou o comando no servidor
 , que guarda toda a informação do seu banco de dado
