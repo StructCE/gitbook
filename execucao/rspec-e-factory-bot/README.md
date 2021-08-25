@@ -25,3 +25,17 @@ Principalmente, porque evita que fiquemos horas e horas testando tudo manualment
 Além disso, quando escrevemos testes, somos forçados a pensar nos problemas que nossa aplicação pode ter e, nesse sentido, precisaremos de testes mais abrangentes e melhores escritos para garantir que nada vá falhar.
 
 Por fim, como resultados de testes teremos códigos mais bem escritos, menos trabalho, código mais eficiente e com menos problemas. Acho que é algo que vale a pena.
+
+## Por que Rspec?
+
+![The Ruby Toolbox](../../imagens/the_ruby_toolbox.png)
+
+Como podemos ver, segundo o site [The Ruby Toolbox](https://www.ruby-toolbox.com/), o rspec é a ferramenta de teste mais utilizada em rails atualmente, nesse sentido, para quem desenvolve em rails é de extrema importância que essa ferramenta seja dominada, pois é com ela que estaremos tendo mais contato no seu cotidiano como programador e/ou como desenvolvedor de alguma empresa que trabalha com rails.
+
+Além do mais, o Rspec facilita a integração com outras gems como a [factory bot rails](https://github.com/thoughtbot/factory_bot_rails), por exemplo, então, é uma gem muito abrangente e útil para termos nas nossas aplicações.
+
+Outrossim, é bem mais fácil usarmos o Rspec pois temos uma documentação muito extensa, uma comunidade bem ativa, livros e uma série de tutoriais que podem nos ajudar caso encontremos algum problema.
+
+Por fim, além de todos os benefícios já citados, a gem Rspec não é só muito poderosa para escrever testes, mas também facilita muito para entendermos os testes, ou seja, teremos uma extrema facilidade para escrevermos testes e, caso alguém precise modificar, é bem fácil de entender os casos de testes também.
+
+Assim sendo, nossa escolha pelo Rspec Rails não se dá apenas pela sua facilidade, elegância, capacidade de integração com outras ferramentas, mas também pelo seu uso no mercado, atualmente. Todos esses fatores, fazem com que o uso da gem Rspec seja de extrema importância para todos os desenvolvedores rails que desejam aprender rails a fundo.
