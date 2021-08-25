@@ -16,9 +16,9 @@ Já no Gemfile, ficará assim:
 
 ```ruby
 group :development, :test do
-    # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-    gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-    gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
 end
 ```
 
