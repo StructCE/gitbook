@@ -1,5 +1,3 @@
-# Testes
-
 ## O que é testar?
 
 Basicamente, não testamos uma aplicação sempre que estamos usando ela? Sim, no entanto, esses testes são demorados e, às vezes, temos que entregar algo de prontidão para um cliente, nesse sentido, mesmo que verifiquemos a aplicação, podemos deixar alguns erros bem específicos passar sem que percebamos.
