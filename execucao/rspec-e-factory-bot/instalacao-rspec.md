@@ -41,4 +41,4 @@ create  .rspec
     create  spec/rails_helper.rb
 ```
 
-Isso mostra que o comando criou a pasta spec e dentro dela dois arquivos foram criados o spec_helper.rb e o rails_helper.rb.
+Isso mostra que o comando criou a pasta **spec** e dentro dela dois arquivos foram criados o **spec_helper.rb** e o **rails_helper.rb**.
