@@ -38,6 +38,7 @@
   * [Testando Models](execucao/rspec-e-factory-bot/testando-models.md)
   * [Usando o Factory Bot](execucao/rspec-e-factory-bot/uso-do-factory-bot.md)
   * [Testando Controllers](execucao/rspec-e-factory-bot/teste-de-controller.md)
+  * [Testando Controllers Versionadas](execucao/rspec-e-factory-bot/teste-controller-versionada.md)
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
