@@ -34,6 +34,7 @@
   * [Bash de Ubuntu no Windows](execucao/ruby-on-rails/bash-de-ubuntu-no-windows.md)
 * [Rspec e Factory Bot](execucao/rspec-e-factory-bot/README.md)
   * [Instalação Rspec](execucao/rspec-e-factory-bot/instalacao-rspec.md)
+  * [Instalação Factory Bot](execucao/rspec-e-factory-bot/instalacao-factory-bot.md)
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
