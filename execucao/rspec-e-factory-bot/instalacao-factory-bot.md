@@ -1,6 +1,6 @@
 # Instalando o Factory Bot
 
-Quando analisamos o código anterior é percebível que criamos diversas variáveis chamada 'estudante' para fazermos os testes, todavia, temos uma forma mais ortodoxa de fazer esse processo.
+Quando analisamos o código no nosso [teste de models](testando-models.md), é percebível que criamos diversas variáveis chamadas 'estudante' para fazermos os testes, todavia, temos uma forma mais ortodoxa de fazer esse processo.
 
 Usando a gem [factory_bot_rails](https://rubygems.org/gems/factory_bot_rails), nós podemos criar fábricas para testes, mas antes de entendermos melhor o funcionamento dessa gem, vamos aprender a instalar ela e a configurar com o Rspec.
 
