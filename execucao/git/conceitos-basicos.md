@@ -86,7 +86,7 @@ Para visualizar o histórico de *commits* no seu terminal, use o comando `git lo
 Para realizar um *commit*, após ter adicionado os arquivos modificados com o comando `git add`, execute o comando `git commit`. Esse comando fará aparecer uma instância do editor de texto no terminal para que a descrição do *commit* seja escrita. Escreve, salve e saia do editor para que seu *commit* seja corretamente realizado.
 Deverá aparecer, após o *commit*, uma mensagem em seu terminal com a quantidade de inserções e deleções que ocorreram, além dos arquivos modificados, criados e removidos.
 
-Para realizar o *commit* e já escrever a descrição em uma linha, sem necessidade de abrir o editor de texto, use o comando `git commit -m "<Sua mensagem aqui>"`, com a mensagem entre parênteses.
+Para realizar o *commit* e já escrever a descrição em uma linha, sem necessidade de abrir o editor de texto, use o comando `git commit -m "<Sua mensagem aqui>"`, com a mensagem entre aspas duplas.
 
 ### Mensagens de commit
 
@@ -96,7 +96,7 @@ Para isso, é importante que todas as mensagens de *commit* sejam claras, objeti
 
 ### Como desfazer um commit
 
-Ás vezes pode acontecer de você necessitar voltar atrás em algum *commit* que você realizou, seja por que você esqueceu alguma coisa ou alguma coisa de errada ocorreu.
+Às vezes pode acontecer de você necessitar voltar atrás em algum *commit* que você realizou, seja por que você esqueceu alguma coisa ou alguma coisa de errada ocorreu.
 
 Para o caso de você ter esquecido de adicionar algum arquivo a *staging area* antes de um commit, ao invés de reverter ele você pode adicionar o arquivo esquecido com o `git add` e usar o comando `git commit --amend` para adicionar os novos arquivos na *staging area* ao último *commit* realizado, sem criar um novo *commit* para isso.
 
@@ -165,9 +165,9 @@ Quando feito o *push* de modificações em uma nova *branch* local, ainda não n
 
 ## Merges
 
-Quando estamos trabalhando com diversas *branches*, é normal querermos mesclar o conteúdo de uma *branch* em outra, seja para combinar duas linha de desenvolvimento em uma ou mesmo levar o desenvolvimento de uma *branch* para a **master**.
+Quando estamos trabalhando com diversas *branches*, é normal querermos mesclar o conteúdo de uma *branch* em outra, seja para combinar duas linhas de desenvolvimento em uma ou mesmo levar o desenvolvimento de uma *branch* para a **master**.
 
-Para realizar a junção das ramificações, vá até a *branch* de destino usando o comando `git checkout` e utilize o comando `git merge <nome da branch de origem>`. Com isso, todo o conteúdo da *branch* de destino continuará nela porém serão adicionados as modificações da *branch* de origem, sendo gerado um novo *commit* automaticamente com indicando o *merge*.
+Para realizar a junção das ramificações, vá até a *branch* de destino usando o comando `git checkout` e utilize o comando `git merge <nome da branch de origem>`. Com isso, todo o conteúdo da *branch* de destino continuará nela porém serão adicionados as modificações da *branch* de origem, sendo gerado um novo *commit* automaticamente indicando o *merge*.
 
 ### Conflitos de merge
 
@@ -184,9 +184,9 @@ Ao criar um *Pull Request* (*Merge Request* no Gitlab), o usuário pode descreve
 
 ### Revisando uma PR
 
-Qualquer usuário com permissões no repositório pode avaliar uma PR no Github ou Gitlab. Esses sites oferecem telas intuitivas para analisar todos os arquivos modificados na *branch* e compará-los com os originais. É ideal que, além de ler o código, o analisador da PR também execute-o localmente em seu computador para garantir o funcionamento tanto das novas funcionalidades implementadas e também se as modificações feitas não resultaram em algum bug em uma funcionalidade antiga.
+Qualquer usuário com permissões no repositório pode avaliar uma PR no Github ou Gitlab. Esses sites oferecem telas intuitivas para analisar todos os arquivos modificados na *branch* e compará-los com os originais. É ideal que, além de ler o código, o analisador da PR também execute-o localmente em seu computador para garantir o funcionamento tanto das novas funcionalidades implementadas como também se as modificações feitas não resultaram em algum bug em uma funcionalidade antiga.
 
-Ao terminar sua análise, esses sites permitem que você as aprove, quando tudo estiver correto, deixe algum comentário sem aprovação explicita ou requeira mudanças para o autor do código, indicando por um comentário quais problemas foram encontrados e quais as mudanças requisitadas.
+Ao terminar sua análise, esses sites permitem que você as aprove, quando tudo estiver correto, deixe algum comentário sem aprovação explícita ou requeira mudanças para o autor do código, indicando por um comentário quais problemas foram encontrados e quais as mudanças requisitadas.
 
 Quando a PR tiver sido aprovada pela quantidade esperada de pessoas (em geral, apenas uma basta, mas combine isso com seu time com antecedência), utilize as ferramentas do próprio site para dar o *merge* da *branch*, corrigindo conflitos se houver, e delete a *branch* no repositório remoto após ao finalizar. 
 
