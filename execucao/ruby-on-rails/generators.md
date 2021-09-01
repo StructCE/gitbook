@@ -14,17 +14,19 @@ Os tipos disponíveis são: `binary` para um BLOB (Binary Large OBject), `boolea
 
 O `<NomeDaModel>` também pode ser escrito como `<nome_da_model>`, sempre no singular.
 
-Após rodar o comando, por exemplo, `rails generate model Country name:string population:integer`, aparecerão no terminal as seguintes linhas:
+Após rodar o comando, por exemplo, `rails g model Country name:string population:integer`, aparecerão no terminal as seguintes linhas:
 
 ```bash
     invoke  active_record
-    create    db/migrate/20130715174248_create_countries.rb
+    create    db/migrate/20210901212108_create_countries.rb
     create    app/models/country.rb
     invoke    rspec
-    create      rspec/models/country_spec.rb
+    create      spec/models/country_spec.rb
+    invoke      factory_bot
+    create        spec/factories/countries.rb
 ```
 
-Nesse caso, foram criadas uma **migrate** na pasta **db**, um arquivo **country.rb** na pasta **app/models** e, como o rspec já estava instalado, um arquivo de testes na pasta **rspec/models**.
+Nesse caso, foram criadas uma **migration** na pasta **db/migrate**, um arquivo **country.rb** na pasta **app/models**, como o rspec já estava instalado, um arquivo de testes na pasta **spec/models** e, como o factory bot já estava instalado, uma factory na pasta **spec/factories**
 
 Pronto, assim você terá gerado uma model.
 
@@ -46,3 +48,99 @@ A versão é, normalmente `vx`, sendo `x` o número da versão da API.
 
 Assim como na geração de models, o `<NomeDaController>` pode ser escrito como `<nome_da_controller>`, sempre no plural.
 
+Após rodar o comando, por exemplo, `rails g controller api::v1::countries`, aparecerão no terminal as seguintes linhas:
+
+```bash
+    create  app/controllers/api/v1/countries_controller.rb
+    invoke  rspec
+    create    spec/requests/api/v1/countries_spec.rb
+```
+
+Nesse caso, será criada a controller **countries_controller.rb** na pasta **app/controllers/api/v1** e, com o rspec instalado, um arquivo de testes na pasta **spec/requests/api/v1**.
+
+Desse modo, a controller estará pronta para ser preenchida.
+
+## Geração de Serializer
+
+A geração de serializer, que é a ferramenta que usamos para passar os parâmetros do JSON, é também muito simples, basta rodar:
+
+```bash
+rails g serializer <NomeDoSerializer>
+```
+
+Assim como em models e controllers, o `<NomeDoSerializer>` pode ser escrito como `<nome_do_serializer`, sempre no singular.
+
+Após rodar, por exemplo, `rails g serializer Country`, o terminal nos devolve:
+
+```bash
+    create  app/serializers/country_serializer.rb
+```
+
+Isso significa que o serializer foi gerado na pasta **app/serializers**, pronto também para ser utilizado.
+
+## Geração de Devise
+
+O Devise é nossa gem para implementação de um sistema de usuários na nossa API. Após a instalação da gem do devise, o seu gerador segue o padrão dos outros:
+
+```bash
+rails g devise <NomeDaModel>
+```
+
+O nome da model é geralmente `User`, porém pode ser qualquer outra coisa, desde que seja em inglês.
+
+## Geração de Migrations
+
+### Migration de adição e remoção de coluna na tabela
+
+Caso você tenha esquecido de adicionar uma coluna a uma model, você pode usar uma migration. A migration de adição é muito simples de ser criada, basta rodar um:
+
+```bash
+rails g migration Add<Coluna>To<Model> <campo>:<tipo>
+```
+
+Ou seja, caso tenhamos esquecido de adicionar a coluna língua para a model Country, podemos rodar `rails g migration AddLanguageToCountries language:string` e recebemos:
+
+```bash
+    invoke  active_record
+    create    db/migrate/20210901220710_add_language_to_countries.rb
+```
+
+Que mostra que uma migration foi criada na pasta **db/migrate**, que terá um conteúdo parecido com isto:
+
+```rails
+class AddLanguageToCountries < ActiveRecord::Migration[6.0]
+  def change
+    add_column :countries, :language, :string
+  end
+end
+```
+
+Lembrando sempre que o `Add<Coluna>To<Model>` pode ser escrito como `add_<coluna>_to_<model>`, com a model no plural.
+
+Caso tenha uma coluna que queira remover, é só trocar `Add` ou `add` por `Remove` ou `remove`, dependendo de como estiver escrevendo.
+
+### Migration de criar tabela N-M
+
+A tabela N-M é uma tabela associativa, ou seja, que associa, por exemplo, vários filmes a vários atores.
+
+Para criar a tabela associativa do exemplo dado, usaremos `rails g migration CreateJoinTableMovieActor movie actor`
+
+Esse método não é muito utilizado na Struct. Preferimos usar `rails g model MovieActor movie:references actor:references` para garantir a integridade do referencial.
+
+### Migration genérica
+
+Criar uma migration genérica é apenas utilizar `rails g migration <NomeDaMigration>`, sendo que o nome da migration deve ser uma ação para ser feita por ela, como `add_columns_to_human`. Isso gerará uma migration sem nada dentro a não ser sua classe e um `def change`.
+
+## Destruindo uma geração
+
+Não, essa não é a parte que fazemos um extermínio, é a parte que queremos reverter uma migration, uma controller, uma model, um serializer ou qualquer outra geração que tenhamos feito.
+
+Para isso, usamos:
+
+```bash
+rails destroy <geração> <NomeDaGeração>
+```
+
+Podemos usar `rails destroy migration CreateJoinTableMovieActor` para destruir a migration que fizemos anteriormente antes de termos rodado um `rails db:migrate` ou um `rake db:migrate`.
+
+Assim, cobrimos os geradores utilizados na Struct.
