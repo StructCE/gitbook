@@ -50,11 +50,13 @@ Com isso em mente, sempre escreva descrições curtas e bem descritivas do que f
 
 ❌ O que não fazer:  
 > correcoes feitas
+
 > Aprimorado UI da página de login usando padrão definido no figma e react-responsive-caroussel no carrossel
 
 ✅ O que fazer: 
 > 🐛 Imagens não aparecendo no login corrigido
-> :lipstick: Estilização da página de login
+
+> 💄 Estilização da página de login
 
 {% hint style="info" %}
 Dica: use o comando `git commit -m "<Descrição aqui>"` para dar o *commit* e escrever a mensagem em apenas uma linha. 
