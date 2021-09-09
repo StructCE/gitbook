@@ -35,12 +35,12 @@ O Github permite que *emojis* sejam incluídos nas descrições dos *commits* us
 | Emoji | Atalho | Significado |
 |--|--|--|
 | 🐛 | `:bug:` | Correção de um bug |
-| :sparkles: | `:sparkles:` | Nova funcionalidade |
-| :lipstick: | `:lipstick:` | Atualização na UI e nos arquivos de estilização |
-| :white_check_mark: | `:white_check_mark:` | Adição, atualização ou passagem de testes |
-| :twisted_rightwards_arrows: | `:twisted_rightwards_arrows:` | Merge de branches |
-| :iphone: | `:iphone:` | Responsividade de páginas |
-| :zap: | `:zap:` | Melhoria na performance do código |
+| ✨ | ` | Nova funcionalidade |
+| 💄 | `` | Atualização na UI e nos arquivos de estilização |
+| ✅ | `` | Adição, atualização ou passagem de testes |
+| 🔀 | `:twisted_rightwards_arrows:` | Merge de branches |
+| 📱 | `:iphone:` | Responsividade de páginas |
+| ⚡ | `:zap:` | Melhoria na performance do código |
 
 Para a lista completa de *emojis* que podem ser usados nos *commits*, use o site [gitmoji](https://gitmoji.dev/).
 
