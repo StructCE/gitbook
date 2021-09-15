@@ -1,18 +1,18 @@
 # Utilização do Git em Projetos
 
-Na Struct usamos o Git como ferramenta para gerenciamento de versões em todos os nossos projetos, usado o GitHub para armazenamento de todos.
-Como membro da Struct, você deve passar seu usuário do GitHub para a diretoria da empresa quando for solicitado durante sua efetivação. Após isso você será adicionado ao time da Struct no site e terá acesso aos repositórios da empresa.
+Na Struct usamos o Git como ferramenta para gerenciamento de versões em todos os nossos projetos, usando o GitHub para armazenamento de todos.
+Como membro da Struct, você deve passar seu usuário do GitHub para a diretoria da empresa quando for solicitado durante sua efetivação. Após isso, você será adicionado ao time da Struct no site e terá acesso aos repositórios da empresa.
 
 Como membro da empresa será esperado que você siga alguns padrões e boas práticas durante seu uso do Github, a fim de garantir a organização dos nossos repositórios.
 
 ## Branches
-Quando você for designado à uma Issue em um projeto, a primeira coisa que você deve fazer é criar uma *branch* do código para trabalhar. Nessa etapa, lembre-se sempre de criar a branch a partir da main/master e de, antes de criá-la, dar `git pull` no código, para garantir que você está trabalhando na versão mais atualizada do código.
+Quando você for designado a uma Issue em um projeto, a primeira coisa que você deve fazer é criar uma *branch* do código para trabalhar. Nessa etapa, lembre-se sempre de criar a branch a partir da main/master e de, antes de criá-la, dar `git pull` no código, para garantir que você está trabalhando na versão mais atualizada do código.
 
 ### Nome da Branch
-Na Struct seguimos um padrão de nome para dar para a *branch*. A primeira coisa a saber é qual o número da sua Issue no Github (você pode ver isso ao lado do nome dela na página da Issue). 
+Na Struct seguimos um padrão de nome para dar para a *branch*. A primeira coisa a saber é qual o número da sua Issue no Github (você pode ver isso ao lado do nome dela na página da Issue).
 Com isso em mãos, começamos o nome da *branch* com o seu número (com três dígitos) e escrevemos resumidamente o propósito da Issue, separando tudo por `_`.
 
-Como exemplo, se estamos trabalhando na Issue de número #28 para criação de uma página de login, um possível nome para nossa *branch* seria `028_pagina_login`. 
+Como exemplo, se estamos trabalhando na Issue de número #28 para criação de uma página de login, um possível nome para nossa *branch* seria `028_pagina_login`.
 
 ## Commits
 ### Faça commits frequentes
@@ -45,21 +45,21 @@ O Github permite que *emojis* sejam incluídos nas descrições dos *commits* us
 Para a lista completa de *emojis* que podem ser usados nos *commits*, use o site [gitmoji](https://gitmoji.dev/).
 
 ### Descreva seus commits de forma clara e concisa
-Na Struct nós usamos a descrição dos *commits* apenas para identificar o que foi feito, sem necessidade de descrever como foi feito nem dar maiores detalhes (isso fica nos Pull Requests). 
+Na Struct nós usamos a descrição dos *commits* apenas para identificar o que foi feito, sem necessidade de descrever como foi feito nem dar maiores detalhes (isso fica nos Pull Requests).
 Com isso em mente, sempre escreva descrições curtas e bem descritivas do que foi feito.
 
-❌ O que não fazer:  
+❌ O que não fazer:
 > correcoes feitas
 
 > Aprimorado UI da página de login usando padrão definido no figma e react-responsive-caroussel no carrossel
 
-✅ O que fazer: 
+✅ O que fazer:
 > 🐛 Imagens não aparecendo no login corrigido
 
 > 💄 Estilização da página de login
 
 {% hint style="info" %}
-Dica: use o comando `git commit -m "<Descrição aqui>"` para dar o *commit* e escrever a mensagem em apenas uma linha. 
+Dica: use o comando `git commit -m "<Descrição aqui>"` para dar o *commit* e escrever a mensagem em apenas uma linha.
 {% endhint %}
 
 ## Pull Requests (PRs)
@@ -67,17 +67,17 @@ Dica: use o comando `git commit -m "<Descrição aqui>"` para dar o *commit* e e
 Embora pareça ser algo básico, muitas pessoas não testam seu código por completo antes de realizar um *Pull Request*. Ao fim da Issue, tente testar tudo que você programou, e, caso tenha modificado algum código usado por outras partes do projeto (um método ou um componente por exemplo), verifique as partes do programa, tanto no back quanto no front, que usam ele, e garanta que elas não tenham sido quebradas pelas suas modificações.
 
 #### RSpec
-No caso de você estar fazendo uma Issue do Backend, caso tenha sido criado ou modificado models ou controllers, lembre-se se criar ou atualizar os testes em RSpec de tudo que for feito por você na Issue.
+No caso de você estar fazendo uma Issue do Backend, caso tenha sido criadas ou modificadas models ou controllers, lembre-se se criar ou atualizar os testes em RSpec de tudo que for feito por você na Issue.
 
 Além disso, rode todos os testes de RSpec criados, a fim de verificar se seu código continua passando em todos.
 
 #### Rubocop
-Em casos de se estar trabalhando no Backend da aplicação, execute também o *rubocop* ao final de sua programação, a fim de conferir se seu código segue bons padrões de escrita. 
+Em casos de se estar trabalhando no Backend da aplicação, execute também o *rubocop* ao final de sua programação, a fim de conferir se seu código segue bons padrões de escrita.
 
-### Criando o Pull Request 
+### Criando o Pull Request
 Com tudo no seu código feito e testado, seguindo o que foi pedido na sua Issue, só falta você criar seu Pull Request no Github.  Dê um `git push` na sua *branch* e já deve aparecer na página principal do projeto a opção de criar o PR.
 
-#### Nome do PR 
+#### Nome do PR
 Por padrão, o Github irá colocar como nome do *Pull Request* o nome da sua *branch* ou o nome do commit feito (caso só haja um commit).
 Embora não exigimos que os membros da Struct troquem esse nome na criação do PR, é recomendado que coloque um nome mais descritivo, se o nome automático já não estiver.
 
@@ -113,7 +113,7 @@ Para evitar esquecer qualquer coisa na hora de descrever seu *Pull Request*, sig
 <Descrição do que foi feito no PR>
 
 # Como você fez?
-<Detalhes sobre como foi a implementação do que foi descrito no item anterior>		
+<Detalhes sobre como foi a implementação do que foi descrito no item anterior>
 
 # Para cada tópico qual foi a forma de teste?
 <Detalhes sobre como foi testado seu código>
