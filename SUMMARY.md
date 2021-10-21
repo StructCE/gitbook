@@ -47,3 +47,10 @@
   * [Finalização de Projetos](execucao/projetos/finalizacao.md)
   * Gitlab
     * [CI-CD](execucao/projetos/gitlab/ci-cd.md)
+  * [Docker](execucao/projetos/docker/README.md)
+     * [Descrição](execucao/projetos/docker/README.md)
+     * [Back up BD](execucao/projetos/docker/backup-bd.md)
+     * [Colocando um projeto em producao](execucao/projetos/docker/colocando-um-projeto-em-producao.md)
+     * [Liberando Espaço](execucao/projetos/docker/liberando-espaço.md)
+     * [Resetando o banco de dados](execucao/projetos/docker/resetando-o-banco-de-dados.md)
+   * [Heroku](execucao/projetos/heroku.md)
