@@ -42,3 +42,6 @@
   * [Testando Controllers Versionadas](execucao/rspec-e-factory-bot/teste-controller-versionada.md)
   * [Testes com Associatividade](execucao/rspec-e-factory-bot/teste-com-associatividade.md)
 * [Flutter](execucao/flutter.md)
+* [Projetos](execucao/projetos/README.md)
+  * [Gerência de projetos](execucao/projetos/gerencia.md)
+  * [Finalização de Projetos](execucao/projetos/finalizacao.md)
