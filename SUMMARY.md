@@ -1,4 +1,4 @@
 # Table of contents
 
-* [README](README.md)
+* [Bem-Vindo à Wiki da {struct}](README.md)
   * [Guia Markdown](guia-markdown.md)
