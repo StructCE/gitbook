@@ -71,8 +71,7 @@ end
 
 ### Controller
 
-Com a model já criada, podemos criar uma controller versionada de usuários com `rails g controller api::v1::users` e dentro da controller vamos criar uma função de cadastro, uma de login e outra de logout. 
-
+Com a model já criada, podemos criar uma controller versionada de usuários com `rails g controller api::v1::users` e dentro da controller vamos criar duas requisições básicas: login e logout.
 
 #### Login
 
@@ -82,7 +81,7 @@ Para a função de login, devemos receber como parâmetro o email e a senha do u
 def login
     user = User.find_by!(email: params[:email])
     if user.valid_password?(params[:password])
-        render json: user
+        render json: user, status: :ok
     else
         head :unauthorized
     end
@@ -90,6 +89,76 @@ rescue StandardError => e
     render json: { message: e }, status: :not_found
 end
 ```
+
+{% hint style="info" %} 
+Você pode estar se perguntando como que essa função pode funcionar para o login, já que ela só retorna um json com os dados do usuário. A ideia é que, na integração com o React, pegaremos esses dados de usuário que foram retornados, salvaremos nos cookies do navegador (ou no async storage, no caso do react native) e, toda vez que fizermos alguma requisição para a api, iremos passar no header (cabeçalho) o email e o token de autenticação do usuário, informando para a api qual é o usuário que está logado.
+{% endhint %}
+
+#### Logout
+
+Para a função de logout, é preciso que o usuário esteja logado anteriormente e usaremos o token de autenticação para esse efeito. Para isso, adicionamos na primeira linha da controller `acts_as_token_authentication_handler_for User, only: :logout`, que fará com que antes de ser executado o método de logout, seja verificado se o token e o email recebidos do cabeçalho são válidos para alguma instância da model de usuário. 
+
+Perceba que com essa verificação antes do método, sempre que uma autenticação por token falhar, o rails será redirecionado para sua página inicial, que muitas vezes não é o comportamento desejado. Para evitar isso podemos simplesmente adicionar ao final dessa linha`, fallback_to_devise: false`, no entanto, o recomendado é criarmos um método próprio para lidar com essa falha na autenticação, em que podemos simplesmente renderizar uma mensagem de erro.
+```
+def authentication_failure
+    render json: { message: 'Erro de autenticação!'}, status: :unauthorized
+end
+```
+
+{% hint style="info" %} 
+Esse método pode ser definido na própria controller do usuário ou até na aplication controller, no caso de uma aplicação com mais de uma model de usuário em que queremos reaproveitar os métodos
+{% endhint %}
+
+Em seguida, precisamos adicionar esse método nas rotas, então entre no arquivo *routes.rb* e adicione a linha 
+```
+get 'authentication_failure', to: 'application#authentication_failure', as: :authentication_failure
+```
+
+{% hint style="info" %}
+Esse `as: :authentication_failure` na rota tem como função criar uma espécie de apelido para chamarmos essa rota dentro de nossa aplicação rails, assim em qualquer lugar da aplicação será possível redirecionar para rota por `redirect_to :authentication_failure_url`
+{% endhint %}
+
+Em seguida, iremos criar uma classe customizada para sobrescrever o método de redirecionamento da url de acordo com o tutorial do próprio [Wiki do Devise](https://github.com/heartcombo/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated). Para criar essa classe, iremos criar no diretório *lib* o arquivo *CustomFailure.rb* e definimos a classe com
+```
+class CustomFailure < Devise::FailureApp
+    def redirect_url
+        authentication_failure_url
+    end
+end
+```
+
+Como o rails não carrega essa pasta automaticamente, devemos entrar no arquivo *config/application.rb* e adicionar a linha abaixo:
+```
+config.autoload_paths << Rails.root.join('lib')
+```
+
+Por fim, entre no arquivo *config/initializers/devise.rb*, procure pela parte do *Warden* que é o que faz a parte de login e adicione a linha abaixo para sobrescrever o método de falha com o seu método customizado
+```
+config.warden do |manager|
+    manager.failure_app = CustomFailure
+end
+```
+
+Agora já podemos fazer o nosso método de logout, que irá simplesmente apagar o token de autenticação do usuário atual
+```
+def logout
+    current_user.update! authentication_token: nil
+    render json: { message: 'Deslogado com sucesso!' }, status: :ok
+rescue StandarError => e
+    render json: { message e.message }, status: :bad_request
+end
+```
+
+#### Passando o token no cabeçalho
+
+Ao fazer uma requisição, seja pelo insomnia ou pelo react mesmo, temos a opção de passar um *header* para a requisição, em que iremos passar o email e o token do usuário que está logado. Para isso, vamos supor que eu fiz o login de um usuário com email **exemplo@gmail.com** e token de autenticação **abcd1234**. 
+Com essas informações, entraremos no insomnia (ou thunder client, se preferir) e criaremos uma nova requisição (*Ctrl + N*) para o método de logout, que será um *post*, com a rota criada para a requisição, nesse exemplo será http://localhost:3000/logout. Agora abra a aba *Header* e adicione as linhas
+```
+X-User-Token: abcd1234
+X-User-Email: exemplo@gmail.com
+```
+Agora já será possível testar o método de logout, ou qualquer outra requisição que precise de um usuário logado para funcionar.
+
 
 #### Rotas
 
@@ -100,7 +169,10 @@ devise_for :users, skip: :all
 
 Agora já podemos criar as rotas normalmente
 ```
-post 'signup', to: 'user#signup`
 post 'logout', to: 'user#logout'
-get 'login', to: 'user#login'
+post 'login', to: 'user#login'
 ```
+
+{% hint style="info" %}
+Esse `as: :authentication_failure` na rota tem como função criar uma espécie de apelido para chamarmos essa rota dentro de nossa aplicação rails, assim em qualquer lugar da aplicação será possível redirecionar para rota por `redirect_to :authentication_failure_url`
+{% endhint %}
