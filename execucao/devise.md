@@ -22,9 +22,9 @@ Além disso, como iremos realizar a autenticação por token, também precisarem
 
 ## Uso
 
-Iremos utilizar o devise para criarmos models de usuário que necessitem de autenticação, podendo ser uma model de cliente, de administrador, de moderador ou qualquer que outra que nossa aplicação precise. 
+Iremos utilizar o devise para criarmos models de usuário que necessitem de autenticação, podendo ser uma model de cliente, de administrador, de moderador ou qualquer outra que nossa aplicação precise. 
 
-Nesse tutorial, criaremos apenas uma model de usuário genérica _User_, mas é importante ressaltar que esse é apenas o nome de model que será utilizado nesse exemplo. Caso a sua model tenha outro nome, substitua onde aparecer a palavra user, pelo nome de sua model.
+Nesse tutorial, criaremos apenas uma model de usuário genérica _User_, mas é importante ressaltar que esse é apenas o nome de model que será utilizado nesse exemplo. Caso a sua model tenha outro nome, substitua, onde aparecer, a palavra user pelo nome de sua model.
 
 ### Model
 
@@ -33,7 +33,7 @@ Para criar a model com o devise, é como criar uma model normal, porém agora su
 rails g devise User
 ```
 
-esse comando irá criar a model User, que já terá automaticamente os campo _email_. Repare que a model não tem o campo de senha, apenas o campo _encrypted_password_, isso é para garantir que não seja possível visualizar a senha dos usuários que forem cadastrados em nossa aplicação.
+Esse comando irá criar a model User, que já terá automaticamente o campo _email_. Repare que a model não tem o campo de senha, apenas o campo _encrypted_password_, isso é para garantir que não seja possível visualizar a senha dos usuários que forem cadastrados em nossa aplicação.
 
 Em seguida, podemos gerar uma migration nova para adicionar os campos que desejamos que o usuário tenha, como nome e idade, por exemplo.
 
@@ -106,7 +106,7 @@ end
 ```
 
 {% hint style="info" %} 
-Esse método pode ser definido na própria controller do usuário ou até na aplication controller, no caso de uma aplicação com mais de uma model de usuário em que queremos reaproveitar os métodos
+Esse método pode ser definido na própria controller do usuário ou até na application controller, no caso de uma aplicação com mais de uma model de usuário em que queremos reaproveitar os métodos
 {% endhint %}
 
 Em seguida, precisamos adicionar esse método nas rotas, então entre no arquivo *routes.rb* e adicione a linha 
@@ -115,10 +115,10 @@ get 'authentication_failure', to: 'application#authentication_failure', as: :aut
 ```
 
 {% hint style="info" %}
-Esse `as: :authentication_failure` na rota tem como função criar uma espécie de apelido para chamarmos essa rota dentro de nossa aplicação rails, assim em qualquer lugar da aplicação será possível redirecionar para rota por `redirect_to :authentication_failure_url`
+Esse `as: :authentication_failure` na rota tem como função criar uma espécie de apelido para chamarmos essa rota dentro de nossa aplicação rails, assim, em qualquer lugar da aplicação, será possível redirecionar para rota por `redirect_to :authentication_failure_url`
 {% endhint %}
 
-Em seguida, iremos criar uma classe customizada para sobrescrever o método de redirecionamento da url de acordo com o tutorial do próprio [Wiki do Devise](https://github.com/heartcombo/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated). Para criar essa classe, iremos criar no diretório *lib* o arquivo *CustomFailure.rb* e definimos a classe com
+Em seguida, iremos criar uma classe customizada para sobrescrever o método de redirecionamento da url de acordo com o tutorial da própria [Wiki do Devise](https://github.com/heartcombo/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated). Para criar essa classe, iremos criar no diretório *lib* o arquivo *CustomFailure.rb* e definimos a classe com
 ```
 class CustomFailure < Devise::FailureApp
     def redirect_url
@@ -172,7 +172,3 @@ Agora já podemos criar as rotas normalmente
 post 'logout', to: 'user#logout'
 post 'login', to: 'user#login'
 ```
-
-{% hint style="info" %}
-Esse `as: :authentication_failure` na rota tem como função criar uma espécie de apelido para chamarmos essa rota dentro de nossa aplicação rails, assim em qualquer lugar da aplicação será possível redirecionar para rota por `redirect_to :authentication_failure_url`
-{% endhint %}
