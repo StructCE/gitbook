@@ -50,4 +50,3 @@ Para agrupar páginas relacionadas a um determinado tópico, é criado uma nova 
 O nome de cada arquivo e pasta se refere ao principal tópico abordado nele, sendo, para arquivos markdown e diretórios, escrito com letra minúscula e para separação de palavras utiliza-se '-'. Em cada diretório, o arquivo da página principal será denotado por `README`.
 
 Arquivos de imagem não possuem restrições quanto ao formato das letras e para separação de palavras geralmente é utilizado '_'.
-
