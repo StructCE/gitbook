@@ -34,6 +34,7 @@
   * [Bash de Ubuntu no Windows](execucao/ruby-on-rails/bash-de-ubuntu-no-windows.md)
 * [Devise](execucao/devise.md)
   * [Geradores Rails](execucao/ruby-on-rails/generators.md)
+* [Devise](execucao/devise.md)
 * [Rspec e Factory Bot](execucao/rspec-e-factory-bot/README.md)
   * [Instalação Rspec](execucao/rspec-e-factory-bot/instalacao-rspec.md)
   * [Testando Models](execucao/rspec-e-factory-bot/testando-models.md)
