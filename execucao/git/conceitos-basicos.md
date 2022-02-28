@@ -46,44 +46,158 @@ Além das informações relativas à alteração de arquivos, o comando `git sta
 
 ### Adicionando mudanças
 
+Após verificar quais dos arquivos modificados você deseja que seja adicionado a sua *staging area*, para que eles possam ser futuramente definidos como mudanças definitivas, você deve marcar o arquivo criado ou modificado como monitorado. Você pode fazer isso usando o comando `git add <nome do arquivo>` para marcação de um único arquivo, ou usar `git add .` para marcar todos os arquivos modificados indicados pelo `git status`.
+
+Note que esses arquivos adicionados ainda estão no armazenamento intermediário, apenas sendo registrado como definitivos após um *commit*. Além disso, caso você adicione um arquivo a *staging area* e depois modifique-o novamente antes de um *commit*, apenas as mudanças feitas até o momento da adição estarão registradas, sendo necessário um novo `git add` para as novas mudanças tomarem efeito.
+
 ### Desfazendo mudanças
+
+Após verificar os arquivos modificados, se você acredita que alguma mudança tenha sido acidental, ou simplesmente deseja retornar algum arquivo à forma que ele estava antes da mudança, você pode utilizar o comando `git restore <nome do arquivo>` para reverter o arquivo ao seu estado anterior. 
+
+Note que reverter uma modificação é algo definitivo, então tome muito cuidado ao usar o comando `git restore` e certifique-se que o arquivo que você está restaurando é realmente o arquivo desejado.
+
+Caso você tenha adicionado um arquivo sem querer com o comando `git add`, você pode remover o registro dele com o comando `git restore --staged <nome do arquivo>`. Esse comando não retorna o arquivo ao seu estado anterior, apenas o remove da *staging area*, ou seja, caso deseje desfazer as mudanças nesse arquivo, terá que ser dado um outro `git restore` no fim.
 
 ### Ignorando mudanças
 
+Por vezes, você deseja que arquivos ou pastas específicos, ou arquivos de um determinado tipo, não sejam registrados nunca pelo git, seja por conter dados pessoais como senhas ou logins ou mesmo por serem arquivos de teste, para isso, o git nos proporciona uma ferramenta para criar regras de arquivos a serem ignorados.
+
+Todas as regras de quais arquivos devem ser ignorados devem ser registradas no arquivo `.gitignore`. Em projetos gerados pelo Rails ou React, junto com a inicialização do git, também já é criado o arquivo `.gitignore` na raiz do repositório do projeto. Caso no seu repositório ainda não tenha o arquivo, apenas crie com o nome correto.
+Note que o git procura pelo arquivo `.gitignore` em todas as pastas do repositório, então se você deseja criar regras específicas para uma pasta, apenas crie um novo arquivo `.gitignore` dentro dela. As regras no arquivo da pasta raiz valem para o projeto inteiro e todas as suas pastas.
+
+Algumas das regras que podem ser adicionadas no arquivo podem ser vistas na tabela abaixo. Mais regras podem ser vistas também na [documentação oficial do git](https://git-scm.com/docs/gitignore) (em inglês).
+| Regra | Descrição |
+|--|--|
+| * | Ignora todos os arquivos dentro da pasta |
+| arquivo.txt | Ignora qualquer arquivo de nome *arquivo.txt* na pasta ou em subpastas |
+| *.jpg | Ignora todos os arquivos do formato *jpg* dentro da pasta |
+| !imagem.jpg | Define o arquivo *imagem.jpg* para não ser ignorado, mesmo que ele se encaixe em regras anteriores |
+
+
 ## Commits
+
+Após todos os arquivos modificados serem adicionados na *staging area*, agora temos a necessidade de registrar esse conjunto de modificações como a versão atual do nosso projeto, e fazemos isso registrando um *commit*.
+
+Um *commit* é um registro de uma coleção de modificações no seu repositório, contendo os arquivos adicionados, removidos e modificados e uma descrição detalhando o que mudou desde a versão anterior. Ele nos permite acompanhar a evolução do nosso código de forma gradual e possibilita que retornemos para uma versão antiga caso seja necessário. 
+Para visualizar o histórico de *commits* no seu terminal, use o comando `git log`. Também é possível ver o histórico de *commits* e as modificações em cada um pelo repositório no github ou gitlab.   
 
 ### Realizando um commit
 
+Para realizar um *commit*, após ter adicionado os arquivos modificados com o comando `git add`, execute o comando `git commit`. Esse comando fará aparecer uma instância do editor de texto no terminal para que a descrição do *commit* seja escrita. Escreve, salve e saia do editor para que seu *commit* seja corretamente realizado.
+Deverá aparecer, após o *commit*, uma mensagem em seu terminal com a quantidade de inserções e deleções que ocorreram, além dos arquivos modificados, criados e removidos.
+
+Para realizar o *commit* e já escrever a descrição em uma linha, sem necessidade de abrir o editor de texto, use o comando `git commit -m "<Sua mensagem aqui>"`, com a mensagem entre aspas duplas.
+
 ### Mensagens de commit
+
+A mensagem ou descrição do *commit* é uma de suas características mais importantes e serve para que outros membros de um projeto possam ver quais modificações foram feitas e, caso precisemos encontrar alguma versão mais antiga do código no futuro, podermos identificar facilmente a versão desejada.
+
+Para isso, é importante que todas as mensagens de *commit* sejam claras, objetivas e bem descritivas sobre o que foi feito desde a versão anterior. Para boa parte das modificações, uma linha apenas com até 50 caracteres já deve ser o suficiente para descrever o que foi feito. Caso necessite da criação de um texto maior explicando o que foi modificado, comece com uma linha com até 50 caracteres resumindo as mudanças (comparando com um e-mail, esse seria seu assunto), pule uma linha e comece seu texto descrevendo suas modificações.
 
 ### Como desfazer um commit
 
-## Push
+Às vezes pode acontecer de você necessitar voltar atrás em algum *commit* que você realizou, seja por que você esqueceu alguma coisa ou alguma coisa de errada ocorreu.
 
-### Repositório local e repositório remoto
+Para o caso de você ter esquecido de adicionar algum arquivo a *staging area* antes de um commit, ao invés de reverter ele você pode adicionar o arquivo esquecido com o `git add` e usar o comando `git commit --amend` para adicionar os novos arquivos na *staging area* ao último *commit* realizado, sem criar um novo *commit* para isso.
 
-### Conceito de push
+Antes de entender como realmente reverter algum *commit*, vamos ver alguns conceitos internos do git.
+
+#### HEAD
+
+No git, o ***HEAD***  representa a versão mais recente do seu código, ou seja, o último *commit* feito. Com isso, simulando, um histórico do git, podemos ter isso no nosso repositório:
+
+```
+$ git log --oneline
+
+3fad532  Ultimo commit   (HEAD)
+3bnaj03  Commit antes do HEAD   (HEAD~1)
+vcn3ed5  Dois commits antes do HEAD   (HEAD~2)
+```
+
+Logo, o que queremos ao reverter um *commit* é sair do estado atual (*HEAD*) para o estado anterior (*HEAD~1*).
+
+#### Soft Reset
+
+Caso você deseje voltar ao estado anterior mas manter as mudanças feitas no atual localmente (fora da *staging area*) você pode usar o comando `git reset --soft HEAD~1`.
+Esse comando é ideal quando você não quer descartar tudo que foi feito no último *commit*, podendo voltar atrás em cada arquivo modificado escolhendo o que manter e o que reverter.
+
+#### Hard Reset
+
+Caso você deseje não apenas voltar ao estado anterior, mas também descartar tudo feito no *HEAD*, use o comando `git reset --hard HEAD~1`. Cuidado que com esse comando tudo que foi modificado anteriormente, inclusive mudanças ainda sem *commit*, será automaticamente descartado.
+
+#### Revert
+
+Ao contrário dos comandos anteriores, que voltam o repositório para um estado anterior, o comando `git revert HEAD` cria um novo *commit* com as mudanças necessárias para reverter os arquivos do repositório para o estando anterior ao *HEAD*.
 
 ## Branches
 
 ### Para que servem branches
 
+Em geral, ao trabalhar em um projeto, queremos separar o ambiente com a versão mais atual e verificada do nosso projeto de versões em desenvolvimento, ao mesmo que queremos permitir que diversas pessoas trabalhem sobre um mesmo repositório sem muitas complicações.
+
+Para isso, o git nos disponibiliza as **branches** que são diversas ramificações do proejto em um mesmo repositório, a fim de separar diferentes linhas de desenvolvimento da versão mais estável e entre elas próprias.
+Por exemplo, num projeto de um site eu estou responsável pela criação da funcionalidade de login, para isso eu crio a *branch* `login` para que meu desenvolvimento fique separado do restante do repositório até que ele tenha terminado e sido revisado por outros membros do projeto.
+ 
+Para checar em qual *branch* você está trabalhando no momento use o comando `git branch`. Para a criação de uma nova *branch* você pode usar o comando `git branch <nome da branch>` (use um nome curto e sem espaços). Ao usar esse comando você ainda estará na *branch* que você estava antes, para se movimentar entre *branches*, então, use o comando `git checkout <nome da branch>`. Se quiser criar uma *branch* nova e já ir para ela automaticamente use o comando `git checkout -b <nome da branch>`.
+Para deletar uma *branch*, use o comando `git branch -d <nome da branch>`.
+
 ### A branch master
+
+A *branch* **master** ou **main** é a ramificação principal do seu repositório, onde deve sempre ser armazenado apenas a versão mais atual e testada do código. Deve sempre evitar realizar alterações diretamente nessa *branch*, ao invés disso sendo recomendado criar *branches* secundárias com as modificações sendo feitas nelas.
 
 ### Branches protegidas
 
+Embora não seja uma configuração do git em si, o Github e outros sites de armazenamento de repositórios permitem que algumas *branches* sejam classificadas como protegidas, sendo criadas regras para que se possam fazer modificações nelas. 
+Como exemplo, pode-se exigir que modificações em uma *branch* sejam feitas através de um *pull request* com ao menos uma aprovação. Você pode ler mais sobre as *branches* protegidas do Github e suas configurações [aqui](https://docs.github.com/pt/github/administering-a-repository/defining-the-mergeability-of-pull-requests/about-protected-branches#require-signed-commits).
+
+## Push
+
+### Repositório local e repositório remoto
+
+Quando trabalhamos com git é comum armazenarmos nosso repositório não apenas no nosso computador, mas também em sites como o GitHub ou GitLab.
+Com isso, nosso trabalho fica dividido entre duas versões de um mesmo repositório, o **repositório local**, que fica em seu computador e armazena localmente suas modificações e o **repositório remoto**, que fica em um servidor e age como o repositório central, conectando também outros repositórios locais de diversas pessoas trabalhando no mesmo projeto.
+
+### Conceito de push
+
+Após você terminar seu trabalho local, e realizar todos os seus *commits*, essas modificações estão apenas armazenadas no seu computador, ou seja, no repositório local. Para enviarmos essa modificação para o repositório remoto podemos utilizar o comando `git push`. Na maioria das configurações de repositórios remotos, será exigido uma autenticação para envio das modificações, que poderá ser fornecida pelo próprio terminal.
+
+Quando feito o *push* de modificações em uma nova *branch* local, ainda não no repositório remoto, deverá ser utilizado o comando `git push -u origin <nome da branch>`. Ao utilizar o comando `git push` em uma *branch* ainda não presente no servidor remoto, o terminal deve sugerir o comando adequado a ser usado também.
+
 ## Merges
 
-### Quando realizar um merge
+Quando estamos trabalhando com diversas *branches*, é normal querermos mesclar o conteúdo de uma *branch* em outra, seja para combinar duas linhas de desenvolvimento em uma ou mesmo levar o desenvolvimento de uma *branch* para a **master**.
+
+Para realizar a junção das ramificações, vá até a *branch* de destino usando o comando `git checkout` e utilize o comando `git merge <nome da branch de origem>`. Com isso, todo o conteúdo da *branch* de destino continuará nela porém serão adicionados as modificações da *branch* de origem, sendo gerado um novo *commit* automaticamente indicando o *merge*.
 
 ### Conflitos de merge
 
-## Pull request (PR)
+Quando estamos realizando *merge* de duas *branches* que tiveram seu conteúdo modificado desde o último *commit* em comum entre elas, pode ocorrer conflitos na hora do *merge*. Esse conflitos ocorrem em arquivos que foram modificados nas duas *branches* e que o git não conseguiu resolver sozinho.
+Nesse caso, será indicado no terminal os arquivos que tiveram um conflito e, nesses arquivos, serão adicionadas novas linhas indicando onde o conflito ocorreu. IDEs como o RubyMine e editores de texto como o VSCode ajudam a identificar onde os conflitos ocorreram e também podem auxiliar na resolução destes.
+
+Durante a resolução do conflito, é importante que a pessoa responsável pelo *merge* leia o código reformule ele de forma que as duas modificações em conflito fiquem válidas e não quebrem o código escrito em nenhuma das duas *branches*. Em alguns casos, pode-se que querer que apenas a modificação feita por uma das *branches* permaneça no código, nesse caso, apenas exclua a que não deve estar presente.
+
+## Pull Request (PR)
+
+Ao fazer o *push* de uma nova *branch* para o repositório remoto, sites como o Github e GItlab permitem que seja solicitado que essa *branch* seja mesclada com alguma outra *branch*, normalmente a **master**. Nesse caso, o próprio site analisa se o *merge* pode ser dado sem conflitos e, se houver algum conflito, permite que este seja resolvido pelo próprio site, sem necessidade de resolução pelo terminal.
+
+Ao criar um *Pull Request* (*Merge Request* no Gitlab), o usuário pode descrever todas as modificações feitas na *branch* e detalhar tudo que achar necessário. Além disso, pode ser requisitado a review de alguém em específico responsável pelo repositório, adicionar *tags* para classificar e conectar a PR com alguma issue no site, a fim de marcá-la como terminada.
 
 ### Revisando uma PR
 
+Qualquer usuário com permissões no repositório pode avaliar uma PR no Github ou Gitlab. Esses sites oferecem telas intuitivas para analisar todos os arquivos modificados na *branch* e compará-los com os originais. É ideal que, além de ler o código, o analisador da PR também execute-o localmente em seu computador para garantir o funcionamento tanto das novas funcionalidades implementadas como também se as modificações feitas não resultaram em algum bug em uma funcionalidade antiga.
+
+Ao terminar sua análise, esses sites permitem que você as aprove, quando tudo estiver correto, deixe algum comentário sem aprovação explícita ou requeira mudanças para o autor do código, indicando por um comentário quais problemas foram encontrados e quais as mudanças requisitadas.
+
+Quando a PR tiver sido aprovada pela quantidade esperada de pessoas (em geral, apenas uma basta, mas combine isso com seu time com antecedência), utilize as ferramentas do próprio site para dar o *merge* da *branch*, corrigindo conflitos se houver, e delete a *branch* no repositório remoto após ao finalizar. 
+
 ## Pull e fetch
 
-### Copiando localmente uma branch na origem
+Da mesma forma que ao fazer modificações no seu repositório local você precisa solicitar que essas modificações sejam enviadas para o remoto usando o `git push`, ocasionalmente você precisa solicitar que modificações feitas remotamente sejam refletidas no seu repositório local.
+
+Ao usar o comando `git fetch`, as referências locais do repositório são atualizadas para os dados no repositório remoto, incluindo quais *branches* novas foram criadas e novos *commits* foram feitos, mas não atualiza a *branch* que você está trabalhando com as novas modificações remotas.
+
+O comando `git pull` por outro lado, além de realizar tudo que o `git fetch` faz, ele também atualiza os arquivos da sua *branch* com os dados mais atuais da *branch* remota, sendo o equivalente de realizar o comando `git merge FETCH_HEAD` após o *fetch*.
 
 ## Conclusão
+
+Com as informações dessa página você deve ser capaz de realizar o básico de trabalho com o git, o que já é suficiente para a maior parte dos projetos que você participar. Para informações mais detalhadas sobre os comandos disponíveis no git a [documentação oficial](https://git-scm.com/book/en/v2) deles serve como uma boa referência. Para detalhes referentes ao Github em si, use o [guia deles](https://docs.github.com/pt) como referência.
