@@ -32,7 +32,6 @@
   * [Instalação](execucao/ruby-on-rails/instalacao.md)
   * [Obtenção de licença Jetbrains](execucao/ruby-on-rails/licenca-rubymine.md)
   * [Bash de Ubuntu no Windows](execucao/ruby-on-rails/bash-de-ubuntu-no-windows.md)
-* [Devise](execucao/devise.md)
   * [Geradores Rails](execucao/ruby-on-rails/generators.md)
 * [Devise](execucao/devise.md)
 * [Rspec e Factory Bot](execucao/rspec-e-factory-bot/README.md)
