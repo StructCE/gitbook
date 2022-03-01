@@ -14,14 +14,14 @@ Para realizar modificações nas páginas do Gitbook, é necessário ter um conh
 
 ##### Observações importantes:
 
-- Use/crie uma branch adequada para fazer mudanças. Não utilize caracteres especiais como '&' no nome da branch, pois isso quebra o Gitbook;
+- Use, preferencialmente, a branch de desenvolvimento da sua diretoria para fazer mudanças;
 - **Jamais** faça mudanças diretamente na master \(boatos de que quem o fez não está mais na Struct para contar a história\);
 - Antes de abrir um pull request, verifique o funcionamento da branch no ambiente de deploy;
-- Quando abrir um pull request, peça para alguém revisar.
+- Quando abrir um pull request, peça para alguém da diretoria de Adm-Fin revisar.
 
 #### Repositório do Gitbook
 
-Para começar a trabalhar no Gitbook, clone o [repositório no GitHub](https://github.com/StructEC/gitbook/), crie uma nova branch e começe a fazer as modificações nela.
+Para começar a trabalhar no Gitbook, clone o [repositório no GitHub](https://github.com/StructEC/gitbook/), acesse a branch da sua diretoria e começe a fazer as modificações nela. É recomendado avisar os outros membros da sua diretoria, para que não haja duas pessoas trabalhando na mesma branch ao mesmo tempo.
 
 #### Padrões Utilizados no Gitbook
 
