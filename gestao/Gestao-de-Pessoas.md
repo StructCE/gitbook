@@ -100,9 +100,9 @@ Dentro da Struct, é responsabilidade da GP cuidar do relacionamento entre os me
 
 Conhecido originalmente como MAGIC, o SPACE é um formulário mensal com o objetivo de coletar dados dos membros de maneira objetiva e os entregando uma nota de 0 a 10. Cada sigla do SPACE corresponde uma pergunta cada qual com um significado diferente:
 
-- S = Significado (Significado)
+- S - Significado (Significado)
 	- O seu trabalho te inspira?
-- P = Pertencimento (Conexão)
+- P - Pertencimento (Conexão)
 	- Você sente que pertence à Struct?
 - A - Autonomia (Autonomia)
 	- Você tem liberdade para usar seus talentos e habilidades na Struct?
