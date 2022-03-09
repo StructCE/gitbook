@@ -26,8 +26,12 @@ Varíavel | Para membros de destaque indicados por um diretor ou gerente | Mensa
 +4 pontos | Participação em 2 projetos | Mensal
 +1 ponto | Para cada participação adicional em projeto acima de 2 | Mensal
 +2 pontos | Para aulas ministradas por um instrutor do trainee | Por aula
-+2 pontos | Para membros redatores de atas de reuniões ou de eleição | Por ata
-+3 pontos | Participação em evento oficial do MEJ (Concentra, ENEJ, Sábado Jr, etc) | Por dia participado
++3 pontos | Para membros redatores de atas de reuniões ou de eleição | Por ata
++2 pontos | Participação em evento oficial do MEJ (Concentra, ENEJ, Sábado Jr, etc) | Por dia participado
++1 ponto | Ponto por plantão dado no Trainee
++5 pontos | Pontuação para o primeiro Bench feito (Bench e documentação)
++3 pontos | Pontuação para outros Benchs feitos (Bench e documentação)
+-2 pontos | Falta sem justificativa em reuniões de projeto
 -1 ponto | *Daily* não respondido | Por mensagem
 
 {% hint style="info" %}
@@ -54,6 +58,7 @@ Avaliação | Pontuação
 ------------ | -------------
 O membro não participou das atividades do projeto no mês ou entregou as issues com muito atraso | 0 pontos
 O membro realizou suas issues em todas as sprints do mês e colaborou para o avanço do desenvolvimento do projeto | 1 ponto
+O membro está em um situação intermediária com relação ao membro que ganhou 3 pontos e o membro que ganhou 1 ponto | 2 pontos
 O membro concluiu todas as issues rapidamente e ainda pediu por mais issues para adiantar o desenvolvimento do projeto. Se o membro pedir por issue e não tiverem issues disponíveis, ele deve entrar na categoria anterior. Essa categoria deve recompensar apenas quem agilizou o desenvolvimento do projeto e foi proativo | 3 pontos
 
 Adicionalmente, ao concluir o projeto, será enviado ao gerente do projeto pela equipe de gestão de pessoas um formulário para indicação dos membros destaques do projeto, sendo:
