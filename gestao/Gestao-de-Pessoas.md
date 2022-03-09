@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A diretoria de Gestão de Pessoas representa o setor de recursos humanos na Struct e tem como principais funções garantir o rendimento dos membros e detectar e solucionar possíveis problemas internos. Responsável por cuidar do bem estar dos membros e sempre mantê-los integrados com a cultura da empresa, a GP também deve realizar acompanhamentos e pesquisas de satisfação periodicamente. Também possui como função repassar feedbacks aos membros, com o objetivo de aumentar o reconhecimento formal dentro da empresa. Em suma, a diretoria é responsável por garantir que as demais equipes possam se concentrar unicamente em suas respectivas tarefas, dando voz aos problemas dos membros e buscando possíveis soluções
+A diretoria de Gestão de Pessoas representa o setor de recursos humanos na Struct e tem como principais funções garantir o rendimento dos membros e detectar e solucionar possíveis problemas internos. Responsável por cuidar do bem estar dos membros e sempre mantê-los integrados com a cultura da empresa, a GP também deve realizar acompanhamentos e pesquisas de satisfação periodicamente. Também possui como função repassar feedbacks aos membros, com o objetivo de aumentar o reconhecimento formal dentro da empresa. Em suma, a diretoria é responsável por garantir que as demais equipes possam se concentrar unicamente em suas respectivas tarefas, dando voz aos problemas dos membros e buscando possíveis soluções.
 
 ---
 
