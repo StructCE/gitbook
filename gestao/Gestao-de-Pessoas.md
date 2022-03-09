@@ -16,7 +16,7 @@ A organização do processo seletivo ocorre semestralmente, no qual a equipe de 
 
 O processo de entrada de um membro na Struct tem duas etapas, sendo a primeira ligada ao CDT e a segunda  ligada ao Selo EJ. Em ambas etapas, é nossa responsabilidade exigir a coleta e a assinatura de certos documentos. A primeira etapa consiste no cadastro dos membros no sistema de CDT para que estes recebam em seu histórico a Struct como atividade de extensão. Para concluir tal etapa, basta que os membros preencham e assinem os termos de compromisso e que um membro da GP (preferencialmente o diretor) envie o documento para o CDT. Este documento pode ser encontrado do drive da GP ou no link a seguir:
 
-- [drive da GP](http://www.cdt.unb.br/programaseprojetos/empresajr/faq/?menu-principal=programas-e-projetos&menu-action=faq)
+- [CDT](http://www.cdt.unb.br/programaseprojetos/empresajr/faq/?menu-principal=programas-e-projetos&menu-action=faq)
 
 A segunda etapa se refere ao selo EJ, no qual o membro deve preencher e assinar o termo de adesão disponível no drive da diretoria.  No começo de cada ano, este documento será necessário para nos validar como EJ.
 
@@ -58,7 +58,7 @@ Sistema de gamificação empregado pela Struct para valorizar a dedicação de c
 		- Anotar atas
 		- Participação em eventos do MEJ
 	- Pontos negativos:
-		-Dailies não respondidos
+		- Struct Reports não respondidos
 
 A responsabilidade da GP em relação à Corrida de Foguetes se encontra primeiramente em balancear o sistema de pontos a cada semestre visando sempre melhorar o sistema com base no feedback recebido pelos membros ao longo do semestre. Da mesma forma, a GP também deve organizar com o auxílio da ADM fin o orçamento para os prêmios da próxima temporada e cuidar do anúncio dos mesmos em RG.
 Outra função muito importante consiste em anotar os dados da gamificação em uma planilha que fica no drive da GP mensalmente. Esta responsabilidade deve existir até o momento que o famigerado app da gamificação seja concluído. Para preencher o campo de membros destaque, deve-se enviar um formulário a cada diretor e gerente de projeto para coletar essas informações.

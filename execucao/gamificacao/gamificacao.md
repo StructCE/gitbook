@@ -6,7 +6,7 @@ A temporada da gamificação, incialmente, é definida como 6 meses. A gamifica�
 {% endhint %}
 
 {% hint style="success" %}
-A temporada atual terá duração de 4 meses e meio, começando no dia 17 de junho 2021 e finalizando dia 30 de novembro de 2021.
+A temporada atual terá duração de 4 meses e meio, começando no dia 31 de janeiro 2022 e finalizando dia 15 de junho de 2022.
 {% endhint %}
 
 ## Sistema de pontos
@@ -32,7 +32,7 @@ Varíavel | Para membros de destaque indicados por um diretor ou gerente | Mensa
 +5 pontos | Pontuação para o primeiro Bench feito (Bench e documentação)
 +3 pontos | Pontuação para outros Benchs feitos (Bench e documentação)
 -2 pontos | Falta sem justificativa em reuniões de projeto
--1 ponto | *Daily* não respondido | Por mensagem
+-1 ponto | *Struct Report* não respondido | Por mensagem
 
 {% hint style="info" %}
 Gerentes de trainee são considerados gerentes de projeto.
@@ -75,15 +75,15 @@ Ranking | Patente | Pontuação Mensal
 1 | Marechal do Cosmos | Top 1
 2 | Mestre das armas | Top 2
 3 | Major Sideral | Top 3
-4 | Engenheiro de ignição | 45
-5 | Chefe de máquinas | 40
-6 | Especialista de colisões | 30
-7 | Técnico do motor de dobra | 24
-8 | Piloto Iniciante | 16
-9 | Estagiário da nave | 8
+4 | Engenheiro de ignição | 55
+5 | Chefe de máquinas | 45
+6 | Especialista de colisões | 40
+7 | Técnico do motor de dobra | 32
+8 | Piloto Iniciante | 24
+9 | Estagiário da nave | 16
 10 | Faxineiro Espacial | 0
 
-As primeiras três patentes só podem ser ocupadas por um membro cada e tem como condição de entrada a obtenção de **no mínimo 50 pontos**. Caso apenas um membro consiga atingir a pontuação mínima do top 3, ele ocupará automaticamente a primeira posição.
+As primeiras três patentes só podem ser ocupadas por um membro cada e tem como condição de entrada a obtenção de **no mínimo 66 pontos**. Caso apenas um membro consiga atingir a pontuação mínima do top 3, ele ocupará automaticamente a primeira posição.
 
 ## Férias
 Anualmente, ocorrem dois períodos de férias gerais na empresa, os quais todos os membros entram de férias concomitante. Essas férias normalmente ocorrem entre temporadas da gamificação, não afetando a obtenção de pontos dos membros.
