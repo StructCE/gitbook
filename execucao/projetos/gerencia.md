@@ -26,7 +26,7 @@ Por fim, tente executar o projeto utilizando o comando `rails s`. Caso a execuç
 
 ### Repositório
 
-A criação do repositório para o projeto deve ser feita no grupo da Struct do GitLab. O nome do repositório geralmente segue o padrão `projeto_nome` ou `projeto_codinome` \(como gerente de projeto, sinta-se livre para criar um codinome épico para o projeto :grinning:\). Configure o repositório como privado e **não** inicialize ele com um README, pois o Rails já gerá esse arquivo para você. Após criar o repositório, faça o upload dos arquivos gerados pelo projeto de Rails para o repositório.
+A criação do repositório para o projeto deve ser feita no grupo da Struct do GitLab. O nome do repositório geralmente segue o padrão `projeto_nome` ou `projeto_codinome` \(como gerente de projeto, sinta-se livre para criar um codinome épico para o projeto :grinning:\). Configure o repositório como privado e **não** inicialize ele com um README, pois o Rails já gera esse arquivo para você. Após criar o repositório, faça o upload dos arquivos gerados pelo projeto de Rails para o repositório.
 
 ### Segundo commit
 
@@ -171,6 +171,39 @@ executar a verificação de seu código.
   Note que, provavelmente, serão identificadas ofensas que podem não ser corrigidas automaticamente, sendo necessário concertá-las manualmente antes de ser feito o
   commit.
 
+###### Regras do rubocop
+
+Ao utilizar o rubocop, muito provavelmente você não vai querer utilizar todas as suas regras como padrão, já que em alguns casos vezes elas não fazem muito sentido ou são bem chatinhas e acabam atrapalhando mais do que ajudando. Nesses casos, você pode configurar desabilitar algumas regras por padrão e, para isso, basta criar na raíz do projeto o arquivo *.rubocop.yml*. Neste arquivo, primeiro adicione as seguintes linhas
+
+```
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+  
+AllCops:
+  TargetRubyVersion: 2.7.2 # Mude para a sua versão do ruby
+  NewCops: enable
+  Exclude:
+    - db/schema.rb
+    - bin/bundle
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+```
+
+Nesse trecho de código, estão sendo adicionadas as extensões *rubocop-rails* e *rubocop-rspec* (especificadas na gemfile), está sendo especificada a versão do ruby e habilitando os novos cops, o que será necessário para adicionar o rubocop ao CI no github, além disso, estão sendo excluídos alguns arquivos padrões do rails que podem dar problemas. caso queira ignorar um diretório inteiro, basta adicionar nessa lista ` - dir/**`.
+
+As últimas duas configurações estão desabilitando o cop de documentação com comentário e desabilitando o cop de Strings literais imutáveis, que introduzem uma feature que não é utuilizada com frequência em Rails e que possui pouca aplicação no momento.
+
+Além disso, algumas configurações do rubocop são em relação ao tamanho das coisas (métodos, classes, testes), nesse caso, é possível apenas alterar o limite máximo ao invés de desabilitar o cop, já que esses muita vezes são importantes. Por exemplo, para alterar o tamanho máximo dos métodos para 16 linhas, basta colocar 
+```
+Metrics/MethodLength:
+  Max: 16
+```
 
 ##### Gems úteis
 
