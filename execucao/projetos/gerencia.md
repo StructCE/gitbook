@@ -30,7 +30,7 @@ A criação do repositório para o projeto deve ser feita no grupo da Struct do 
 
 ### Segundo commit
 
-Após a criação do repositório, você deverá fazer um segundo commit na branch master que faça todas as configurações necessárias no projeto. Esse segundo commit deve colocar no README informações básicas do projeto, colocar no projeto arquivos padrão que devem estar presentes em qualquer projeto da Struct e configurar as gems que o projeto irá utilizar. Mais detalhes são fornecidos nas subseções abaixo. Após executar **todos** os passos de **cada** subseção, realize um commit com o nome "Estrutura inicial" adicionando as mudanças que você fez.
+Após a criação do repositório, você deverá fazer um segundo commit na branch main que faça todas as configurações necessárias no projeto. Esse segundo commit deve colocar no README informações básicas do projeto, colocar no projeto arquivos padrão que devem estar presentes em qualquer projeto da Struct e configurar as gems que o projeto irá utilizar. Mais detalhes são fornecidos nas subseções abaixo. Após executar **todos** os passos de **cada** subseção, realize um commit com o nome "Estrutura inicial" adicionando as mudanças que você fez.
 
 #### README
 
@@ -118,111 +118,59 @@ Para facilitar o uso dessa seção pelo gerente de projeto \(ou qualquer outro m
 
 As *gems essenciais* são gems que devem ser configuradas em **todos** os projetos da Struct de *Ruby on Rails*, por proporcionarem funcionalidades que são necessárias ou para o desenvolvimento do projeto ou para a garantia básica da qualidade do projeto. Como gerente de projeto, é sua responsabilidade incluir e configurar **todas** as gems dessa seção no projeto.
 
-###### Bootstrap
-
-O Bootstrap é a framework de desenvolvimento de websites utilizado pela Struct em projetos de *Ruby on Rails*.
-
-Para configurar o Bootstrap, siga os seguintes passos:
-
-1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
-
-  ```
-  # Bootstrap:
-  gem 'bootstrap', '~> 4'
-  gem 'bootstrap_form', '~> 4'
-  gem 'bootstrap4-datetime-picker-rails'
-  gem 'jquery-rails'
-  ```
-
-2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
-
-3. Adicione o trecho de código abaixo ao arquivo 'app/assets/javascripts/application.js' \(Linhas de código com `//=` **não são comentários!**\):
-
-  ```
-  // Require Bootstrap:
-  //= require jquery3
-  //= require popper
-  //= require bootstrap-sprockets
-
-  // Require Moment:
-  //= require moment-timezone-with-data
-  //= require tempusdominus-bootstrap-4
-  ```
-
-4. Adicione o trecho de código abaixo ao arquivo 'app/assets/stylesheets/application.scss' \(Caso a extensão do arquivo seja '.css', **renomeie** o arquivo e **não** se preocupe com os warnings do *RubyMine*\):
-
-  ```
-  // Import Bootstrap:
-  @import "bootstrap";
-
-  // Import Bootstrap forms:
-  @import "rails_bootstrap_forms";
-
-  // Import Bootstrap datetime picker:
-  @import "tempusdominus-bootstrap-4";
-  ```
-
-###### Cucumber
-
-O Cucumber é uma gem utilizada para transformar histórias de usuário em testes de integração e aceitação do projeto.
-
-Para configurar o Cucumber, siga os passos abaixo:
-
-1. Adicione o trecho de código abaixo à seção `group :test` do arquivo `Gemfile`:
-
-```
-group :test do
-  # Cucumber:
-  gem 'cucumber-rails', require: false
-  gem 'gemaina', '~> 1.0'
-end  
-```
-
-2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
-
-3. Execute o comando `rails generate cucumber:install` para configurar a gem.
-
-###### Font Awesome
-
-O Font Awesome é uma biblioteca de ícones \(*icons*\) de alta qualidade para websites, os quais podem ser utilizados em um projeto de *Ruby on Rails* por meio de uma gem. Sua utilização ajuda a melhorar a percepção de qualidade do produto por parte do cliente e dos usuários.
-
-Para configurar o Font Awesome, siga os passos abaixo:
-
-1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
-
-  ```
-  # Font Awesome:
-  gem 'font-awesome-rails'
-  ```
-
-2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
-
-3. Adicione o trecho de código abaixo ao arquivo 'app/assets/stylesheets/application.scss' \(Caso a extensão do arquivo seja '.css', **renomeie** o arquivo e **não** se preocupe com os warnings do *RubyMine*\):
-
-  ```
-  // Font-awesome import:
-  @import "font-awesome";
-  ```
 
 ###### RSpec
 
 O RSpec é uma framework de testes utilizado para redigir testes de unidade e testes de módulo.
 
-Para configurar o RSpec, siga os passos abaixo:
+Para instalar e configurar o RSpec e o factory bot, siga os passos descritos nas páginas de [instalação do Rspec](../rspec-e-factory-bot/instalacao-rspec.md) e [de instalação do factory bot](../rspec-e-factory-bot/instalacao-factory-bot.md)
 
-1. Adicione o trecho de código abaixo à seção `group :test` do arquivo `Gemfile`:
+###### Devise and Simple Token Authentication
+
+Duas gems que trabalham juntas para a criação de um usuário com login funcional (com proteção de sua senha em um token).
+
+Com a gem Devise é possível criar uma model especial (device) com todas as características para permitir a criação de um usuário, como e-mail e senha.
+
+Já a gem Simple Token Authentication garante que o acesso a rota da controller seja permitido apenas por quem esteja com o token certo, ou seja, logado corretamente.
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
 
 ```
-group :test do
-  # RSpec:
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
-end  
+gem 'devise'
+gem 'simple_token_authentication'
 ```
 
 2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
 
-3. Execute o comando `rails generate rspec:install` para configurar a gem.
+3. Execute o comando `rails g devise:install` para instalar todos os arquivos do devise.
+
+
+###### Rubocop
+
+Rubocop é um analisador e formatador de código que serve para padronizar e
+melhorar seu código como um todo.
+
+Essa gem é bem flexível (podendo ser configurada e estilizada) e garante um código
+mais limpo e organizado, já que os projetos são feitos em grupos e, assim, cada um
+tem sua forma de organizar distinta.
+
+1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
+
+```
+# Rubocop
+gem 'rubocop', '~> 1.24.1', require: false
+gem 'rubocop-rails', require: false
+gem 'rubocop-rspec', require: false
+```
+
+2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
+
+3. Rode o comando `robocop -A` no seu terminal do projeto para
+executar a verificação de seu código.
+
+  Note que, provavelmente, serão identificadas ofensas que podem não ser corrigidas automaticamente, sendo necessário concertá-las manualmente antes de ser feito o
+  commit.
+
 
 ##### Gems úteis
 
@@ -264,82 +212,6 @@ Para configurar o Figaro, siga os passos abaixo:
 
 Após configurar a gem Figaro em seu ambiente, **avise os outros membros do projeto** que eles deveram executar os passos 2, 3 e 5 para configurar a gem em seus ambientes!
 
-###### Mailgun
-
-O Mailgun é uma biblioteca de funções que interage com a API da Mailgun e permite o envio de mensagens por email. Essa gem deve ser utilizada em todos os projetos da Struct que precisem *enviar emails para usuários*.
-
-Para configurar o Mailgun, siga os passos abaixo:
-
-1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
-
-  ```
-  # Mailgun:
-  gem 'mailgun-ruby'
-  ```
-
-2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
-
-3. Adicione os trechos de código abaixo aos seus respectivos arquivos com os campos da chave de API do Mailgun \(`api_key`\) e de domínio do projeto \(`domain`\) preenchidos corretamente. A chave de API do Mailgun utilizada pela Struct pode ser obtida com o diretor de projetos. Caso o projeto em questão ainda não tenha um domínio próprio, utilize o domínio para testes de projetos da Struct \(`domain: 'struct.tk'`\) e notifique o diretor de projetos.
-
-  `config/environments/development.rb`:
-
-  ```
-  config.action_mailer.delivery_method = :mailgun
-  config.action_mailer.mailgun_settings = {
-    api_key: '[chave de API]',
-    domain: '[meudomínio.com]'
-  }
-  config.action_mailer.default_url_options = {
-    host: "localhost:3000"
-  }
-  ```
-
- `config/environments/test.rb`:
-
- ```
- config.action_mailer.perform_deliveries = false
- config.action_mailer.delivery_method = :mailgun
- config.action_mailer.mailgun_settings = {
-   api_key: '[chave de API]',
-   domain: '[meudomínio.com]'
- }
- config.action_mailer.default_url_options = {
-   host: "localhost:3000"
- }
- ```
-
-  `config/environments/production.rb`:
-
-  ```
-  config.action_mailer.delivery_method = :mailgun
-  config.action_mailer.mailgun_settings = {
-    api_key: '[chave de API]',
-    domain: '[meudomínio.com]'
-  }
-  ```
-
-###### Sorcery
-
-O Sorcery é uma biblioteca de autenticação que fornece funcionalidades para o cadastro e login de usuários e permite ao desenvolvedor verificar se o usuário já está logado para acessar certas features do projeto. Essa gem deve ser utilizada em todos os projetos da Struct que *precisem realizar o cadastro de usuários.*
-
-Para configurar o Sorcery, siga os passos abaixo:
-
-1. Adicione o trecho de código abaixo ao arquivo `Gemfile`:
-
-  ```
-  # Sorcery authentication:
-  gem 'sorcery'
-  gem 'oauth'
-  gem 'oauth2'
-  ```
-
-2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
-
-3. Execute o comando `rails generate sorcery:install` para gerar os arquivos de instalação do sorcery. Esses arquivos incluem um *initializer* da gem, uma model de usuário \(ou uma modificação na model de usuário caso ela já exista\), uma migração de usuário e alguns arquivos de teste.
-
-4. Caso seu projeto **não tenha** uma model de usuário, execute a migração gerada pela instalação. Nesse caso, **não modifique** essa migração pois ela representa a instalação do Sorcery e modificações adicionais podem ser feitas em outras migrações. Caso seu projeto **já tenha** uma model existente de usuário, **modifique** a migração para ao invés de criar uma nova tabela, apenas modificar a tabela de usuários existente para se adequar as especificações do Sorcery. Nesse caso, essa migração deve criar os campos de *string* `email`, *string* `crypted_password` e *string* `salt` para a tabela \(se eles já não existirem\), remover qualquer outro campo relativo a senha, adicionar uma restrição para que o campo `email` não seja nulo e adicionar um índice único da tabela para o campo `email` \(os comandos necessários para realizar isso variam de acordo com a tabela de usuários existente\).
-
-5. Configure o *initializer* do Sorcery localizado em `config/initializers/sorcery.rb` para se adequar as especificações desejadas.
 
 ##### *Deprecated* gems
 
@@ -363,13 +235,13 @@ Esta seção detalha as branches padrão que todo projeto da Struct deve ter, co
 
 A **develop** é a branch de desenvolvimento padrão. Ela deve ser marcada como *default* e *protected* nas configurações de branch do projeto. Todas as features desenvolvidas devem ser adicionadas primeiramente à *develop* por meio de um *Merge request*.
 
-#### Master
+#### Main
 
-A **master** é a branch da versão oficial do software para os desenvolvedores. Ela deve ser marcada como *protected* nas configurações de branch do projeto. De tempos em tempos, as features desenvolvidas na branch *develop* são levadas a branch *master* por meio de um *Merge request*, permitindo ao time de desenvolvedores revisar com mais afinco e atenção as features desenvolvidas \(tipicamente, no final da *sprint*\). Além disso, a *Master* pode ser utilizada para receber diretamente correções de *bugs* ou problemas críticos, sem a necessidade dessas correções urgentes se misturarem com as features novas da *Develop*, encurtando o caminho de desenvolvimento até o cliente.
+A **main** é a branch da versão oficial do software para os desenvolvedores. Se possível, ela deve ser marcada como *protected* nas configurações de branch do projeto. De tempos em tempos, as features desenvolvidas na branch *develop* são levadas a branch *main* por meio de um *Merge request*, permitindo ao time de desenvolvedores revisar com mais afinco e atenção as features desenvolvidas \(tipicamente, no final da *sprint*\). Além disso, a *main* pode ser utilizada para receber diretamente correções de *bugs* ou problemas críticos, sem a necessidade dessas correções urgentes se misturarem com as features novas da *Develop*, encurtando o caminho de desenvolvimento até o cliente.
 
 #### Production
 
-A **production** é a branch da versão oficial do software para os clientes. Ela deve ser marcada como *protected* nas configurações de branch do projeto. De tempos em tempos, as features testadas e revisadas presentes na branch *master* são levadas à branch *production* por meio de um *Merge request* para que essas mudanças cheguem efetivamente aos clientes do projeto e possam ser utilizadas ou visualizadas pelos usuários do produto. Tenha muito cuidado ao colocar mudanças nessa branch, pois qualquer falha ou erro terá **consequências reais** para o cliente e para os usuários da aplicação.
+A **production** é a branch da versão oficial do software para os clientes. Se possível, também deve ser marcada como *protected* nas configurações de branch do projeto. De tempos em tempos, as features testadas e revisadas presentes na branch *main* são levadas à branch *production* por meio de um *Merge request* para que essas mudanças cheguem efetivamente aos clientes do projeto e possam ser utilizadas ou visualizadas pelos usuários do produto. Tenha muito cuidado ao colocar mudanças nessa branch, pois qualquer falha ou erro terá **consequências reais** para o cliente e para os usuários da aplicação.
 
 ## Sprints
 
@@ -401,7 +273,7 @@ Assim que as features forem escolhidas, pontuadas e distribuídas, é hora de co
 
 O desenvolvimento de uma feature em uma *sprint* deve seguir uma lógica bem definida para garantir que as diversas features desenvolvidas venham a ser adequadamente revisadas e integradas no projeto. Como gerente de projetos, você deverá entender plenamente essa lógica e explicá-la aos demais desenvolvedores.
 
-Como dito anteriormente, seu projeto deve ter três branches principais: *develop*, *master* e *production*. O primeiro passo a ser feito no começo de cada *sprint*, é atualizar a branch *develop* com as mudanças contidas na branch *master*.
+Como dito anteriormente, seu projeto deve ter três branches principais: *develop*, *main* e *production*. O primeiro passo a ser feito no começo de cada *sprint*, é atualizar a branch *develop* com as mudanças contidas na branch *main*.
 
 Depois disso, para **cada feature** a ser desenvolvida, os seguintes passos devem ser executados:
 
@@ -421,13 +293,13 @@ Quando uma *sprint* chega ao fim, os seguintes passos devem ser executados para 
 
   1. Todas as *merge requests* que estejam abertas devem ser resolvidas. Isso pode ser feito com a *merge request* sendo aceita ou com a *merge request* sendo recusada e a feature relativa a ela sendo postergada para a próxima *sprint*.
 
-  2. Uma *merge request* deve ser aberta da branch *develop* para a branch *master*. Essa *merge request* deve ser revisada por **todos** os membros da equipe de desenvolvimento. Essa revisão é mais sucinta que as outras revisões e tem o intuito de verificar se as features desenvolvidas foram integradas de maneira correta, se os testes estão sendo bem sucedidos ao serem executados e se a aplicação roda adequadamente \(isso deve ser testado por um breve uso da aplicação em si\).
+  2. Uma *merge request* deve ser aberta da branch *develop* para a branch *main*. Essa *merge request* deve ser revisada por **todos** os membros da equipe de desenvolvimento. Essa revisão é mais sucinta que as outras revisões e tem o intuito de verificar se as features desenvolvidas foram integradas de maneira correta, se os testes estão sendo bem sucedidos ao serem executados e se a aplicação roda adequadamente \(isso deve ser testado por um breve uso da aplicação em si\).
 
-  3. Caso todos os membros aprovem a *merge request* da *sprint*, as features desenvolvidas na *sprint* são colocadas na branch *master*. Do contrário, as mudanças necessárias ou são implementadas rapidamente ou, caso se tratem de mudanças mais sérias, são colocadas em novas *issues* que serão resolvidas na próxima *sprint*. Nesse caso, a *merge request* poderá ser aceita para a *master* caso os bugs e problemas sejam poucos \(mesmo com alguns problemas, é bom que o código seja colocado na master para evitar que features prontas se acumulem na develop\). As correções de bugs e reparo de features incompletas **devem ter prioridade** na próxima *sprint*.
+  3. Caso todos os membros aprovem a *merge request* da *sprint*, as features desenvolvidas na *sprint* são colocadas na branch *main*. Do contrário, as mudanças necessárias ou são implementadas rapidamente ou, caso se tratem de mudanças mais sérias, são colocadas em novas *issues* que serão resolvidas na próxima *sprint*. Nesse caso, a *merge request* poderá ser aceita para a *main* caso os bugs e problemas sejam poucos \(mesmo com alguns problemas, é bom que o código seja colocado na main para evitar que features prontas se acumulem na develop\). As correções de bugs e reparo de features incompletas **devem ter prioridade** na próxima *sprint*.
 
-  4. Caso a *merge request* tenha sido aprovada sem bugs ou ressalvas, as mudanças colocadas na *master* devem ser colocadas também na branch *production*, para que o cliente tenha acesso as mudanças. Caso a branch *production* esteja muito atrasada em relação a branch *master*, considere realizar uma *sprint* apenas com o intuito de corrigir bugs.
+  4. Caso a *merge request* tenha sido aprovada sem bugs ou ressalvas, as mudanças colocadas na *main* devem ser colocadas também na branch *production*, para que o cliente tenha acesso as mudanças. Caso a branch *production* esteja muito atrasada em relação a branch *main*, considere realizar uma *sprint* apenas com o intuito de corrigir bugs.
 
-Como gerente de projetos, você também deverá fazer, no cartão do *Trello* relativo à *sprint*, uma breve descrição da *sprint*, relatando o resultado final da *sprint*, as features desenvolvidas por cada membro da equipe, a pontuação recebida por cada membro e as dificuldades encontradas. Como gerente de projetos, sua pontuação deve ser a pontuação de suas features somada à *20% da pontuação total da sprint, arredondada para baixo*.
+Como gerente de projetos, você também deverá fazer,ao final da seamana, um breve resumo da *sprint*, relatando o resultado final da *sprint*, as features desenvolvidas por cada membro da equipe e as dificuldades encontradas, além de falar sobre a situação geral do projeto. Esse resumo deverá ser mandado no canal de **gerência de projetos no *slack*** direcionado ao diretor de projetos, para que ele possa estar inteirado da situação do projeto.
 
 ## Reuniões gerais
 
