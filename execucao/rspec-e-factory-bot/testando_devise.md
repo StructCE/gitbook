@@ -1,4 +1,6 @@
-# Testando as models e controllers associadas ao Devise
+# Testes com Devise
+
+## Testando models
 
 Para testar as models associadas ao Devise, vamos usar como exemplo a model User:
 
@@ -69,6 +71,8 @@ RSpec.describe User, type: :model do
   end
 end
 ```
+
+## Testando controllers que exigem autenticação
 
 Para testarmos controllers, será necessário adicionar no arquivo **rails_helper.rb** criado automaticamente na própria pasta **rspec** as seguintes linhas dentro do bloco `RSpec.configure do |config|`:
 
@@ -151,10 +155,11 @@ Como iríamos testar esses métodos se eles requerem o user estar logado? A resp
 ```ruby
 describe "/GET #index" do
     let(:user) { create(:user) }
-    let(:product) { create(:product) } 
+    let(:product) { create(:product, name: 'product1') } 
+    let(:product2) { create(:product, name: 'product2')}
     before do
-      create(:favourite, user: user, product: product)
-      create(:favourite, user: user, product: product)
+      create(:favourite, user_id: user.id, product_id: product.id)
+      create(:favourite, user_id: user.id, product_id: product2.id)
     end
 
     context 'logged in as user'
