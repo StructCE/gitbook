@@ -43,15 +43,20 @@ Existem 3 formas de colocar o CSS para estilizar o HTML:
     <p>Um parágrafo de exemplo</p>
 </body>
 ```
-### Em um arquivo chamado file.css:
+### Em um arquivo .css:
 ```CSS
 p {
     font-size: 12px;
     color: red;
 }
 ```
-#### OBS: a tag link é utilizada para integrar o arquivo file.css com o HTML.
-#### OBS2: a forma mais apropriada para integrar é utilizando o arquivo separado.
+{% hint style="info" %}
+    OBS: a tag link é utilizada para integrar o arquivo file.css com o HTML.
+{% endhint %}
+
+{% hint style="info" %}
+    OBS2: a forma mais apropriada para integrar é utilizando o arquivo separado. 
+{% endhint %}
 
 ## Seletores
 Existem alguns tipos de seletores: por tag HTML, por classe e por id.
@@ -145,7 +150,7 @@ Onde o seletor1 representa o "elemento pai" do seletor2.
 /*
 Apenas links(tags a) dentro de um elemento que contenha a classe links-container irão ter a decoração de texto retirada e a cor mudada para preto.
 */
-links-container a {
+.links-container a {
     text-decoration: none;
     color: black;
 }
@@ -181,7 +186,10 @@ Quando existem regras conflitantes entre si, por exemplo 2 regras mudando a cor 
 2. Seletor de Id
 3. Seletor de Classe
 4. Regras que vierem depois de outras que estão antes no arquivo
-#### OBS: pode-se usar !important depois de uma regra para anular qualquer outra, independentemente da precedência explicada anteriormente.
+
+{% hint style="info" %}
+    OBS: pode-se usar !important depois de uma regra para anular qualquer outra, independentemente da precedência explicada anteriormente.
+{% endhint %}
 
 ## Propriedades
 São as regras que serão passadas aos elementos selecionados pelos seletores. Antes de falarmos das propriedades, falaremos de algumas unidades utilizadas nessas regras.
@@ -198,7 +206,7 @@ No HTML e CSS existem várias unidades que serão utilizadas para definir o espa
 ![Relação pixels](/imagens/pixel.png)
 
 #### Rem
-É uma unidade relativa ao tamanho da fonte do elemento raiz(html, body), ou seja, é bem útil para padronizar o site.
+É uma unidade relativa ao tamanho da fonte do elemento raiz(html, body), ou seja, é bem útil para padronizar o site. Na maioria dos browsers dos computadores, 1rem equivale a 16px.
 
 #### Vw e Vh
 São unidades relativas à proporção da tela que o usuário está usando. Vw significa viewport width, ou seja, está relacionada a uma porcentagem da largura da tela. Já Vh é a viewport height, está relacionada a uma porcentagem da altura da tela.
@@ -233,6 +241,26 @@ Decoração do texto, pode ser underline, overline, line-through ou none.
 ```
 Para isso, é preciso ter a fonte em um arquivo do tipo fonte(.tff) e que ele esteja adicionado no projeto. Assim, o "name" seria o nome dado à fonte(que será utilizado para definir essa fonte nos outros textos) e o 'url' seria o caminho relativo do arquivo do tipo fonte no projeto.
 
+Outra forma é utilizando fontes externas, é só importá-las utilizando a tag \<link/\> do html. Um exemplo de fácil uso é o google fonts:
+
+```html
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+</head>
+```
+Para esse exemplo em específico, podemos usar a fonte importada normalmente no css:
+
+```css
+p {
+    font-family: 'Inconsolata', monospace;
+}
+```
+{% hint style="info" %}
+    Ambos os códigos foram tirados do próprio site do [Google Fonts](https://fonts.google.com/specimen/Inconsolata)
+{% endhint %}
+
 #### Color
 É a cor do texto. Pode ser:
 * Um dos valores padrão como "blue" e "transparent";
@@ -256,11 +284,18 @@ Propriedade utilizada para colocar uma imagem no fundo no container. Propriedade
 * border-width: usa as unidades de medida para definir qual é o tamanho da borda
 * border-style: tem alguns valores padrão: none, hidden, solid, dotted, dashed, groove, ridge, inset e outset
 * border-color: tem os mesmos valores que "color".
-##### OBS: Border-radius é uma outra propriedade relacionada à borda que deve ser definida separadamente para arredondar os cantos das bordas. O valor é de unidade de medida. 
-##### OBS2: Todas essas propriedades podem ser definidas para apenas um dos cantos usando border-(left/right/top/bottom) ou ainda definir para os 4 cantos de uma vez da seguinte forma:
-* 1 valor(será aplicado para todos os 4)
-* 2 valores(top e bottom para o primeiro valor, left e right para o segundo)
-* 4 valores(top, right, bottom e left) 
+
+{% hint style="info" %}
+    OBS: Border-radius é uma outra propriedade relacionada à borda que deve ser definida separadamente para arredondar os cantos das bordas. O valor é de unidade de medida. 
+{% endhint %}
+
+{% hint style="info" %}
+    OBS2: Todas essas propriedades podem ser definidas para apenas um dos cantos usando border-(left/right/top/bottom) ou ainda definir para os 4 cantos de uma vez da seguinte forma:
+{% endhint %}
+
+    * 1 valor(será aplicado para todos os 4)
+    * 2 valores(top e bottom para o primeiro valor, left e right para o segundo)
+    * 4 valores(top, right, bottom e left) 
 
 #### Margin
 É uma propriedade que define quanto de espaço o elemento irá "empurrar" os elementos adjacentes. Usam-se as unidades de medida. Podem ser aplicadas as regras da [OBS2 da Border](#obs2-todas-essas-propriedades-podem-ser-definidas-para-apenas-um-dos-cantos-usando-border-leftrighttopbottom-ou-ainda-definir-para-os-4-cantos-de-uma-vez-da-seguinte-forma) para definir para um dos 4 cantos.
@@ -273,7 +308,10 @@ Podem ser aplicadas as regras da [OBS2 da Border](#obs2-todas-essas-propriedades
 São duas propriedades que definem qual será o tamanho do elemento. Quando se coloca apenas uma delas, a outra é calculada automaticamente. Os valores podem ser:
 * Valores de unidade de medida
 * Valores padrão como max-content, min-content e fit-content
-##### OBS: os prefixos max- e min- podem ser usados antes de width e height para definir outras propriedades que definem um tamanho máximo ou mínimo para o elemento.
+
+{% hint style="info" %}
+    OBS: os prefixos max- e min- podem ser usados antes de width e height para definir outras propriedades que definem um tamanho máximo ou mínimo para o elemento.
+{% endhint %}
 
 ## The Box Model
 As 4 últimas propriedades fazem parte do Box Model:
@@ -286,7 +324,10 @@ Define se as propriedades de height e width vão considerar apenas o conteúdo d
 * hidden: a parte que está além dos limites do elemento será escondida
 * visible: o overflow fica visível
 * scroll: adiciona um scroll, mesmo que não seja necessário
-#### OBS: É possível utilizar essa propriedade separadamente para eixo x e y, utilizando overflow-x ou overflow-y.
+
+{% hint style="info" %}
+    OBS: É possível utilizar essa propriedade separadamente para eixo x e y, utilizando overflow-x ou overflow-y.
+{% endhint %}
 
 ## Propriedade Display
 Essa propriedade define como o elemento será disposto na tela. Existem 2 tipos principais de elemento no HTML:
@@ -312,7 +353,9 @@ Entre essas propriedades temos:
   * flex-shrink: o contrário do que o flex-grow faz(faz o elemento diminuir com base nos "elementos irmãos" com menores valores) 
   * flex-basis: dependendo se a flex-direction é row(ou row-reverse)/column(ou column-reverse), vai governar o width/height do flex-item
 
-  OBS: é possível determinar somente a primeira propriedade, por exemplo: `flex: 1;`
+  {% hint style="info" %}
+    OBS: é possível determinar somente a primeira propriedade, por exemplo: `flex: 1;`
+  {% endhint %}
 
 * justify-content/align-items: essas 2 propriedades de flexbox ajudam a ajustar o elemento no container, para auxiliar a colocá-los da forma que desejamos. Elas vão depender da flex-direction.
   Valores para justify-content(flex-direction da esquerda é row e o da direita é column):
