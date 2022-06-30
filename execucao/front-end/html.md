@@ -14,7 +14,10 @@ Ela geralmente é acompanhada pelo CSS e JavaScript, que juntos são renderizado
     </body>
 </html>
 ```
-#### Obs: A primeira linha (\<!DOCTYPE html>) serve para identificar para o navegador a versão do HTML que está sendo utilizada. No caso, a versão "html" representa o HTML5.
+
+{% hint style="info" %}
+    Obs: A primeira linha (\<!DOCTYPE html>) serve para identificar para o navegador a versão do HTML que está sendo utilizada. No caso, a versão "html" representa o HTML5.
+{% endhint %}
 
 ## Tags
 São elementos dentro do HTML que desempenham um certo papel visual, semântico ou separatório. Existem 2 tipos de tags: 
@@ -34,7 +37,10 @@ Essa tag está presente em todo arquivo HTML, pois representa onde todos os iten
     -->
 </body>
 ```
-##### Obs: `<!-- -->` é um comentário em HTML
+
+{% hint style="info" %}
+    Obs: `<!-- -->` é um comentário em HTML
+{% endhint %}
 
 ### Head
 Essa tag é uma das únicas que ficam fora da tag \<body>, pois é onde ficam elementos que não ficam explícitos na página em si, como \<meta> e \<title> 
@@ -137,7 +143,10 @@ Essa tag representa uma imagem. Para que o navegador saiba de onde encontrar o c
     <img src="/images/imagem1.png"/>
 </body>
 ```
-##### OBS: \<img/> é uma tag que se fecha sozinha, como mostrada no exemplo.
+
+{% hint style="info" %}
+    OBS: \<img/> é uma tag que se fecha sozinha, como mostrada no exemplo.
+{% endhint %}
 
 ### A
 Essa tag é o link para outra página da web, outra página do próprio site ou outra parte do site. Para que o navegador saiba para onde o link vai, o atributo "href" é utilizado. Por padrão, o link é exibido com uma cor azul e tem uma decoração tipica de links no texto.
@@ -198,7 +207,7 @@ Nos exemplos passados, utilizamos os atributos como src e href, mas agora vamos 
 É um atributo de valor único que serve para identificar o elemento que o possui. Pode ser utilizado depois para se referenciar a esse elemento.
 
 #### Class
-É um atributo como o id, mas é utizado o mesmo valor para diferentes elementos para agrupá-los em uma classe, para estilizarmos todos de uma vez (vamos ver isso mais tarde no css).
+É um atributo como o id, mas é utilizado o mesmo valor para diferentes elementos para agrupá-los em uma classe, para estilizarmos todos de uma vez (vamos ver isso mais tarde no css).
 
 ```HTML
 <div id="div1" class="meus-elementos"></div>
@@ -206,14 +215,17 @@ Nos exemplos passados, utilizamos os atributos como src e href, mas agora vamos 
 <div id="div3" class="meus-elementos"></div>
 <a class="meus-elementos"></a>
 ```
-##### Obs: eles não são obrigatórios.
+
+{% hint style="info" %}
+    Obs: eles não são obrigatórios.
+{% endhint %}
 
 ### Atributos de \<img>
 
 #### Src
 É de onde vem a imagem; pode vir dentro do próprio conjunto de pastas ou ainda de um endereço na web.
 #### Alt
-É uma descrição da imagem, serve para quando a imagem não foi carregada ou para quando se usa um leitor de página. Não é obrigatório.
+É uma descrição da imagem, serve para quando a imagem não foi carregada ou para quando se usa um leitor de página. Não é obrigatório, porém é altamente recomendado por questões de acessibilidade.
 
 ##### Exemplo de Uso:
 ```HTML
