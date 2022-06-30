@@ -43,15 +43,18 @@ Existem 3 formas de colocar o CSS para estilizar o HTML:
     <p>Um parágrafo de exemplo</p>
 </body>
 ```
+
 ### Em um arquivo .css:
+
 ```CSS
 p {
     font-size: 12px;
     color: red;
 }
 ```
+
 {% hint style="info" %}
-    OBS: a tag link é utilizada para integrar o arquivo file.css com o HTML.
+    OBS: a tag link é utilizada para integrar o arquivo .css com o HTML.
 {% endhint %}
 
 {% hint style="info" %}
@@ -207,6 +210,7 @@ No HTML e CSS existem várias unidades que serão utilizadas para definir o espa
 
 #### Rem
 É uma unidade relativa ao tamanho da fonte do elemento raiz(html, body), ou seja, é bem útil para padronizar o site. Na maioria dos browsers dos computadores, 1rem equivale a 16px.
+
 
 #### Vw e Vh
 São unidades relativas à proporção da tela que o usuário está usando. Vw significa viewport width, ou seja, está relacionada a uma porcentagem da largura da tela. Já Vh é a viewport height, está relacionada a uma porcentagem da altura da tela.

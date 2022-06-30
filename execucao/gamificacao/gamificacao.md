@@ -6,7 +6,7 @@ A temporada da gamificação, incialmente, é definida como 6 meses. A gamifica�
 {% endhint %}
 
 {% hint style="success" %}
-A temporada atual terá duração de 4 meses e meio, começando no dia 17 de junho 2021 e finalizando dia 30 de novembro de 2021.
+A temporada atual terá duração de 4 meses e meio, começando no dia 31 de janeiro 2022 e finalizando dia 15 de junho de 2022.
 {% endhint %}
 
 ## Sistema de pontos
@@ -26,9 +26,13 @@ Varíavel | Para membros de destaque indicados por um diretor ou gerente | Mensa
 +4 pontos | Participação em 2 projetos | Mensal
 +1 ponto | Para cada participação adicional em projeto acima de 2 | Mensal
 +2 pontos | Para aulas ministradas por um instrutor do trainee | Por aula
-+2 pontos | Para membros redatores de atas de reuniões ou de eleição | Por ata
-+3 pontos | Participação em evento oficial do MEJ (Concentra, ENEJ, Sábado Jr, etc) | Por dia participado
--1 ponto | *Daily* não respondido | Por mensagem
++3 pontos | Para membros redatores de atas de reuniões ou de eleição | Por ata
++2 pontos | Participação em evento oficial do MEJ (Concentra, ENEJ, Sábado Jr, etc) | Por dia participado
++1 ponto | Ponto por plantão dado no Trainee
++5 pontos | Pontuação para o primeiro Bench feito (Bench e documentação)
++3 pontos | Pontuação para outros Benchs feitos (Bench e documentação)
+-2 pontos | Falta sem justificativa em reuniões de projeto
+-1 ponto | *Struct Report* não respondido | Por mensagem
 
 {% hint style="info" %}
 Gerentes de trainee são considerados gerentes de projeto.
@@ -54,6 +58,7 @@ Avaliação | Pontuação
 ------------ | -------------
 O membro não participou das atividades do projeto no mês ou entregou as issues com muito atraso | 0 pontos
 O membro realizou suas issues em todas as sprints do mês e colaborou para o avanço do desenvolvimento do projeto | 1 ponto
+O membro está em um situação intermediária com relação ao membro que ganhou 3 pontos e o membro que ganhou 1 ponto | 2 pontos
 O membro concluiu todas as issues rapidamente e ainda pediu por mais issues para adiantar o desenvolvimento do projeto. Se o membro pedir por issue e não tiverem issues disponíveis, ele deve entrar na categoria anterior. Essa categoria deve recompensar apenas quem agilizou o desenvolvimento do projeto e foi proativo | 3 pontos
 
 Adicionalmente, ao concluir o projeto, será enviado ao gerente do projeto pela equipe de gestão de pessoas um formulário para indicação dos membros destaques do projeto, sendo:
@@ -70,15 +75,15 @@ Ranking | Patente | Pontuação Mensal
 1 | Marechal do Cosmos | Top 1
 2 | Mestre das armas | Top 2
 3 | Major Sideral | Top 3
-4 | Engenheiro de ignição | 45
-5 | Chefe de máquinas | 40
-6 | Especialista de colisões | 30
-7 | Técnico do motor de dobra | 24
-8 | Piloto Iniciante | 16
-9 | Estagiário da nave | 8
+4 | Engenheiro de ignição | 55
+5 | Chefe de máquinas | 45
+6 | Especialista de colisões | 40
+7 | Técnico do motor de dobra | 32
+8 | Piloto Iniciante | 24
+9 | Estagiário da nave | 16
 10 | Faxineiro Espacial | 0
 
-As primeiras três patentes só podem ser ocupadas por um membro cada e tem como condição de entrada a obtenção de **no mínimo 50 pontos**. Caso apenas um membro consiga atingir a pontuação mínima do top 3, ele ocupará automaticamente a primeira posição.
+As primeiras três patentes só podem ser ocupadas por um membro cada e tem como condição de entrada a obtenção de **no mínimo 66 pontos**. Caso apenas um membro consiga atingir a pontuação mínima do top 3, ele ocupará automaticamente a primeira posição.
 
 ## Férias
 Anualmente, ocorrem dois períodos de férias gerais na empresa, os quais todos os membros entram de férias concomitante. Essas férias normalmente ocorrem entre temporadas da gamificação, não afetando a obtenção de pontos dos membros.
