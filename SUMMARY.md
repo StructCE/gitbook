@@ -48,6 +48,7 @@
   * [CSS](execucao/front-end/css.md)
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
+  * [Cloudinary](execucao/projetos/cloudinary.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
   * [Finalização de Projetos](execucao/projetos/finalizacao.md)
   * [Gitlab](execucao/projetos/gitlab/README.md)
