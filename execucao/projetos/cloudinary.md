@@ -56,7 +56,7 @@ cloudinary:
   # Any other settings you want, to be sent on all requests, can be included here as well.
 ```
 
-E adicionar a seguinte linha no arquivo config/environments/development.rb:
+E adicionar a seguinte linha no arquivo config/environments/development.rb(para o development - se quiser para production, coloque no arquivo config/environments/production.rb):
 
 ```ruby
 # Use Cloudinary.
