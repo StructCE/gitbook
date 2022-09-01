@@ -16,6 +16,7 @@
   * [Fazer Proposta](gestao/comercial/fazer-proposta.md)
   * [Inserir Projetos no Portal BJ](gestao/comercial/insercao-portal-BJ.md)
 * [Gestão de Pessoas](gestao/gestao-de-pessoas.md)
+* [MEJ](gestao/mej/pagina-do-mej.md)
 * [Processo Seletivo](gestao/processo-seletivo/README.md)
   * [Processo Trainee](gestao/processo-seletivo/processo-trainee.md)
     * [Guias Utilizados](gestao/processo-seletivo/guias-utilizados.md)
