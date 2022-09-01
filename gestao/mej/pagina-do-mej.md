@@ -4,9 +4,11 @@
 
 Iniciado em Paris, em 1967, por alunos da L’École Supérieure des Sciences Economiques et Commerciales, o MEJ cresceu na Europa e foi trazido para o Brasil em 1987 por João Carlos Chaves, diretor da Câmara de Comércio Franco-Brasileira.
 
-A 1ª empresa júnior no país nasceu na Escola de Administração da Fundação Getúlio Vargas.
+O Movimento Empresa Júnior é um empreendimento que não tem fins lucrativos, mas no qual todos saem ganhando. A sua organização é feita por estudantes de graduação e sua orientação, por professores.
 
-Hoje, de acordo com dados da Brasil Júnior, Confederação Brasileira de Empresas Juniores, contamos com 438 EJs que realizam mais de 4,5 mil projetos por ano. Desses serviços, 41,6% foram realizados para micro e pequenas empresas. Assim, o MEJ também auxilia a fomentar o empreendedorismo fora dos muros da faculdade.
+Nela, os estudantes podem realizar projetos e prestar serviços para outras empresas, aprendendo na prática a exercer a profissão para a qual estão se formando.
+
+É uma oportunidade incrível de empreender na faculdade. Afinal, quem participa do MEJ passa a entender como se organiza uma empresa. Também é uma grande vantagem para a faculdade — que ganha em visibilidade — e para os clientes — que podem ter acesso a um serviço de qualidade por um baixo custo.
 
 ## [Brasil Júnior](https://brasiljunior.org.br//)
 
