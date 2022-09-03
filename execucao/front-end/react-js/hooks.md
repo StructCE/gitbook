@@ -57,7 +57,7 @@ export default Counter;
 
 Função que recebe um callback (arrow function) e um array de dependências. Quando o componente for rerenderizado, se alguma das variáveis do array de dependências tiver mudado, o callback é executado.
 
-Serve principalmente para sincronizar um efeito com alguma mudança de variável. Por exemplo:
+Serve principalmente para sincronizar um efeito com alguma mudança de variável. Por [exemplo](https://codesandbox.io/s/hooks-demo-0otg5h):
 
 ```jsx
 import { Container } from "./styles";
