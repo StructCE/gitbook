@@ -85,6 +85,8 @@ const Counter = () => {
 export default Counter;
 ```
 
+Atenção: se o useEffect não tiver array de dependêcia, a partir do react 18, ele roda com a mudança de qualquer estado no componente, o que pode gerar um useEffect rodando infinitamente até crashar seu servidor.
+
 ## useContext
 
 Exemplo:
