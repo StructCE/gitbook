@@ -56,7 +56,6 @@ export default Counter;
 ## useEffect
 
 Função que recebe um callback (arrow function) e um array de dependências. Quando o componente for rerenderizado, se alguma das variáveis do array de dependências tiver mudado, o callback é executado.
-Se o array de dependência não for especificado, o useEffect vai ser executado em toda mudança de estado, possivelmente causando um loop infinito. Nesses casos, geralmente o que se deseja utilizar é um array vazio.
 
 Serve principalmente para sincronizar um efeito com alguma mudança de variável. Por [exemplo](https://codesandbox.io/s/hooks-demo-0otg5h):
 
