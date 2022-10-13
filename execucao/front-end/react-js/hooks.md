@@ -86,6 +86,8 @@ const Counter = () => {
 export default Counter;
 ```
 
+Atenção: se o useEffect não tiver array de dependêcia, a partir do react 18, ele roda com a mudança de qualquer estado no componente, o que pode gerar um useEffect rodando infinitamente até crashar seu servidor.
+
 ## useContext
 
 Serve para criar um contexto. Considere uma aplicação web inteira que é baseada num usuário logado. Usando o que conhecemos até agora, teríamos que guardar o usuário na raíz da aplicação e passar pra todos os filhos que precisam (praticamente todos) o usuário e funções (como a de login) por _props_.

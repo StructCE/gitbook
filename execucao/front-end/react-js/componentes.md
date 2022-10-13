@@ -51,20 +51,53 @@ A página criada renderizará um HTML semelhante a:
 Observações:
 
 - Pode ser utilizado javascript dentro de um componente, inclusive dentro do JSX ("HTML") se usado `{}` ao redor.
+- O componente recebe um objeto como argumento, contendo todas as propriedades passadas a ele. Pode ser destruturado para melhor legibilidade.
 - Caso deseje-se retornar duas tags irmãs como componente, o React fornece uma tag fantasma, que não será considerada ao construir o HTML:
 
 ```js
-const ComponentName = ({ id, batata }) => {
+const ComponentName = ({ id, batata, ...props }) => {
 	return (
 		<>
 			<label htmlFor={id}>{batata}</label>
-			<button id={id}>Clique em mim</button>
+			<button id={id} {...props}>Clique em mim</button>
 		</>
 	);
 };
 
 export default ComponentName;
 ```
+
+Uma propriedade importante é a children, que passa o interior da tag pra dentro do componente como uma propriedade:
+```js
+const StyledHeader = ({ id, batata, ...props }) => {
+	return (
+		<header style={{ color: "red", padding: "2rem" }}>
+			{children}
+		</header>
+	);
+};
+
+
+const HomePage = () => {
+	return (
+		<StyledHeader>
+			<h1>Homepage</h1>
+			<p>Aqui é Home</p>
+		</StyledHeader>
+	);
+};
+
+export default HomePage;
+```
+
+O componente HomePage agora vai renderizar um html como:
+```html
+<header style="color: red; padding: 2rem">
+	<h1>Homepage</h1>
+	<p>Aqui é Home</p>
+</header>
+```
+
 
 Aprenda mais com a [documentação oficial](https://reactjs.org/tutorial/tutorial.html).
 Também existe uma [documentação mais recente](https://beta.reactjs.org/learn), que ainda está no beta mas tem didática melhor.
