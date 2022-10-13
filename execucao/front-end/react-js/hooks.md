@@ -56,6 +56,7 @@ export default Counter;
 ## useEffect
 
 Função que recebe um callback (arrow function) e um array de dependências. Quando o componente for rerenderizado, se alguma das variáveis do array de dependências tiver mudado, o callback é executado.
+Se o array de dependência não for especificado, o useEffect vai ser executado em toda mudança de estado, possivelmente causando um loop infinito. Nesses casos, geralmente o que se deseja utilizar é um array vazio.
 
 Serve principalmente para sincronizar um efeito com alguma mudança de variável. Por [exemplo](https://codesandbox.io/s/hooks-demo-0otg5h):
 
@@ -66,7 +67,7 @@ import { useEffect, useState } from "react";
 const Counter = () => {
 	const [count, setCount] = useState(0);
 
-	// acrescentando um efeito que é disparado sempre que count muda:
+	// acrescentando um efeito que é disparado na primeira renderização, e depois sempre que count muda:
 	useEffect(() => {
 		console.log(count);
 		if (count === 1) {
@@ -87,5 +88,9 @@ export default Counter;
 
 ## useContext
 
-Exemplo:
+Serve para criar um contexto. Considere uma aplicação web inteira que é baseada num usuário logado. Usando o que conhecemos até agora, teríamos que guardar o usuário na raíz da aplicação e passar pra todos os filhos que precisam (praticamente todos) o usuário e funções (como a de login) por _props_.
+Mas e se pudéssemos fazer um estado global, acessível sem ser apenas pelas _props_? É exatamente isso que é o contexto.
+
+Exemplos:
 https://codesandbox.io/s/usecontext-demo-qtugvt?file=/src/contexts/UserContext.js
+https://www.youtube.com/watch?v=Zz4icNdPzTM
