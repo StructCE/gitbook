@@ -9,12 +9,12 @@ Essa documentação irá assumir que os conceitos básicos de html, css e js apr
 
 Continue:
 
-* [Instalação](execucao/front-end/react-js/instalacao.md)
+* [Instalação](instalacao.md)
 
-* [Componentes](execucao/front-end/react-js/componentes.md)
+* [Componentes](componentes.md)
 
-* [Estilizando](execucao/front-end/react-js/estilizando.md)
+* [Estilizando](estilizando.md)
 
-* [Hooks](execucao/front-end/react-js/hooks.md)
+* [Hooks](hooks.md)
 
-* [Mais sobre](execucao/front-end/react-js/mais-sobre.md)
+* [Mais sobre](mais-sobre.md)
