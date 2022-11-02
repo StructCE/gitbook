@@ -52,6 +52,7 @@ O membro não participou das atividades da diretoria no mês | 0 pontos
 O membro quase não realizou atividades na diretoria ou as realizou com muito atraso | 1 ponto
 O membro realizou todas as atividades com empenho e contribuiu ativamente para a diretoria neste mês | 2 pontos
 O membro foi muito proativo e pediu por mais atividades para fazer ou propôs novas ideias e atividades para a diretoria | 4 pontos
+
 ##### Projetos
 Membros de projetos poderão receber até 3 pontos mensais dependendo da avaliação dada pelo gerente.
 Avaliação | Pontuação
