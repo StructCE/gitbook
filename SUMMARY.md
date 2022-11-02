@@ -9,6 +9,7 @@
 * [Administrativo-Financeiro](gestao/administrativo-financeiro/README.md)
   * [Pesquisa e Desenvolvimento (R\&D)](gestao/administrativo-financeiro/pesquisa-e-desenvolvimento.md)
   * [Reembolso de membros](gestao/administrativo-financeiro/reembolso.md)
+  * [Cupons e Prêmios](gestao/administrativo-financeiro/cupons-e-premios.md)
 * [Projetos](gestao/projetos.md)
 * [Marketing](gestao/marketing.md)
 * [Comercial](gestao/comercial/README.md)
