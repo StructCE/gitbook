@@ -72,7 +72,7 @@ export async function getServerSideProps(context) {
 
 ## API
 
-Para criar uma rota de api, basta criar um arquivo dentro da pasta `pages/api`. Esse arquivo será acessado via `http://localhost:3000/api/`.
+Para criar uma rota de api, basta criar um arquivo dentro da pasta `pages/api`. Esse arquivo será acessado via `http://localhost:3000/api/`. O arquivo deve exportar default uma função que será executada quando a rota for acessada.
 
 De resto, o roteamento de api é igual ao de páginas, com a diferença que a função exportada default recebe como parâmetro o objeto `req` e `res` do node, e deve responder à request a partir do `res`. Caso não seja feito isso, a request ficará pendente. Além disso, pode-se terminar a request com `res.end()`. Caso isso não seja feito, a request responderá com o definido até a função terminar sua execução pelo objeto `res`.
 
