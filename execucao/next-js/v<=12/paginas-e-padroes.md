@@ -33,6 +33,10 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>Home</title>
+        <meta name="description" content="My home" />
+      </Head>
       <h1>SG</h1>
       <button onClick={getData}>Get Data</button>
       {todos && <pre>{JSON.stringify(todos, null, 2)}</pre>}
@@ -64,6 +68,10 @@ export default function wGetStaticProps({ initialTodos }) {
 
   return (
     <div>
+      <Head>
+        <title>Better Home</title>
+        <meta name="description" content="My better home" />
+      </Head>
       <h1>SG</h1>
       <button onClick={getData}>Get Data</button>
       {todos && <pre>{JSON.stringify(todos, null, 2)}</pre>}
@@ -171,18 +179,26 @@ Para fazer SSR, é necessário que a página tenha a função `getServerSideProp
 Usamos SSR quando precisamos de dados que não podem ser gerados no momento de build, ou quando queremos sempre o conteúdo mais atualizado possível.
 
 ```jsx
-// src/pages/wSSR/index.js
+// src/pages/products/index.js
 import { api } from "../../services/api";
 
-export default function Page({ products }) {
+export default function ProductsIndex({ products }) {
   return (
     <div>
+      <Head>
+        <title>My Page</title>
+        <meta name="description" content="Products Index" />
+      </Head>
       <h1>SSR</h1>
       <ul>
         {products.map((product) => (
           <li key={product.id}>
             <h2>{product.name}</h2>
             <p>{product.description}</p>
+            <Image src={`${baseImgUrl}/${product.image_url}`} width={200} height={200} />
+            <Link href={`/products/${product.id}`}>
+              <a>Saiba mais</a>
+            </Link>
           </li>
         ))}
       </ul>
@@ -192,6 +208,7 @@ export default function Page({ products }) {
 
 export async function getServerSideProps(ctx) {
   // get request info from context
+  // Mais sobre ctx: https://nextjs.org/docs/api-reference/data-fetching/get-server-side-props#context-parameter
   const { req } = ctx;
 
   // get req headers

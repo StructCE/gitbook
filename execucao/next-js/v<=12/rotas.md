@@ -61,6 +61,7 @@ export default function User({ id }) {
 export async function getServerSideProps(context) {
   const { id } = context.params;
   // podemos fazer uma chamada para a api agora, com o id da rota
+  // const data = await api.get(`/users/${id}`)
 
   return {
     props: {
