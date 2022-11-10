@@ -6,32 +6,22 @@ Para usarmos o styled-components no Next.js, precisamos mudar configurações. C
 
 ## Configuração
 
-Para isso, vamos substituir o compilador padrão do next por um do babel, e adicionar o styled-components como plugin.
+Basta alterar o arquivo `next.config.js`, alterando `nextConfig.compiler.styledComponents = true`:
 
-Primeiro, vamos instalar as dependências necessárias:
-
-```bash
-yarn add -D babel-plugin-styled-components
-yarn add styled-components
-```
-
-Agora, vamos criar um arquivo de configuração do babel, chamado `.babelrc`, na raiz do projeto, e adicionar o seguinte conteúdo:
 
 ```js
-// .babelrc
-{
-  "presets": ["next/babel"],
-  "plugins": [
-    [
-      "styled-components",
-      {
-        "ssr": true,
-        "displayName": true,
-        "preprocess": false
-      }
-    ]
-  ]
-}
+// next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // outras opções
+  compiler: {
+    // possivelmente outras opções
+    // adicionar:
+    styledComponents: true,
+  },
+};
+
+module.exports = nextConfig;
 
 ```
 

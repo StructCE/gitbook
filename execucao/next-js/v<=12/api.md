@@ -2,6 +2,8 @@
 
 O Next JS usa api padrão do Node.js, então você pode usar qualquer biblioteca que você quiser. O Next JS também tem uma API própria que pode ser usada para algumas coisas, como rotas, renderização do lado do servidor e renderização estática.
 
+No caso, os exemplos estão sendo dados com [Prisma](https://www.prisma.io/) (docs a fazer), uma ORM que facilita muito queries no banco de dados. Interprete que, quando `prisma` é chamada, uma busca no banco de dados está sendo feita.
+
 ```jsx
 // src/pages/api/users/[id].js
 
