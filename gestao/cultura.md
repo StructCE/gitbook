@@ -1,7 +1,3 @@
-[//]: # (Adicionar origem das camisas da Struct)
-[//]: # (EJs no corredor das EJs)
-
-[//]: # (Origem da canção comercial)
 # Cultura
 
   
@@ -55,7 +51,7 @@ A bandeira da Struct foi confeccionada e inaugurada em julho de 2022. Desde ent�
 
 
 
-As camisas da Struct são também parte da cultura da empresa.  As camisas são utilizadas em eventos e RGs, inclusive nos eventos online, reforçando a união e o pertencimento da Struct. 
+As camisas da Struct são também parte da cultura da empresa. A camisa surgiu como um dos prêmios da segunda temporada da corrida de fogutes, no segundo semestre de 2021, mas passou a ser oferecida aos membros ao entrarem na empresa. As camisas são utilizadas em eventos e RGs, inclusive nos eventos online, reforçando a união e o pertencimento da Struct. 
 
 
 
@@ -65,7 +61,7 @@ As camisas da Struct são também parte da cultura da empresa.  As camisas são 
 
 ## Sede
 
-A sede da Struct se localiza no prédio do SG-11, no corredor das EJs. A sede conta com espaço para trabalho, 1 computador, televisão e quadros brancos, além de guardar documentos legais. Além disso, o espaço é compartilhado com outras EJs: EngNet, . O espaço compartilhado conta com uma copa e uma sala de reuniões, as quais as EJs do espaço controlam os horários de uso.
+A sede da Struct se localiza no prédio do SG-11, no corredor das EJs. A sede conta com espaço para trabalho, 1 computador, televisão e quadros brancos, além de guardar documentos legais. Além disso, o espaço é compartilhado com outras EJs: ENGENTE, MECAJUN E ENETEC. O espaço compartilhado conta com uma copa e uma sala de reuniões, as quais as EJs do espaço controlam os horários de uso.
 
 
 
@@ -110,7 +106,7 @@ Você sempre quis...
 
 ## Grito de Guerra
 
-O grito de guerra da Struct surgiu durante o ENEJ 2022, . É uma paródia da música popular Brasil olê, olê, olê
+O grito de guerra da Struct surgiu durante o ENEJ 2022. É uma paródia da música popular Brasil olê, olê, olê
 
 Na struct eu boto fé
 Porque foguete não da ré 
@@ -126,7 +122,7 @@ Suba a bordo do foguetão
 
 ## Canção Comercial
 
-A canção comercial da Struct surgiu . É uma paródia da música Atoladinha, por Bola de Fogo e As Foguentas.
+A canção comercial da Struct surgiu durante uma confraternização dos membros no outback. É uma paródia da música Atoladinha, por Bola de Fogo e As Foguentas.
 
 Tiririm tiririm tiririm
 Alguém ligou pra mim x2
