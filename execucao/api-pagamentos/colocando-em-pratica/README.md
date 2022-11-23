@@ -1,1 +1,0 @@
-Aqui fica o passo a passo de como colocar em prática a API de pagamentos descrita acima.
