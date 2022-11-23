@@ -8,7 +8,7 @@ Outro recurso poderosíssimo é o API Explorer do Pagar.me (imagem abaixo), que 
 
 Assim, em um cenário de debug, insira os parâmetros que está tentando enviar no API Explorer e, depois, reproduza os testes em código. Pode salvar muito tempo!
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/457d8dfa-68b3-468e-91c9-659a1ff8c13c/Untitled.png)
+![Untitled](../../../imagens/ImgPagarme3.png)
 
 | Descrição do Erro - Pagar.me | Mozilla | Struct |
 | --- | --- | --- |
