@@ -1,1 +1,0 @@
-Aqui estão os alguns cuidados finais que devem ser tomados depois de instalada a API de pagamentos.
