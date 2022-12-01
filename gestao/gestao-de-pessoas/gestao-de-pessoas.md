@@ -20,27 +20,43 @@ O processo de entrada de um membro na Struct tem duas etapas, sendo a primeira l
 
 A segunda etapa se refere ao selo EJ, no qual o membro deve preencher e assinar o termo de adesão disponível no drive da diretoria.  No começo de cada ano, este documento será necessário para nos validar como EJ.
 
-**OBS:** O processo de entrada de um membro por parte do CDT está passando por constantes mudanças então é bom ficar atento aos seus canais de comunicação para não perder novas mudanças. No momento os documentos devem ser enviados para **projr@cdt.unb.br**
+**OBS:** O processo de entrada de um membro por parte do CDT está passando por constantes mudanças então é bom ficar atento aos seus canais de comunicação para não perder novas mudanças. Mais informações, consultar a área sobre o [CDT](##CDT).
 
 ### Processo de saída de um membro
 
-O processo de desligamento de um membro é bem parecido com o processo de entrada na empresa. O único passo necessário é o preenchimento do  termo de desligamento disponível no site do CDT:
+O processo de desligamento de um membro é bem parecido com o processo de entrada na empresa. O único passo necessário é o preenchimento do  termo de desligamento disponível no site do Drive e seguir as instruções disponíveis na área do [CDT](##CDT):
 
-- [Termo de Desligamento](http://www.cdt.unb.br/programaseprojetos/empresajr/faq/?menu-principal=programas-e-projetos&menu-action=faq)
+- [Termo de Desligamento](https://docs.google.com/document/d/1JXHtAuHcIyljHdgBDK5rv1xUwo2epPjR/edit?usp=sharing&ouid=115807239718286658054&rtpof=true&sd=true)
 
 Fora a parte do CDT, o membro desligado é convidado para um acompanhamento de desligamento similar a um acompanhamento tradicional. A grande diferença é que nele perguntaremos ao membro a respeito de todo o seu período na empresa. Após o envio do pedido de desligamento pelo membro, este ainda deve prestar seus serviços à Struct por mais duas semanas. No entanto,  a diretoria de Gestão de Pessoas pode optar por abster o membro para ser dispensado imediatamente.
-
 
 ### Contabilização de horas mensais para o CDT
 
 No dia 20 de cada mês, é enviado um documento para o Centro de apoio ao Desenvolvimento Tecnológico (ou CDT), que pertence ao Decanato de Extensão da UnB. Esse documento deve conter uma lista de frequência contabilizando o número de horas que cada membro da Struct trabalhou no período (dia 20 de um mês até dia 19 do seguinte). Tem como finalidade registrar oficialmente as horas trabalhadas dos membros da EJ como projeto de extensão dentro da universidade.
 
-Geralmente esse documento é enviado para o email **projr@cdt.unb.br** e, no drive, são salvos na pasta [Lista de Frequência CDT](https://drive.google.com/drive/folders/1SYpy81GGvm-5mG0okBlwDzBxCoQGW95l?usp=sharing).
+A contabilização deve ser feita utilizando o clockify e deve sempre considerar um período de trabalho de um mês a depender de quando foi documentado. Exemplo: Caso tenha sido preenchido no dia 18 do mês, deve-se contabilizar as horas do dia 18 do mês anterior até o dia 18 do mês corrente. Idealmente, este relatório deve ser enviado entre o dia 17 e o dia 20 a depender da disponibilidade dos membros na época.
 
+Informações para envio, consultar a área do [CDT](##CDT). No drive, são salvos na pasta [Lista de Frequência CDT](https://drive.google.com/drive/folders/1SYpy81GGvm-5mG0okBlwDzBxCoQGW95l?usp=sharing).
 
-### Lista de Frequência
+---
 
-É responsabilidade da GP enviar até o dia 20 de cada mês uma lista de frequência ao CDT contendo a quantidade de horas de trabalho que o membro efetuou ao longo daquele período. A contabilização deve ser feita utilizando o clockify e deve sempre considerar um período de trabalho de um mês a depender de quando foi documentado. Exemplo: Caso tenha sido preenchido no dia 18 do mês, deve-se contabilizar as horas do dia 18 do mês anterior até o dia 18 do mês corrente. Idealmente, este relatório deve ser enviado para o email **projr@cdt.unb.br** entre o dia 17 e o dia 20 a depender da disponibilidade dos membros na época. 
+## CDT
+
+As solicitações de cadastramento, desligamento de membros e listas de frequência mensais devem ser enviadas pelo formulário abaixo. Não há mais necessidade de enviá-las por e-mail. Para responder ao forms, vocês devem estar logados no e-mail institucional da UnB.
+
+- [Formulário CDT](https://forms.office.com/pages/responsepage.aspx?id=oZs17AtjK024M8jm1I-AWclQzKODPB5BlMGNlsmts3JUMFgxVU05OFU4WDc5QllMN0ExNFE5S1lFMS4u)
+
+Temos uma equipe no Teams, onde são realizadas reuniões periodicamente e passados informes gerais.
+
+- [Link Teams](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fteam%2F19%3A-ucZ_cLuXKcax14T_msWydUyirOJiHIzNfaFi2_4utA1%40thread.tacv2%2Fconversations%3FgroupId%3Dd903ba95-eb9a-4513-baf9-ee1dd2d4ece9%26tenantId%3Dec359ba1-630b-4d2b-b833-c8e6d48f8059&type=team&deeplinkId=ba69e5d6-d198-40f2-a61f-219008271c6a&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
+
+Para mais informações, segue links e email na lista abaixo (temos também, um grupo no WhatsApp para facilitar a comunicação.):
+
+- [Link do grupo no WhatsApp](https://chat.whatsapp.com/HrxslFJlzz1CY6EpnNuqCd)
+
+- **raphael.saigg@cdt.unb.br**
+
+- [Site CDT](https://www.cdt.unb.br/pt-br/programaseprojetos/empresajr/faq?menu-principal=programas-e-projetos&menu-action=faq)
 
 ---
 
