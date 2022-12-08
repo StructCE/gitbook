@@ -56,6 +56,8 @@
     * [Mais sobre](execucao/front-end/react-js/mais-sobre.md)
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
+  * [Deploy](execucao/projetos/deploy/README.md)
+    * [Netlify](execucao/projetos/deploy/terceirizado/netlify.md)
   * [Cloudinary](execucao/projetos/cloudinary.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
   * [Finalização de Projetos](execucao/projetos/finalizacao.md)
