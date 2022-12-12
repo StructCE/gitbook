@@ -24,7 +24,7 @@ A segunda etapa se refere ao selo EJ, no qual o membro deve preencher e assinar 
 
 ### Processo de saída de um membro
 
-O processo de desligamento de um membro é bem parecido com o processo de entrada na empresa. O único passo necessário é o preenchimento do  termo de desligamento disponível no site do Drive e seguir as instruções disponíveis na área do [CDT](##CDT):
+O processo de desligamento de um membro é bem parecido com o processo de entrada na empresa. O único passo necessário é o preenchimento do  termo de desligamento disponível no Drive e seguir as instruções disponíveis na área do [CDT](##CDT):
 
 - [Termo de Desligamento](https://docs.google.com/document/d/1JXHtAuHcIyljHdgBDK5rv1xUwo2epPjR/edit?usp=sharing&ouid=115807239718286658054&rtpof=true&sd=true)
 
