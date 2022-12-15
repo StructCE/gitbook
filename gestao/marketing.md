@@ -49,4 +49,4 @@ A página oficial do canva da Struct e o drive do marketing possuem um guia de i
 
 Lembrando que usar as variações de bold, padrão e light também vale para outras fontes e pode ser usado para gerar contraste e foco na postagem.
 
-- [Introdução ao design no canva](https://www.canva.com/design/DAE15zWeLDg/edit?utm_content=DAE15zWeLDg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Introdução ao design no canva](https://www.canva.com/design/DAFL1Y8QbEM/H5DG1JZ4ZqFkfTsfLjXGhg/view?utm_content=DAFL1Y8QbEM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
