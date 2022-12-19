@@ -15,7 +15,7 @@ Na própria main, mude o `/public/favicon.ico` para o real ícone do projeto. Mu
 
 Para seguir os próximos passos, primeiro crie uma branch chamada `netlify` no seu projeto, caso ainda não exista.
 
-Mude todas as referências a localhost por suas respectivas urls de produção. Por exemplo, se você tem uma instância axios com a url `http://localhost:3333/api/v1`, mude para `https://seu-projeto.railway.app/api/v1` ou equivalente (a url de _staging_). Se a url das imagens é `http://localhost:3333/`, mude para `https://amazonaws.com/seu-projeto/` ou equivalente.
+Mude todas as referências a localhost por suas respectivas urls de produção. Por exemplo, se você tem uma instância axios com a url `http://localhost:3333/api/v1`, mude para `https://seu-projeto.railway.app/api/v1` ou equivalente (a url de _staging_). Se a url das imagens é `http://localhost:3333/`, mude para `https://seu-projeto.railway.app` ou equivalente.
 
 
 #### Para roteamento client side
