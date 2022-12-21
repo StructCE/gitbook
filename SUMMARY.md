@@ -16,6 +16,7 @@
   * [Funil de Vendas](gestao/comercial/funil-de-vendas.md)
   * [Fazer Proposta](gestao/comercial/fazer-proposta.md)
   * [Inserir Projetos no Portal BJ](gestao/comercial/insercao-portal-BJ.md)
+  * [Interação com Clientes](gestao/comercial/interacao-clientes.md)
 * [Gestão de Pessoas](gestao/gestao-de-pessoas.md)
 * [MEJ](gestao/mej/pagina-do-mej.md)
 * [Processo Seletivo](gestao/processo-seletivo/README.md)
