@@ -8,7 +8,7 @@ Assim, precisamos fazer algumas alterações no processo:
 - Utilizaremos a response da criação da Order para capturar o order_id. Assim, nosso método de inclusão de boletos adicionais saberá a qual Order adicionar Charges.
 - Fecharemos a Order para impedir a adição de novas Charges por meio do método close_order.
 
-### create_boleto_order 
+### create_boleto_order
 
 **app/services/payment/proxy.rb**
 

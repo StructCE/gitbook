@@ -1,1 +1,1 @@
-Aqui ficam as intruções iniciais para se começar a usar a API de pagamentos.  
+Aqui ficam as intruções iniciais para se começar a usar a API de pagamentos.

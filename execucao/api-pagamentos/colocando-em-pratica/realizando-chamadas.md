@@ -1,7 +1,7 @@
 Há duas maneiras de se realizar chamadas a API e elas se diferenciam somente pelo jeito que construimos o nosso request. 
 
 ## Opção 1
- 
+
 **app/services/payment/proxy.rb**
 
 ```ruby

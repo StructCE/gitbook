@@ -4,4 +4,4 @@ A implementação que foi documentada aqui certamente possui muito espaço para 
 2. Essa falta de clareza no tratamento de erros também pode ser potencializada pela forma que os métodos da model e os métodos de serviço são separados. Há a possiblidade de separar os métodos de serviço em diferentes arquivos baseados em cada tipo de controladora fornecida pelo Pagar.me, ou até mesmo reorganizar e repensar a maneira que os métodos de model podem se comunicar com o *proxy*.
 3. É interessantíssimo estudar a implementação do Checkout Pagar.me, que é uma página de checkout pronta (mas personalizável) hospedada nos servidores da Pagar.me. A implementação dessa página terá benefícios notáveis, sendo alguns deles: 
     1. Diminuição drástica no tempo de planejamento, desenvolvimento e debug da interface de pagamentos.
-    2. Garantia de que dados sensíveis serão manipulados com segurança. 
+    2. Garantia de que dados sensíveis serão manipulados com segurança.

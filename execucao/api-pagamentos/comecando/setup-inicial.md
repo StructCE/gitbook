@@ -2,4 +2,4 @@ Utilizaremos a SDK que o [Pagar.me](http://Pagar.me) disponibiliza para o RubyOn
 
 [https://github.com/pagarme/pagarme-core-api-ruby](https://github.com/pagarme/pagarme-core-api-ruby)
 
-Após realizarmos o *build* e o *install* da gem, basta adicionarmos a referência com versão adequada ao Gemfile. 
+Após realizarmos o *build* e o *install* da gem, basta adicionarmos a referência com versão adequada ao Gemfile.
