@@ -3,4 +3,4 @@ Para o ambiente de produção, alguns cuidados devem ser tomados. Segue uma list
 - Instalação da Gem do Pagar.me no servidor de produção
 - Alterar para a chave de produção da conta do cliente
 - Definir variáveis de ambiente do servidor com chaves do Pagar.me
-- Requisitar ativação das funcionalidades de para Suporte do Pagar.me. Importante realizar o contato por meio do email da conta do cliente
+- Requisitar ativação das funcionalidades de para Suporte do Pagar.me. Importante realizar o contato por meio do email da conta do cliente 

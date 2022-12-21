@@ -1,6 +1,6 @@
 Para invocar os métodos de serviço, iremos acessar nosso módulo de pagamentos por meio de um método em model. Para uma hipotética model Pedido, usada para registrar dados acerca de uma compra em e-commerce, criaremos uma instância equivalente na API do [Pagar.me](http://Pagar.me) de acordo com o exemplo a seguir:
 
-**app/models/pedido.rb**
+**app/models/pedido.rb** 
 
 ```ruby
 class Pedido < ApplicationRecord

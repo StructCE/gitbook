@@ -3,7 +3,7 @@
 ### Um caso de uso voltado a Struct
 
 ## Introdução
-Bem-vindo! Esse é um Guia Prático em como realizar a implementação da API de pagamentos de escolha da Struct no momento em que esse guia é escrito. Como este guia visa colocar no papel a experiência adquirida nos nossos projetos passados, ele não fornece uma implementação ideal da API do Pagar.me, e sim uma visão pragmática de como pode ser implementá-la para servir às necessidades da Struct. Isso também implica que os passos detalhados aqui podem (e devem!) ser melhorados conforme a Struct continua a evoluir e aperfeiçoar seus processos de desenvolvimento.
+Bem-vindo! Esse é um Guia Prático em como realizar a implementação da API de pagamentos de escolha da Struct no momento em que esse guia é escrito. Como este guia visa colocar no papel a experiência adquirida nos nossos projetos passados, ele não fornece uma implementação ideal da API do Pagar.me, e sim uma visão pragmática de como pode ser implementá-la para servir às necessidades da Struct. Isso também implica que os passos detalhados aqui podem (e devem!) ser melhorados conforme a Struct continua a evoluir e aperfeiçoar seus processos de desenvolvimento. 
 
 **Refira-se à última seção desse guia, Melhorias Futuras** durante as etapas iniciais de planejamento e desenvolvimento. É a oportunidade perfeita para colocar possíveis melhorias em prática e facilitar sua vida e a dos outros mais a frente. Dito isso, consulte os requisitos do projeto, entenda as necessidades do cliente e converse com a equipe de gerenciamento do projeto para avaliar se tais melhorias são adequadas para o caso em questão.
 

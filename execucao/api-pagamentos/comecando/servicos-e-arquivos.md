@@ -6,4 +6,4 @@ Iremos dedicar esse módulo para os métodos que realizarão a comunicação com
 
 Para nosso caso de uso, entender os passos acima é o suficiente. Porém, caso queira se aprofundar nos services do Rails, o link abaixo fornece um exemplo de implementação (bastante) diferente do que iremos utilizar, mas ainda interessante para estudo.
 
-[Using Service Objects in Ruby on Rails | AppSignal Blog](https://blog.appsignal.com/2020/06/17/using-service-objects-in-ruby-on-rails.html)
+[Using Service Objects in Ruby on Rails | AppSignal Blog](https://blog.appsignal.com/2020/06/17/using-service-objects-in-ruby-on-rails.html) 

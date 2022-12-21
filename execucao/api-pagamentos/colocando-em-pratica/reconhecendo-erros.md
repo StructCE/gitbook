@@ -1,4 +1,4 @@
-## 
+##  
 
 [Erros e Rate Limit](https://docs.pagar.me/reference/erros-1)
 

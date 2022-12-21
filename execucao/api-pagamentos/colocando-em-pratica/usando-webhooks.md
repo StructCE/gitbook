@@ -4,7 +4,7 @@ Como exemplo, iremos configurar um webhook que será disparado para nossa API Ra
 
 Os webhooks podem ser relevantes para diversas controllers e, como precisamos fornecer uma rota de post da nossa API para o Pagar.me, vamos criar um submódulo dedicado para webhooks e criar uma controller correspondente a cada tipo de entidade que sofre um evento. Para o nosso caso, criaremos a Orders Controller, já que é a única entidade que queremos observar por enquanto.
 
-![Untitled](../../../imagens/ImgPagarme4.png)
+![Untitled](../../../imagens/ImgPagarme4.png) 
 
 Dentro da Orders Controller, podemos capturar essas informações e definir rotinas a serem executadas logo após o recebimento do hook. Neste caso, definimos um método para tratar especificamente o estado *paid*. Agora, no *routes.rb*, defina as rotas correspondentes (como POST). Segue exemplo:
 

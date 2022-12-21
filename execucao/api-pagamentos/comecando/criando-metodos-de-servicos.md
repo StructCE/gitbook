@@ -10,7 +10,7 @@ Com base na análise de requisitos do sistema, iremos declarar todas as controll
 
 Em nosso exemplo ilustrativo, nossos requisitos são:
 
-- Criar um pedido.
+- Criar um pedido. 
 - Obter informações sobre o pedido.
 
 Para isso, nos apoiaremos no objeto Pedido da API Rails, e de um objeto da API [Pagar.me](http://Pagar.me) que mais se encaixe nos requisitos. Nesse caso, se trata do objeto Order. Vamos declarar sua controller:
