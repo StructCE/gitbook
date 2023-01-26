@@ -63,6 +63,7 @@
 * [Projetos](execucao/projetos/README.md)
   * [Deploy](execucao/projetos/deploy/README.md)
     * [Terceirizando]()
+      * [Heroku](execucao/projetos/deploy/terceirizado/heroku.md)
       * [Netlify](execucao/projetos/deploy/terceirizado/netlify.md)
   * [Cloudinary](execucao/projetos/cloudinary.md)
   * [Gerência de projetos](execucao/projetos/gerencia.md)
