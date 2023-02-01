@@ -76,6 +76,10 @@ Não ache que você está sendo chato ao mandar uma mensagem para o membro, no d
 
 Crie um ambiente agradável para o time, incentivando o pessoal a mandar dúvidas no canal e tirar dúvidas dos demais.
 
+## Product Owner
+
+O Product Owner é um papel do SCRUM fundamental para garantir uma boa comunicação com o cliente. Diferentemente do gerente do projeto, ele não terá responsabilidades técnicas, como revisão de código ou colocar a mão na massa durante o projeto. Sua principal função é ser a ponte entre os membros do projeto e o cliente, buscando sempre deixar claro para os desenvolvedores o quê o cliente quer e/ou precisa e também comunicar ao cliente as dificuldades que estão sendo enfrentadas e as sugestões trazidas pela equipe, buscando sempre ser o mais transparente possível com o cliente. 
+
 ## Ambiente de produção e staging
 
 O ambiente de produção é o espaço onde colocaremos o código da branch *production* para que ele possa ser acessado diretamente pelo cliente ou pelos usuários. Como gerente de projeto, é seu trabalho colocar o código da branch *production* no ambiente de produção ao final do projeto \(ou antes da data de entrega do projeto\). Para esse fim utilizaremos o [Docker](./docker/README.md), uma ferramenta que fornece um ambiente de virtualização para colocarmos o projeto.
