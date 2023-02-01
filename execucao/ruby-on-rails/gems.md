@@ -12,6 +12,34 @@ Para facilitar o uso dessa seção pelo gerente de projeto \(ou qualquer outro m
 
 As *gems essenciais* são gems que devem ser configuradas em **todos** os projetos da Struct de *Ruby on Rails*, por proporcionarem funcionalidades que são necessárias ou para o desenvolvimento do projeto ou para a garantia básica da qualidade do projeto. Como gerente de projeto, é sua responsabilidade incluir e configurar **todas** as gems dessa seção no projeto.
 
+### Rack Cors
+
+Para um projeto utilizando rails como uma REST API, provavelmente será necessário configurar o CORS (Cross-Origin Resourse Sharing) de sua aplicação para realizar a integração com o front-end, que é basicamente a configuração de quais domínios terão acesso a sua API. 
+
+#### Configuração
+
+Para configurar os CORS no rails:
+
+1. Adicione a linha `gem 'rack-cors'` à sua Gemfile (normalmente essa linha já vem por padrão ao gerar um projeto rails, então basta descomentá-la)
+
+2. Navegue até o arquivo *config/initializers/cors.rb* e descomente o bloco de código:
+    ```
+    Rails.application.config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins 'example.com'
+
+        resource '*',
+          headers: :any,
+          methods: [:get, :post, :put, :patch, :delete, :options, :head]
+      end
+    end
+    ```
+
+3. Altere a string em origins para o domínio no qual o seu frontend está rodando (Ex.: `origins 'http://localhost:3001'`)
+
+{% hint style="info" %} 
+    Caso você queira disponibilizar a sua API para qualquer domínio, você pode colocar um `*` em origins. Mas tenha em mente que isso **não é nem um pouco recomendado**, uma vez que qualquer um terá acesso a sua API. Se por algum motivo você alguém precisou colocar essa configuração, não se esqueça de corrigi-la na hora de realizar o deploy.
+{% endhint %}
 
 ### RSpec
 
@@ -37,6 +65,34 @@ gem 'simple_token_authentication'
 2. Execute o comando `bundle install` para instalar as gem adicionadas ao `Gemfile`.
 
 3. Execute o comando `rails g devise:install` para instalar todos os arquivos do devise.
+
+### Active Model Serializers
+
+Os serializers do rails são módulos que definem o formato padrão de resposta para os objetos de nossa API. O uso de serializers não é exatamente necessário ao construir uma API em rails, mas é extremamente útil pois facilita bastante a vida do programador, removendo a necessidade de alterar manualmente em cada requisição quais os dados que precisam e quais não precisam ser enviados nas respostas. 
+
+Na {Struct}, usamos a gem *active_model_serializers* para fazer essa configuração, e seu uso é bem simples:
+
+1. Adicione `gem 'active_model_serializers'` à Gemfile e execute o bundle;
+
+2. Gere um serializer para a sua model com `rails g serializer modelName`;
+
+3. Configure a sua serializer da forma que precisar, segue um exemplo:
+    ```
+    class MemberSerializer < ActiveModel::Serializer
+      attributes :id, :name, :photo_url # Campos da model ou personalizados que aparecerão nas requests para esse recurso
+
+      has_one :role # Associação com outra serializer existente
+
+      # Método Customizado para pegar a url da imagem atrelada a esse recurso
+      def photo_url
+        Rails.application.routes.url_helpers.rails_blob_path(object.photo, only_path: true) if object.photo.attached?
+      end
+    end
+    ```
+
+{% hint style="info" %} 
+    Apesar de já termos padronizado o uso da gem Active Model serializer, fique à vontade para explorar outras gems, até porque, apesar de bem fácil de usar, a gem AMS está [longe de ser a mais performática](https://gist.github.com/tjwallace/f2fdadd656c74cdbfcc3218e6188d466#file-results.md), perdendo em performance para outras gems bastante utilizadas, tais como [panko](https://rubygems.org/gems/panko_serializer), [blueprinter](https://rubygems.org/gems/blueprinter), [fast json api](https://rubygems.org/gems/fast_jsonapi), entre outras.
+{% endhint %}
 
 
 ### Rubocop
@@ -139,6 +195,21 @@ Para configurar o Figaro, siga os passos abaixo:
 
 Após configurar a gem Figaro em seu ambiente, **avise os outros membros do projeto** que eles deveram executar os passos 2, 3 e 5 para configurar a gem em seus ambientes!
 
+### Active Storage
+
+Sempre que precisar trabalhar em alguma api que envolva o armazenamento de arquivos (images, documentos, audios, etc.), essa gem será sua maior aliada.
+
+#### Configuração
+
+A configuração inicial para essa gem é bem simples:
+
+1. Adicione-a à Gemfile: `gem "activestorage"` e dê o bundle;
+
+2. Execute o comando `rails active_storage:install` delegar para a gem praticamente toda a configuração inicial;
+
+3. Execute o comando `rails db:migrate` para rodar as migrations geradas pelo comando anterior;
+
+Para mais informações sobre como utilizar a gem, dê uma olhada no [drive da empresa](https://docs.google.com/document/d/1LfNYolHHFG0Q8C5wNrfXgJSWm1MpGV5U_hBIcOtqpB4/edit?usp=sharing).
 
 ## *Deprecated* gems
 
