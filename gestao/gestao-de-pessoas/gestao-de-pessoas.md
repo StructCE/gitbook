@@ -24,11 +24,44 @@ A segunda etapa se refere ao selo EJ, no qual o membro deve preencher e assinar 
 
 ### Processo de saída de um membro
 
-O processo de desligamento de um membro é bem parecido com o processo de entrada na empresa. O único passo necessário é o preenchimento do  termo de desligamento disponível no Drive e seguir as instruções disponíveis na área do [CDT](##CDT):
+O processo de desligamento de um membro é bem parecido com o processo de entrada na empresa. As três principais etapas são:
 
-- [Termo de Desligamento](https://docs.google.com/document/d/1JXHtAuHcIyljHdgBDK5rv1xUwo2epPjR/edit?usp=sharing&ouid=115807239718286658054&rtpof=true&sd=true)
+- Termo de Desligamento do Membro;
+- Assinatura do Termo de Desligamento;
+- Acompanhamento do Membro.
 
-Fora a parte do CDT, o membro desligado é convidado para um acompanhamento de desligamento similar a um acompanhamento tradicional. A grande diferença é que nele perguntaremos ao membro a respeito de todo o seu período na empresa. Após o envio do pedido de desligamento pelo membro, este ainda deve prestar seus serviços à Struct por mais duas semanas. No entanto,  a diretoria de Gestão de Pessoas pode optar por abster o membro para ser dispensado imediatamente.
+#### Termo de desligamento
+
+O termo de desligamento é separado em duas partes, sendo elas:
+
+- Informações Técnicas;
+- Área de preenchimento do membro desligado.
+
+Inicialmente, um membro da GP é responsável por mandar o termo de desligamento ao membro que está sendo desligado para que o preencha. O termo pode ser encontrado no Google Drive na pasta *Gestão de Pessoas -> Documentos CDT -> Termos de desligamento*.
+Após o preenchimento do termo, será necessária a transformação do tipo de arquivo para pdf para a assinatura. 
+
+{% hint style="info" %} 
+Dica: É possível transformar um documento em pdf ao clicar em *Arquivo -> Fazer download -> Documento PDF*.
+{% endhint %}
+
+#### Assinatura do Termo de Desligamento
+
+A assinatura do termo de desligamento é realizada através do ClickSign e nele usa-se o termo de desligamento em PDF.
+Os passos para o uso do ClickSign podem ser encontrados na página [Assinatura Digital](../../execucao/assinatura-digital.md)
+
+{% hint style="info" %} 
+Dica: Posteriormente à assinatura, certifique-se de ir nos documentos finalizados, abrir e então baixar o documento assinado para colocá-lo no drive *Gestão de Pessoas -> Documentos CDT -> Termos de desligamento -> (Ano recorrente)*.
+{% endhint %}
+
+#### Acompanhamento do Membro
+
+Além do preenchimento e assinatura do termo de desligamento, o membro desligado é convidado para um acompanhamento de desligamento similar a um acompanhamento tradicional. A grande diferença é que nele perguntaremos ao membro a respeito de todo o seu período na empresa. Para ter acesso ao roteiro de desligamento, vá ao drive na pasta *Gestão de Pessoas -> Acompanhamentos -> Acompanhamento-Desligamento*.
+
+Após o envio do pedido de desligamento pelo membro, este ainda deve prestar seus serviços à Struct por mais duas semanas. No entanto, a diretoria de Gestão de Pessoas pode optar por abster o membro para ser dispensado imediatamente.
+
+{% hint style="info" %} 
+Para saber mais sobre o processo de desligamento e Clicksign, vá no Google Drive em *Gestão de Pessoas -> Documentação GP -> Desligamento de Membro e Clicksign*.
+{% endhint %}
 
 ### Contabilização de horas mensais para o CDT
 
