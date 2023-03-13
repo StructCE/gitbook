@@ -176,19 +176,19 @@ As dinâmicas não se resumem apenas a diversão. Nem toda dinâmica precisa ser
 
 ---
 
-##Organização Interna e Trello
+## Organização Interna e Trello
 
 Para o cumprimento das atividades da GP, são utilizadas ferramentas de organização que facilitam a visualização, priorização e execução das tarefas pendentes, além de servir como ferramenta de documentação de atividades já realizadas. A principal ferramenta de organização utilizada na GP é o Trello.
 O quadro do trello da GP tradicionalmente se divide nas seguintes listas:
 
 - G.P Basics: Lista atualizada anualmente com as atividades e responsabilidades básicas da GP, incluindo tópicos como diversidade, desenvolvimento dos pilotos, dinâmicas, processo seletivo, acompanhamentos, etc. Para cada item dessa lista é criada uma tag, usada para classificar as atividades das demais listas;
-- Backlog: Atividades ainda pendentes, mas que não são urgentes ou ainda não serão realizadas no momento. Inclui também ideias iniciais e/ou pendencias de diretorias antigas que podem ser desenvolvidas a longo prazo;
+- Backlog: Atividades ainda pendentes, mas que não são urgentes ou ainda não serão realizadas no momento. Inclui também ideias iniciais e/ou pendências de diretorias antigas que podem ser desenvolvidas a longo prazo;
 - A fazer: Atividades pendentes que devem ser feitas em prazo menor, geralmente com prazo e metas mais bem definidas;
-- Em andamento: Atividades que já estão sendo realizadas pelos membros da diretoria. Jà contam com tags, descrição, prazo, lista de tarefas e responsáveis bem definidos;
+- Em andamento: Atividades que já estão sendo realizadas pelos membros da diretoria. Já contam com tags, descrição, prazo, lista de tarefas e responsáveis bem definidos;
 - Feito: Lista atualizada mensalmente com as atividades concluídas em cada mês. As listas de meses anteriores são arquivadas por motivos de documentação;
 - Atividades periódicas: Lista "auxiliar", que consta atividades periódicas da diretoria, listando possíveis datas de realização e detalhes necessários para a equipe da GP.
 
-É responsabilidade do diretor de Gestão de Pessoas atualizar o quadro do trello frequentemente, adicionando as novas atividades, ou delegar essa tarefa a algum outro membro.
+É de responsabilidade do diretor de Gestão de Pessoas atualizar o quadro do trello frequentemente, adicionando as novas atividades, ou delegar essa tarefa a algum outro membro.
 
 ---
 	
