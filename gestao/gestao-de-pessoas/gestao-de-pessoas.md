@@ -158,6 +158,48 @@ O acompanhamento pessoal é uma conversa franca realizada com cada membro com o 
 		- Da sua diretoria?
 		- De algum projeto que participou?
 		- Algum externo ao seu trabalho?
+
+### PDI
+
+O Plano de Densenvolvimento Individual (PDI) é um plano de ação cujo foco é no desenvolvimento pessoal e/ou profissional. A partir do PDI, cria-se um roteiro para tornar possível o aprimoramento das competências individuais por meio de metas, estratégias e prazos. Na GP, a primeira vez em que o PDI é aplicado é quando o membro é efetivado na Stuct e o acompanhamento de sua evolução é feito a cada dois Struct Talks. Nesse sentido, a aplicação é realizada por meio de uma tabela, que pode ser feita tanto em uma folha avulsa quanto em uma tabela virtual, a qual está disponível no drive da GP em *Gestão de Pessoas -> PDI -> Tabela PDI* e deve ser salva no drive pessoal do participante para o preenchimento.
+
+- Para salvar no drive pessoal:
+	- *Arquivo -> Fazer uma cópia -> Selecione a pasta “Meu drive”* (precisa apertar no “selecionar” quando já estiver no local da pasta).
+	![Tabela](../../imagens/copiaTabelaPDI.png)
+
+Na tabela existem várias divisões que auxiliarão no estabelecimento de objetivos e na identificação de pontos fracos e fortes. Sendo elas:
+
+- Years Challenger
+	- Como você se imagina daqui a X anos? 
+	- Dica: Pode ser em qualquer aspecto da sua vida: profissional, acadêmico, relacionamentos, moradia, sonhos, etc.
+	- Exemplo: Aprendendo inglês, aprendendo alguma hard skill/ soft skill, aprendendo a administrar melhor meu tempo.
+	- Duração para aplicação: Oito minutos.
+- Colabora 
+	- Quais ações/atitudes você faz hoje que colaboram para que aconteçam os seus planejamentos para daqui X anos ?
+	- Exemplo: Estudo quatro horas por dia, preencho um planner semanal.
+	- Duração para aplicação: Cinco minutos.
+- Freia 
+	- Quais ações/atitudes você faz hoje que impedem ou retardam os seus planejamentos para daqui X anos ?
+	- Exemplo: Não organizo meu tempo, não tenho prioridades bem definidas.
+	- Duração para aplicação: Cinco minutos.
+- Objetivo 
+	- Quais objetivos você planeja alcançar em 1 ano para ter a vida que você quer daqui a X anos ?
+	- Exemplo: Chegar no nivel intermediário do inglês, concluir 70% do meu curso.
+	- Duração para aplicação: Cinco minutos.
+- Como 
+	- Como você planeja alcançar cada um desses objetivos daqui 1 ano ? 
+	- Dica: Se você escreveu cinco objetivos, você vai escrever cinco modos de realizar. Quanto mais específico, melhor.
+	- Exemplo: Quero aprender Inglês e para isso pretendo estudar ao menos três vezes por semana, ou 12 vezes no mês.
+	- Duração para aplicação: Oito minutos.
+- Quando 
+	- Determinar um prazo para concretizar as atividades que você planejou nos seus objetivos.
+	- Dica: Se você escreveu cinco objetivos, você vai escrever cinco prazos.
+	- Exemplo: Quero ler três livros por mês nesse 1 ano, daqui a três meses quero ler ao menos um livro por mês, daqui seis meses, dois livros e em nove meses chegar no meu objetivo. Ou até agosto, etc.  
+	- Duração para aplicação: Cinco minutos.
+
+{% hint style="info" %}
+A GP estabeleceu que a referência ideal do PDI seria de _5 anos_ por funcionar melhor em uma perspectiva de EJ.
+{% endhint %}
 		
 #### Funcionamento
 
