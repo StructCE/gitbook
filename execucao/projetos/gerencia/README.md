@@ -28,7 +28,7 @@ Sendo assim, o seu objetivo é tentar minimizar ao máximo esses atrasos e o imp
 ### Organização
 
 - Mantenha o controle de tudo que falta e do que já está feito;
-- Se uma issue for mergeada sem estar 100%, anote o qe ficou faltando ou crie uma nova issue;
+- Se uma issue for mergeada sem estar 100%, anote o que ficou faltando ou crie uma nova issue;
 
 ### Relação com o cliente
 
@@ -48,7 +48,7 @@ Sendo assim, antes de sair procurando soluções para tentar cumprir com um praz
 
 Procure sempre levar outro membro do projeto para as reuniões com o cliente, pois é sempre bom ter um ouvinte na reunião para garantir que nada se perca. Também é bom manter o controler de tudo que foi discutido nas reuniões para que o cliente não possa cobrar coisas que não pediu.
 
-Para mudanças solicitadas pelo cliente (principalmente novas funcionalidades), evite de dar uma resposta na mesma hora ou ao final da reunião. Avisa=a que irá pensar à respeito mesmo que tenha praticamente certeza de que a mudança será implementada.
+Para mudanças solicitadas pelo cliente (principalmente novas funcionalidades), evite de dar uma resposta na mesma hora ou ao final da reunião. Avise que irá pensar à respeito mesmo que tenha praticamente certeza de que a mudança será implementada.
 
 ### Revisão de PRs
 
@@ -78,12 +78,12 @@ Crie um ambiente agradável para o time, incentivando o pessoal a mandar dúvida
 
 ## Product Owner
 
-O Product Owner é um papel do SCRUM fundamental para garantir uma boa comunicação com o cliente. Diferentemente do gerente do projeto, ele não terá responsabilidades técnicas, como revisão de código ou colocar a mão na massa durante o projeto. Sua principal função é ser a ponte entre os membros do projeto e o cliente, buscando sempre deixar claro para os desenvolvedores o quê o cliente quer e/ou precisa e também comunicar ao cliente as dificuldades que estão sendo enfrentadas e as sugestões trazidas pela equipe, buscando sempre ser o mais transparente possível com o cliente. 
+O Product Owner é um papel do SCRUM fundamental para garantir uma boa comunicação com o cliente. Diferentemente do gerente do projeto, ele não terá responsabilidades técnicas, como revisão de código ou colocar a mão na massa durante o projeto. Sua principal função é ser a ponte entre os membros do projeto e o cliente, buscando sempre deixar claro para os desenvolvedores o quê o cliente quer, também deve comunicar ao cliente as dificuldades que estão sendo enfrentadas e as sugestões trazidas pela equipe, buscando sempre ser o mais transparente possível com o cliente. 
 
 ## Ambiente de produção e staging
 
-O ambiente de produção é o espaço onde colocaremos o código da branch *production* para que ele possa ser acessado diretamente pelo cliente ou pelos usuários. Como gerente de projeto, é seu trabalho colocar o código da branch *production* no ambiente de produção ao final do projeto \(ou antes da data de entrega do projeto\). Para esse fim utilizaremos o [Docker](./docker/README.md), uma ferramenta que fornece um ambiente de virtualização para colocarmos o projeto.
+O ambiente de produção é o espaço onde colocaremos o código da branch *production* para que ele possa ser acessado diretamente pelo cliente ou pelos usuários. Como gerente de projeto, é seu trabalho colocar o código da branch *production* no ambiente de produção ao final do projeto \(ou antes da data de entrega do projeto\). Para esse fim utilizaremos o [Docker](../docker/README.md), uma ferramenta que fornece um ambiente de virtualização para colocarmos o projeto.
 
-Devido à complexidade do processo de colocar o código em produção, achamos melhor detalhar isso em uma [página específica](./docker/colocando-um-projeto-em-producao.md) do Gitbook. Lembre-se, também, que qualquer mudança requisitada pelo cliente só será perceptível **se o código estiver em produção**, de forma que **você deverá realizar esse processo regularmente** \(se esquecer de colocar novas features ou correções de features existentes em produção é uma excelente forma de **irritar** o cliente\).
+Devido à complexidade do processo de colocar o código em produção, achamos melhor detalhar isso em uma [página específica](../docker/colocando-um-projeto-em-producao.md) do Gitbook. Lembre-se, também, que qualquer mudança requisitada pelo cliente só será perceptível **se o código estiver em produção**, de forma que **você deverá realizar esse processo regularmente** \(se esquecer de colocar novas features ou correções de features existentes em produção é uma excelente forma de **irritar** o cliente\).
 
 O ambiente de staging é similar ao ambiente de produção, no entanto ele é considerado um *deploy temporário*, uma vez que não é uma versão apropriada para o uso dos usuários, é utilizado mais para testes e para mostrar as mudanças feitas para o cliente. Por ser uma versão mais para testes e não precisar de tantos recursos, geralmente não fazemos o deploy em staging em nosso servidor, mas sim utilizamos alguma ferramenta externa para tal finalidade, como o [heroku](../heroku.md) ou o [railway](https://railway.app/) para fazer o deploy da api do rails e o [netlify](https://www.netlify.com/) para fazer o deploy do front em react.
