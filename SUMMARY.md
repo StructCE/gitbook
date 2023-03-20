@@ -61,6 +61,7 @@
     * [Início de projeto](execucao/projetos/gerencia/inicio-de-projeto.md)
     * [Repositório](execucao/projetos/gerencia/repositorio.md)
     * [Sprints](execucao/projetos/gerencia/sprints.md)
+    * [Boas práticas](execucao/projetos/gerencia/boas-praticas.md)
   * [Finalização de Projetos](execucao/projetos/finalizacao.md)
   * [Gitlab](execucao/projetos/gitlab/README.md)
     * [CI-CD](execucao/projetos/gitlab/ci-cd.md)

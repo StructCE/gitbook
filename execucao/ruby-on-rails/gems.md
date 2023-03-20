@@ -185,7 +185,7 @@ Para configurar o Figaro, siga os passos abaixo:
     password: <%= ENV['db_password'] %>
   ```
 
-5. Adicione o trecho de código abaixo ao arquivo `config/application.yml`:
+5. Adicione o trecho de código abaixo ao arquivo `config/application.yml.example`:
 
   ```
   # Database credentials:
@@ -193,11 +193,15 @@ Para configurar o Figaro, siga os passos abaixo:
   db_password: "sua_senha_do_DB_entre_parentesis"
   ```
 
-Após configurar a gem Figaro em seu ambiente, **avise os outros membros do projeto** que eles deveram executar os passos 2, 3 e 5 para configurar a gem em seus ambientes!
+Após configurar a gem Figaro em seu ambiente, **avise os outros membros do projeto** que eles devem criar um `config/application.yml` baseado no `.example`, colocando as próprias informações ou chaves usadas no projeto.
 
 ### Active Storage
 
 Sempre que precisar trabalhar em alguma api que envolva o armazenamento de arquivos (images, documentos, audios, etc.), essa gem será sua maior aliada.
+
+### Mailjet
+
+Para envios de email, pode ser utilizada a SDK (kit de desenvolvimento de software) que a Mailjet criou para o ruby (Verificar a secção sobre [mailer](../mailer.md)).
 
 #### Configuração
 
@@ -213,12 +217,4 @@ Para mais informações sobre como utilizar a gem, dê uma olhada no [drive da e
 
 ## *Deprecated* gems
 
-As *deprecated gems* são gems que não recebem mais manutenção e suporte por parte de um time de desenvolvedores, devendo ser retiradas dos projetos da Struct de *Ruby on Rails*. Como gerente de projeto, é sua responsabilidade substituir todas as gems dessa seção que estão presentes no seu projeto.
-
-### Chrome driver helper
-
-A gem `chromedriver-helper` parou de receber suporte em Março de 2019. Substitua ela no Gemfile pela gem `webdrivers`.
-
-### SASS Rails
-
-A gem `sass-rails` parou de receber suporte em Março de 2019. Substitua ela no Gemfile pela gem `sassc-rails`.
+As *deprecated gems* são gems que não recebem mais manutenção e suporte por parte de um time de desenvolvedores, devendo ser retiradas dos projetos da Struct de *Ruby on Rails*. Como gerente de projeto, é sua responsabilidade verificar se existe alguma dessas gems no seu projeto e substituí-las por uma equivalente.
