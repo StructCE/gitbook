@@ -62,6 +62,8 @@
   * [Finalização de Projetos](execucao/projetos/finalizacao.md)
   * [Gitlab](execucao/projetos/gitlab/README.md)
     * [CI-CD](execucao/projetos/gitlab/ci-cd.md)
+  * [Integrações](execucao/projetos/integracoes/README.md)
+    * [Discord - GitHub](execucao/projetos/integracoes/disc-gh.md)
 * [Técnicas de Programação Ágil](execucao/tecnicas-de-programacao-agil/README.md)
   * [Scrum](execucao/tecnicas-de-programacao-agil/scrum.md)
   * [Behavior Driven Design](execucao/tecnicas-de-programacao-agil/behavior-driven-design.md)
