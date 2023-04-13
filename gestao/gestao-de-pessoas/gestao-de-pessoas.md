@@ -28,6 +28,15 @@ O processo de desligamento de um membro é bem parecido com o processo de entrad
 
 - [Termo de Desligamento](https://docs.google.com/document/d/1JXHtAuHcIyljHdgBDK5rv1xUwo2epPjR/edit?usp=sharing&ouid=115807239718286658054&rtpof=true&sd=true)
 
+Para preencher o termo de desligamento, é necessário que o membro a ser desligado preencha 4 campos:
+
+- "Com quais grupos comunitários teve contato?" No geral a resposta para essa pergunta inclui membros da Struct, de outras empresas juniores, clientes e representantes de empresas contratadas pela struct, mas depende da experiência do membro ao longo do seu período na Struct.
+- "De que forma a participação em um projeto de extensão contribuiu na sua formação acadêmico-universitária?" Aqui é possível aprofundar-se nos aprendizados técnicos e interpessoais vivenciados na Struct, mas em geral inclui conhecimentos em desenvolvimento web full-stack, planejamento/execução/gerenciamento de projetos de software e habilidades gerenciais (geralmente associadas às diretorias das quais o membro fez parte).
+- "Participou de algum congresso, seminário, encontro, exposição de pôster etc. Relativo a extensão universitária? Se sim, fazer citação bibliográfica (nome, cidade, ano, etc.)" Caso o membro tenha participado de algum evento MEJ é possível citá-lo aqui.
+- "Teve alguma publicação relacionada ao projeto de extensão no qual trabalha? Se sim, fazer citação bibliográfica (autor; título; cidade; ano etc.)" Não há histórico de membros realizarem publicações acadêmicas atuando na Struct. A não ser em casos extraordinários, a resposta aqui é não.
+
+Após os campos serem devidamente respondidos e adicionados digitalmente ao documento, deve-se realizar a assinatura digital do mesmo pelo clicksign e enviar o termo assinado pelo formulário do CDT.
+
 Fora a parte do CDT, o membro desligado é convidado para um acompanhamento de desligamento similar a um acompanhamento tradicional. A grande diferença é que nele perguntaremos ao membro a respeito de todo o seu período na empresa. Após o envio do pedido de desligamento pelo membro, este ainda deve prestar seus serviços à Struct por mais duas semanas. No entanto,  a diretoria de Gestão de Pessoas pode optar por abster o membro para ser dispensado imediatamente.
 
 ### Contabilização de horas mensais para o CDT
