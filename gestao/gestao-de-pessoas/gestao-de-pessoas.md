@@ -6,6 +6,10 @@ A diretoria de Gestão de Pessoas representa o setor de recursos humanos na Stru
 
 ---
 
+## Boas práticas de organização do drive
+
+Uma das principais ferramentas usadas por todas as diretorias da Struct é o Google Drive, onde ficam documentados basicamente todos os documentos da empresa. Quanto ao drive da Gestão de Pessoas, é importante mantê-lo organizado para tornar mais fácil de encontrar qualquer informação que será usada futuramente ou que foi usada no passado. A princípio, a pasta de gestão de pessoas é lotada de pastas que são lotadas por mais pastas, o que inicialamente pode causar certa confusão. É recomendado que, antes de começar a  usá-las, o membro de uma olhada rápida o que cada pasta contém para começar a se acostumar (em pouco tempo fica fácil de encontrar o que você precisa). Geralmente a grande maioria dos tópicos da GP são divididos em anos e meses, logo, ao transferir algum documento, observar se o mesmo está sendo feito nas pastas certas segundo a data correta. Além disso, as vezes ocorre de um membro da GP precisar de algum documento de outra diretoria, portanto ter cuidado para não apagar ou transferir esses para lugar indevido. No mais, caso em dúvida de onde colocar alguma coisa no drive, pergunte a algum colega da diretoria só para ter certeza que está no lugar certo.
+
 ## Entrada e Saída de um membro
 
 ### Processo Seletivo
