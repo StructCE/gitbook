@@ -64,7 +64,7 @@
 * [Flutter](execucao/flutter.md)
 * [Projetos](execucao/projetos/README.md)
   * [Deploy](execucao/projetos/deploy/README.md)
-    * [Terceirizando]()
+    * [Terceirizando](execucao/projetos/deploy/terceirizando)
       * [Heroku](execucao/projetos/deploy/terceirizando/heroku.md)
       * [Netlify](execucao/projetos/deploy/terceirizando/netlify.md)
   * [Cloudinary](execucao/projetos/cloudinary.md)
