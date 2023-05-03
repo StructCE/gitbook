@@ -37,6 +37,13 @@ O termo de desligamento é separado em duas partes, sendo elas:
 - Informações Técnicas;
 - Área de preenchimento do membro desligado.
 
+Para preencher o termo de desligamento, é necessário que o membro a ser desligado preencha 4 campos:
+
+- "Com quais grupos comunitários teve contato?" No geral a resposta para essa pergunta inclui membros da Struct, de outras empresas juniores, clientes e representantes de empresas contratadas pela struct, mas depende da experiência do membro ao longo do seu período na Struct.
+- "De que forma a participação em um projeto de extensão contribuiu na sua formação acadêmico-universitária?" Aqui é possível aprofundar-se nos aprendizados técnicos e interpessoais vivenciados na Struct, mas em geral inclui conhecimentos em desenvolvimento web full-stack, planejamento/execução/gerenciamento de projetos de software e habilidades gerenciais (geralmente associadas às diretorias das quais o membro fez parte).
+- "Participou de algum congresso, seminário, encontro, exposição de pôster etc. Relativo a extensão universitária? Se sim, fazer citação bibliográfica (nome, cidade, ano, etc.)" Caso o membro tenha participado de algum evento MEJ é possível citá-lo aqui.
+- "Teve alguma publicação relacionada ao projeto de extensão no qual trabalha? Se sim, fazer citação bibliográfica (autor; título; cidade; ano etc.)" Não há histórico de membros realizarem publicações acadêmicas atuando na Struct. A não ser em casos extraordinários, a resposta aqui é não.
+
 Inicialmente, um membro da GP é responsável por mandar o termo de desligamento ao membro que está sendo desligado para que o preencha. O termo pode ser encontrado no Google Drive na pasta *Gestão de Pessoas -> Documentos CDT -> Termos de desligamento*.
 Após o preenchimento do termo, será necessária a transformação do tipo de arquivo para pdf para a assinatura. 
 
@@ -191,48 +198,6 @@ O acompanhamento pessoal é uma conversa franca realizada com cada membro com o 
 		- Da sua diretoria?
 		- De algum projeto que participou?
 		- Algum externo ao seu trabalho?
-
-### PDI
-
-O Plano de Densenvolvimento Individual (PDI) é um plano de ação cujo foco é no desenvolvimento pessoal e/ou profissional. A partir do PDI, cria-se um roteiro para tornar possível o aprimoramento das competências individuais por meio de metas, estratégias e prazos. Na GP, a primeira vez em que o PDI é aplicado é quando o membro é efetivado na Stuct e o acompanhamento de sua evolução é feito a cada dois Struct Talks. Nesse sentido, a aplicação é realizada por meio de uma tabela, que pode ser feita tanto em uma folha avulsa quanto em uma tabela virtual, a qual está disponível no drive da GP em *Gestão de Pessoas -> PDI -> Tabela PDI* e deve ser salva no drive pessoal do participante para o preenchimento.
-
-- Para salvar no drive pessoal:
-	- *Arquivo -> Fazer uma cópia -> Selecione a pasta “Meu drive”* (precisa apertar no “selecionar” quando já estiver no local da pasta). Ficará desse jeito: 
-	![Tabela](../../imagens/copiaTabelaPDI.png)
-
-Na tabela existem várias divisões que auxiliarão no estabelecimento de objetivos e na identificação de pontos fracos e fortes. Sendo elas:
-
-- Years Challenger
-	- Como você se imagina daqui a X anos? 
-	- Dica: Pode ser em qualquer aspecto da sua vida: profissional, acadêmico, relacionamentos, moradia, sonhos, etc.
-	- Exemplo: Aprendendo inglês, aprendendo alguma hard skill/ soft skill, aprendendo a administrar melhor meu tempo.
-	- Duração para aplicação: Oito minutos.
-- Colabora 
-	- Quais ações/atitudes você faz hoje que colaboram para que aconteçam os seus planejamentos para daqui X anos ?
-	- Exemplo: Estudo quatro horas por dia, preencho um planner semanal.
-	- Duração para aplicação: Cinco minutos.
-- Freia 
-	- Quais ações/atitudes você faz hoje que impedem ou retardam os seus planejamentos para daqui X anos ?
-	- Exemplo: Não organizo meu tempo, não tenho prioridades bem definidas.
-	- Duração para aplicação: Cinco minutos.
-- Objetivo 
-	- Quais objetivos você planeja alcançar em 1 ano para ter a vida que você quer daqui a X anos ?
-	- Exemplo: Chegar no nivel intermediário do inglês, concluir 70% do meu curso.
-	- Duração para aplicação: Cinco minutos.
-- Como 
-	- Como você planeja alcançar cada um desses objetivos daqui 1 ano ? 
-	- Dica: Se você escreveu cinco objetivos, você vai escrever cinco modos de realizar. Quanto mais específico, melhor.
-	- Exemplo: Quero aprender Inglês e para isso pretendo estudar ao menos três vezes por semana, ou 12 vezes no mês.
-	- Duração para aplicação: Oito minutos.
-- Quando 
-	- Determinar um prazo para concretizar as atividades que você planejou nos seus objetivos.
-	- Dica: Se você escreveu cinco objetivos, você vai escrever cinco prazos.
-	- Exemplo: Quero ler três livros por mês nesse 1 ano, daqui a três meses quero ler ao menos um livro por mês, daqui seis meses, dois livros e em nove meses chegar no meu objetivo. Ou até agosto, etc.  
-	- Duração para aplicação: Cinco minutos.
-
-{% hint style="info" %}
-A GP estabeleceu que a referência ideal do PDI seria de _5 anos_ por funcionar melhor em uma perspectiva de EJ.
-{% endhint %}
 		
 #### Funcionamento
 
@@ -264,6 +229,22 @@ As dinâmicas não se resumem apenas a diversão. Nem toda dinâmica precisa ser
 - Abrir servidor de minecraft da struct
 - Fut com churrasco 
 - Competição de algum jogo muito jogado (CS, LOL, etc)
+
+---
+
+## Organização Interna e Trello
+
+Para o cumprimento das atividades da GP, são utilizadas ferramentas de organização que facilitam a visualização, priorização e execução das tarefas pendentes, além de servir como ferramenta de documentação de atividades já realizadas. A principal ferramenta de organização utilizada na GP é o Trello.
+O quadro do trello da GP tradicionalmente se divide nas seguintes listas:
+
+- G.P Basics: Lista atualizada anualmente com as atividades e responsabilidades básicas da GP, incluindo tópicos como diversidade, desenvolvimento dos pilotos, dinâmicas, processo seletivo, acompanhamentos, etc. Para cada item dessa lista é criada uma tag, usada para classificar as atividades das demais listas;
+- Backlog: Atividades ainda pendentes, mas que não são urgentes ou ainda não serão realizadas no momento. Inclui também ideias iniciais e/ou pendências de diretorias antigas que podem ser desenvolvidas a longo prazo;
+- A fazer: Atividades pendentes que devem ser feitas em prazo menor, geralmente com prazo e metas mais bem definidas;
+- Em andamento: Atividades que já estão sendo realizadas pelos membros da diretoria. Já contam com tags, descrição, prazo, lista de tarefas e responsáveis bem definidos;
+- Feito: Lista atualizada mensalmente com as atividades concluídas em cada mês. As listas de meses anteriores são arquivadas por motivos de documentação;
+- Atividades periódicas: Lista "auxiliar", que consta atividades periódicas da diretoria, listando possíveis datas de realização e detalhes necessários para a equipe da GP.
+
+É de responsabilidade do diretor de Gestão de Pessoas atualizar o quadro do trello frequentemente, adicionando as novas atividades, ou delegar essa tarefa a algum outro membro.
 
 ---
 	
@@ -299,5 +280,5 @@ A disponibilidade de vagas depende da necessidade da empresa no momento e deve s
 	- Envio dos Termos de Compromisso dos novos membros ao CDT -> Começo de cada semestre
 	- Organização do Processo Seletivo -> Iniciar antes do começo do novo semestre letivo
 	
-	
+
 	
