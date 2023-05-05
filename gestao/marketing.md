@@ -18,7 +18,7 @@ A Struct possui um leque de ilustrações que definem a imagem da marca e o tema
 
 ![Foguetinho Outline](../../imagens/mark-foguetinho-outline.png)
 ![Foguetinho Branco](../../imagens/mark-foguetinho-branco.png)
-![Foguetinho](../../imagens/mark-foguetinho.png)
+![Foguetinho S](../../imagens/mark-foguetinho-s.png)
 ![Foguetinho Gradinente](../../imagens/mark-foguetinho-gradiente.png)
 
 - [Pasta de ilustrações da Struct](https://drive.google.com/drive/folders/1QfWiJr3fs7sl3xAW_evLQY4XrkgUOBOD?usp=share_link)
