@@ -63,7 +63,6 @@
     * [Paginas e padroes](execucao/next-js/v<=12/paginas-e-padroes.md)
     * [Api](execucao/next-js/v<=12/api.md)
     * [Styled Components](execucao/next-js/v<=12/styled-components.md)
-    * [Prisma](execucao/next-js/v<=12/prisma.md)
   * [V>=13](execucao/next-js/v>=13/README.md)
 * [Prisma JS](execucao/back-end/prisma-js/README.md)
   * [ATENCAO](execucao/back-end/prisma-js/ATENCAO.md)
