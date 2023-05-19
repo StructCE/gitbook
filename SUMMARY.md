@@ -56,7 +56,7 @@
     * [Estilizando](execucao/front-end/react-js/estilizando.md)
     * [Hooks](execucao/front-end/react-js/hooks.md)
     * [Mais sobre](execucao/front-end/react-js/mais-sobre.md)
-* [Next.js](execucao/next-js/)
+* [Next JS](execucao/next-js/)
   * [Conceitos relevantes](execucao/next-js/conceitos-relevantes/README.md)
   * [V<=12](execucao/next-js/v<=12)
     * [Sobre](execucao/next-js/v<=12/sobre.md)
