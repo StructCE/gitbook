@@ -26,4 +26,4 @@ Então, precisamos definir o que é esse algo. Para isso, em serviços terceiriz
 - Criação de assets estáticos (js bundles, css bundles, etc.)
 - Criação de banco de dados
 
-
+Permitindo que nossa aplicação rode e responda a requisições da mesma maneira que os faz em nossa máquina local (`localhost`).
