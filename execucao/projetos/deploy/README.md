@@ -4,9 +4,14 @@ Deploy nada mais é do que colocar o seu projeto no ar, para que ele possa ser a
 
 Em processo de [staging](https://pt.wikipedia.org/wiki/Ambiente_de_implanta%C3%A7%C3%A3o), é comum terceirizar e utilizar domínios temporários, usando como Heroku, Netlify, Railway, etc.
 
-Para entender deploy é necessário entender o fluxo desencadeado ao entrar num site.
+## Configuração do repositório
+
+Cada maneira de se fazer deploy tem sua própria maneira de configurar o repositório. Mas essa configuração sempre deve ser feita, e muitas vezes deve ser feita tanto no github (numa branch separada) quanto no ambiente de deploy.
+
 
 ## Entrando num site
+
+Para entender deploy é necessário entender o fluxo desencadeado ao entrar num site.
 
 Quando entramos num site, o que acontece é o seguinte:
 
