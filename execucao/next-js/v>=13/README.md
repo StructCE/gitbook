@@ -1,0 +1,1 @@
+Nessas versões, o Next funciona totalmente diferente das versões anteriores. É melhor que seja usado quando passar da fase experimental, mas documentação de versões anteriores estão totalmente obsoletas para o Next v13 adiante.
